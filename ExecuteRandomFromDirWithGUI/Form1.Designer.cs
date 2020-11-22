@@ -48,9 +48,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(522, 33);
+            this.button3.Location = new System.Drawing.Point(518, 33);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(90, 23);
+            this.button3.Size = new System.Drawing.Size(92, 23);
             this.button3.TabIndex = 2;
             this.button3.Text = "Select Random";
             this.button3.UseVisualStyleBackColor = true;
@@ -65,7 +65,7 @@
             this.listBox1.HorizontalScrollbar = true;
             this.listBox1.Location = new System.Drawing.Point(9, 33);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(507, 355);
+            this.listBox1.Size = new System.Drawing.Size(503, 355);
             this.listBox1.TabIndex = 4;
             // 
             // label1
@@ -92,22 +92,22 @@
             // button5
             // 
             this.button5.Enabled = false;
-            this.button5.Location = new System.Drawing.Point(522, 336);
+            this.button5.Location = new System.Drawing.Point(518, 336);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(90, 23);
+            this.button5.Size = new System.Drawing.Size(92, 23);
             this.button5.TabIndex = 7;
-            this.button5.Text = "Run Random";
+            this.button5.Text = "Run Selected";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
             this.button6.Enabled = false;
-            this.button6.Location = new System.Drawing.Point(522, 365);
+            this.button6.Location = new System.Drawing.Point(518, 365);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(90, 23);
+            this.button6.Size = new System.Drawing.Size(92, 23);
             this.button6.TabIndex = 8;
-            this.button6.Text = "Delete";
+            this.button6.Text = "Delete Selected";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
@@ -119,7 +119,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(624, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(622, 24);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -173,11 +173,11 @@
             this.smth_new.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.smth_new.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.smth_new.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.smth_new.Location = new System.Drawing.Point(522, 180);
+            this.smth_new.Location = new System.Drawing.Point(518, 62);
             this.smth_new.Name = "smth_new";
-            this.smth_new.Size = new System.Drawing.Size(90, 53);
+            this.smth_new.Size = new System.Drawing.Size(92, 53);
             this.smth_new.TabIndex = 10;
-            this.smth_new.Text = "PLAY SOMETHING NEW";
+            this.smth_new.Text = "SELECT SOMETHING NEW";
             this.smth_new.UseVisualStyleBackColor = false;
             this.smth_new.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -186,7 +186,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.ClientSize = new System.Drawing.Size(624, 441);
+            this.ClientSize = new System.Drawing.Size(622, 441);
             this.Controls.Add(this.smth_new);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);

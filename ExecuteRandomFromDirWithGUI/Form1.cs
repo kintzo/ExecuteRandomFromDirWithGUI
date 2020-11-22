@@ -1,18 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-using System.Diagnostics;
-using System.Xml.Serialization;
-using System.Net.Http.Headers;
 using System.Xml.Linq;
 
 namespace ExecuteRandomFromDirWithGUI
@@ -57,21 +48,15 @@ namespace ExecuteRandomFromDirWithGUI
 
                     if (add)
                     {
-                        //List<string> exeList = File.ReadAllLines("output.txt").ToList();
-
-                        //exeList.AddRange(exefiles);
-                        //File.WriteAllLines("output.txt", exeList);
-                        //listBox1.DataSource = exeList;
-
-                        executableFiles.AddRange(exefiles.Select(x => new ExecutableFile(x)).ToList());
+                        foreach (var exeFile in exefiles) 
+                        {
+                            executableFiles.Add(new ExecutableFile(exeFile));
+                        }
 
                         saveList();
                     }
                     else
                     {
-                        //File.WriteAllLines("output.txt", exefiles);
-                        //listBox1.DataSource = exefiles;
-
                         executableFiles = exefiles.Select(x => new ExecutableFile(x)).ToList();
                         saveList();
                     }
@@ -172,6 +157,7 @@ namespace ExecuteRandomFromDirWithGUI
                 doc.Element("ExecutableFiles").Add(itemElement);
             });         
             doc.Save(output);
+            listBox1.DataSource = new List<ExecutableFile>();
             listBox1.DataSource = executableFiles;
         }
 
@@ -191,7 +177,7 @@ namespace ExecuteRandomFromDirWithGUI
                 {
                     return new ExecutableFile
                     {
-                        hasRun = x.Element("hasRun").Value == "true",
+                        hasRun = x.Element("hasRun").Value == true.ToString(),
                         fullPath = x.Element("fullPath").Value,
                         path = x.Element("path").Value,
                         theFile = x.Element("theFile").Value
@@ -202,12 +188,15 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void setCurrentFile(ExecutableFile item)
         {
-            selectedLabel.Text = item == null ? "" : item.ToString();
+            selectedLabel.Text = item == null ? "" : item.fullPath;
 
             button5.Enabled = item == null ? false : true;
             button6.Enabled = item == null ? false : true;
 
             executableFileCursor = item;
+
+            if (item == null) listBox1.ClearSelected();
+            else listBox1.SelectedIndex = executableFiles.IndexOf(executableFileCursor);
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -247,7 +236,7 @@ namespace ExecuteRandomFromDirWithGUI
             
             setCurrentFile(null);
 
-            executableFiles = executableFiles.Where(x => x.GetFullPath() != item.GetFullPath()).ToList();
+            executableFiles = executableFiles.Where(x => x.fullPath != item.fullPath).ToList();
             saveList();
             //var exeList = File.ReadAllLines("output.txt").ToList();
             //var list = exeList.Where(x => x != item).ToList();
@@ -299,7 +288,7 @@ namespace ExecuteRandomFromDirWithGUI
                 {
                     for (int i = 0; i < BlackList.Count; i++)
                     {
-                        if (x.GetFullPath().ToUpper().Contains(BlackList[i].ToUpper())) return false;
+                        if (x.fullPath.ToUpper().Contains(BlackList[i].ToUpper())) return false;
                     }
                     return true;
                 }).ToList();
@@ -318,7 +307,15 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            if (executableFiles.Count > 0)
+            {
+                int index = new Random().Next(executableFiles.Count);
+                setCurrentFile(executableFiles[index]);
+            }
+            else
+            {
+                MessageBox.Show("File list not found");
+            }
         }
     }
 }

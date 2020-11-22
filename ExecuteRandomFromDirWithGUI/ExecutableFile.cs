@@ -42,10 +42,5 @@ namespace ExecuteRandomFromDirWithGUI
         {
             return theFile;
         }
-
-        public string GetFullPath() 
-        {
-            return fullPath;
-        }
     }
 }
