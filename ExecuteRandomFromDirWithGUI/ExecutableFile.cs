@@ -7,22 +7,16 @@ using System.Xml.Serialization;
 
 namespace ExecuteRandomFromDirWithGUI
 {
-    [XmlRoot(ElementName = "ExecutableFile")]
-    [Serializable()]
     public class ExecutableFile
     {
-        [XmlAttribute(DataType = "string", AttributeName = "path")]
         public string path { get; set; }
-        [XmlAttribute(DataType = "string", AttributeName = "theFile")]
         public string theFile { get; set; }
-        [XmlAttribute(DataType = "string", AttributeName = "fullPath")]
         public string fullPath { get; set; }
-        [XmlAttribute(DataType = "bool", AttributeName = "hasRun")]
         public bool hasRun { get; set; }
 
         public ExecutableFile() { }
         public ExecutableFile(string FullPath) {
-            path = Path.GetFullPath(FullPath);
+            path = Path.GetDirectoryName(FullPath);
             theFile = Path.GetFileName(FullPath);
             fullPath = FullPath;
         }

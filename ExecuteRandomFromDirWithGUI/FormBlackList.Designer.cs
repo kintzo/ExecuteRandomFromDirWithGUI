@@ -84,8 +84,9 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "FormBlackList";
-            this.Text = "FormBlackList";
+            this.Text = "BlackList";
             this.Load += new System.EventHandler(this.FormBlackList_Load);
             this.ResumeLayout(false);
 

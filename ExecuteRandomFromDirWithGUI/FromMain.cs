@@ -28,9 +28,6 @@ namespace ExecuteRandomFromDirWithGUI
 
                 if (add && foldersList.IndexOf(mainFolder.SelectedPath) > -1)
                 {
-                    //Console.Clear();
-                    //Console.WriteLine();
-                    //Console.ReadLine();
                     MessageBox.Show($"path \"{mainFolder.SelectedPath}\" already exists");
                     return;
                 }
@@ -75,20 +72,8 @@ namespace ExecuteRandomFromDirWithGUI
                         allFiles.AddRange(Directory.GetFiles(folder, searchPattern, SearchOption.AllDirectories));
                     }
                 }
-                catch { } // Don't know what the problem is, don't care...
+                catch { }
             }
-
-            /*var blacklist = File.Exists("BlackList.txt") ? File.ReadAllLines("BlackList.txt").ToList() : new List<string>();
-            allFiles = allFiles.Where((x) =>
-            {
-                for (int i = 0; i < blacklist.Count; i++)
-                {
-                    if (x.ToUpper().Contains(blacklist[i].ToUpper())) 
-                        return false;
-                }
-                return true;
-            }).ToList();*/
-
             return allFiles.ToArray();
         }
 
@@ -103,9 +88,8 @@ namespace ExecuteRandomFromDirWithGUI
         {
             if (executableFiles.Count > 0)
             {
-                var tmpList = executableFiles.Where(x => !x.hasRun).ToList();
-                int index = new Random().Next(tmpList.Count);
-                setCurrentFile(tmpList[index]);
+                int index = new Random().Next(executableFiles.Count);
+                setCurrentFile(executableFiles[index]);
             }
             else
             {
@@ -137,16 +121,13 @@ namespace ExecuteRandomFromDirWithGUI
             doc.Save(output);
             listBox1.DataSource = new List<ExecutableFile>();
             listBox1.DataSource = executableFiles;
+            listCountLabel.Text = executableFiles.Count.ToString();
         }
 
         private void readList() {
             string output = "output.xml";
 
             if (!File.Exists(output)) return;
-
-            /*XmlSerializer serialiser = new XmlSerializer(typeof(ExecutableFile));
-            List<ExecutableFile> myList = (List<ExecutableFile>)serialiser.Deserialize(new StreamReader(output));
-            executableFiles = myList;*/
 
             XDocument doc = XDocument.Load(output);
 
@@ -162,6 +143,7 @@ namespace ExecuteRandomFromDirWithGUI
                     };
                 }).ToList();
             listBox1.DataSource = executableFiles;
+            listCountLabel.Text = executableFiles.Count.ToString();
         }
 
         private void setCurrentFile(ExecutableFile item)
@@ -183,7 +165,6 @@ namespace ExecuteRandomFromDirWithGUI
 
             try
             {
-                //StartProcess();
                 executableFileCursor.Execute();
 
                 var idx = executableFiles.IndexOf(executableFileCursor);
@@ -268,13 +249,22 @@ namespace ExecuteRandomFromDirWithGUI
         {
             if (executableFiles.Count > 0)
             {
-                int index = new Random().Next(executableFiles.Count);
-                setCurrentFile(executableFiles[index]);
+                var tmpList = executableFiles.Where(x => !x.hasRun).ToList();
+                int index = new Random().Next(tmpList.Count);
+                setCurrentFile(tmpList[index]);
             }
             else
             {
                 MessageBox.Show("File list not found");
             }
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedIndex < 0) return;
+
+            var item = executableFiles[listBox1.SelectedIndex];
+            setCurrentFile(item);
         }
     }
 }

@@ -43,6 +43,8 @@
             this.addToBlacklistToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.smth_new = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.listCountLabel = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,13 +63,13 @@
             this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox1.Enabled = false;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.HorizontalScrollbar = true;
             this.listBox1.Location = new System.Drawing.Point(9, 33);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(503, 355);
             this.listBox1.TabIndex = 4;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -182,12 +184,37 @@
             this.smth_new.UseVisualStyleBackColor = false;
             this.smth_new.Click += new System.EventHandler(this.button1_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(523, 127);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(85, 13);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "List Items Count:";
+            // 
+            // listCountLabel
+            // 
+            this.listCountLabel.AutoSize = true;
+            this.listCountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listCountLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.listCountLabel.Location = new System.Drawing.Point(528, 144);
+            this.listCountLabel.Name = "listCountLabel";
+            this.listCountLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.listCountLabel.Size = new System.Drawing.Size(77, 39);
+            this.listCountLabel.TabIndex = 12;
+            this.listCountLabel.Text = "000";
+            this.listCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.ClientSize = new System.Drawing.Size(622, 441);
+            this.Controls.Add(this.listCountLabel);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.smth_new);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
@@ -226,6 +253,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.Button smth_new;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label listCountLabel;
     }
 }
 
