@@ -14,12 +14,6 @@
   </ExecutableFile>
   <ExecutableFile>
     <hasRun>False</hasRun>
-    <fullPath>D:\games\Dos Games\Megaman X (1995)(Capcom)\arj.exe</fullPath>
-    <path>D:\games\Dos Games\Megaman X (1995)(Capcom)\arj.exe</path>
-    <theFile>arj.exe</theFile>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
     <fullPath>D:\games\Dos Games\Megaman X (1995)(Capcom)\tduintro.exe</fullPath>
     <path>D:\games\Dos Games\Megaman X (1995)(Capcom)\tduintro.exe</path>
     <theFile>tduintro.exe</theFile>
@@ -29,30 +23,6 @@
     <fullPath>D:\games\Dos Games\Megaman X (1995)(Capcom)\tdujam.exe</fullPath>
     <path>D:\games\Dos Games\Megaman X (1995)(Capcom)\tdujam.exe</path>
     <theFile>tdujam.exe</theFile>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
-    <fullPath>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\MMXRUN.EXE</fullPath>
-    <path>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\MMXRUN.EXE</path>
-    <theFile>MMXRUN.EXE</theFile>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
-    <fullPath>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\README.EXE</fullPath>
-    <path>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\README.EXE</path>
-    <theFile>README.EXE</theFile>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
-    <fullPath>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\TDUJAM.EXE</fullPath>
-    <path>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\TDUJAM.EXE</path>
-    <theFile>TDUJAM.EXE</theFile>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
-    <fullPath>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\DRV\SETSOUND.EXE</fullPath>
-    <path>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\DRV\SETSOUND.EXE</path>
-    <theFile>SETSOUND.EXE</theFile>
   </ExecutableFile>
   <ExecutableFile>
     <hasRun>False</hasRun>

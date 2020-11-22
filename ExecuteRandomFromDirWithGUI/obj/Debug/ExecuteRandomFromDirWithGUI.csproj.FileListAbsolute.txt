@@ -22,3 +22,4 @@ C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFrom
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.About.resources
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\Execute Random From Directory.exe
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\Execute Random From Directory.pdb
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.FormBlackList.resources
