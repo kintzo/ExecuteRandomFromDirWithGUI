@@ -1,0 +1,19 @@
+D:\games\pacapong.exe
+D:\games\Dos Games\Amazing SpiderMan (1989)\SPIDEY.EXE
+D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\file0001.exe
+D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\helpme.exe
+D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\jazz.exe
+D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\setup.exe
+D:\games\Dos Games\Megaman X (1995)(Capcom)\arj.exe
+D:\games\Dos Games\Megaman X (1995)(Capcom)\tduintro.exe
+D:\games\Dos Games\Megaman X (1995)(Capcom)\tdujam.exe
+D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\MMXRUN.EXE
+D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\README.EXE
+D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\TDUJAM.EXE
+D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\DRV\SETSOUND.EXE
+D:\games\Dos Games\X-Men (1989)\DRIVER.EXE
+D:\games\mari0\mari0_1.6.exe
+D:\games\Not Pacman\Not Pacman.exe
+D:\games\notTetris-2\Not Tetris 2.exe
+D:\games\spelunky_1_1\config.exe
+D:\games\spelunky_1_1\Spelunky.exe
