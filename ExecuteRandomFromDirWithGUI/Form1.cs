@@ -11,6 +11,9 @@ using System.IO;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
+using System.Xml.Serialization;
+using System.Net.Http.Headers;
+using System.Xml.Linq;
 
 namespace ExecuteRandomFromDirWithGUI
 {
@@ -20,6 +23,9 @@ namespace ExecuteRandomFromDirWithGUI
         {
             InitializeComponent();
         }
+
+        private List<ExecutableFile> executableFiles = new List<ExecutableFile>();
+        private ExecutableFile executableFileCursor;
 
         void createList(Boolean add)
         {
@@ -51,16 +57,23 @@ namespace ExecuteRandomFromDirWithGUI
 
                     if (add)
                     {
-                        List<string> exeList = File.ReadAllLines("output.txt").ToList();
+                        //List<string> exeList = File.ReadAllLines("output.txt").ToList();
 
-                        exeList.AddRange(exefiles);
-                        File.WriteAllLines("output.txt", exeList);
-                        listBox1.DataSource = exeList;
+                        //exeList.AddRange(exefiles);
+                        //File.WriteAllLines("output.txt", exeList);
+                        //listBox1.DataSource = exeList;
+
+                        executableFiles.AddRange(exefiles.Select(x => new ExecutableFile(x)).ToList());
+
+                        saveList();
                     }
                     else
                     {
-                        File.WriteAllLines("output.txt", exefiles);
-                        listBox1.DataSource = exefiles;
+                        //File.WriteAllLines("output.txt", exefiles);
+                        //listBox1.DataSource = exefiles;
+
+                        executableFiles = exefiles.Select(x => new ExecutableFile(x)).ToList();
+                        saveList();
                     }
 
                 }
@@ -105,24 +118,17 @@ namespace ExecuteRandomFromDirWithGUI
             return false;
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            createList(false);
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            createList(true);
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
-            if (File.Exists("output.txt"))
+            //if (File.Exists("output.txt"))
+            if (executableFiles.Count > 0)
             {
-                var exeList = File.ReadAllLines("output.txt").ToList();
-                int index = new Random().Next(exeList.Count);
+                var tmpList = executableFiles.Where(x => !x.hasRun).ToList();
 
-                setSelectedItem(exeList[index]);
+                //var exeList = File.ReadAllLines("output.txt").ToList();
+                int index = new Random().Next(tmpList.Count);
+
+                setCurrentFile(tmpList[index]);
                 //manageExe(exeList, index);
             }
             else
@@ -136,30 +142,91 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            if (File.Exists("output.txt"))
+            /*if (File.Exists("output.txt"))
             {
                 List<string> exeList = File.ReadAllLines("output.txt").ToList();
                 listBox1.DataSource = exeList;
-            }
+            }*/
+            readList();           
         }
 
-        private void setSelectedItem(string item)
+        private void saveList() 
         {
-            selectedLabel.Text = item;
+            string output = "output.xml";
+/*
+            XmlSerializer serialiser = new XmlSerializer(typeof(List<ExecutableFile>));
+            TextWriter FileStream = new StreamWriter(output);
+            serialiser.Serialize(FileStream, executableFiles);
+            FileStream.Close();*/
 
-            button5.Enabled = item == "" ? false : true;
-            button6.Enabled = item == "" ? false : true;
+            XDocument doc = new XDocument();
+            doc.Add(new XElement("ExecutableFiles"));
+
+            executableFiles.ForEach(x =>
+            {
+                XElement itemElement = new XElement("ExecutableFile");
+                itemElement.Add(new XElement("hasRun", x.hasRun.ToString()));
+                itemElement.Add(new XElement("fullPath", x.fullPath));
+                itemElement.Add(new XElement("path", x.path));
+                itemElement.Add(new XElement("theFile", x.theFile));
+                doc.Element("ExecutableFiles").Add(itemElement);
+            });         
+            doc.Save(output);
+            listBox1.DataSource = executableFiles;
+        }
+
+        private void readList() {
+            string output = "output.xml";
+
+            if (!File.Exists(output)) return;
+
+            /*XmlSerializer serialiser = new XmlSerializer(typeof(ExecutableFile));
+            List<ExecutableFile> myList = (List<ExecutableFile>)serialiser.Deserialize(new StreamReader(output));
+            executableFiles = myList;*/
+
+            XDocument doc = XDocument.Load(output);
+
+            executableFiles = doc.Elements("ExecutableFiles").Elements("ExecutableFile")
+                .Select(x => 
+                {
+                    return new ExecutableFile
+                    {
+                        hasRun = x.Element("hasRun").Value == "true",
+                        fullPath = x.Element("fullPath").Value,
+                        path = x.Element("path").Value,
+                        theFile = x.Element("theFile").Value
+                    };
+                }).ToList();
+            listBox1.DataSource = executableFiles;
+        }
+
+        private void setCurrentFile(ExecutableFile item)
+        {
+            selectedLabel.Text = item == null ? "" : item.ToString();
+
+            button5.Enabled = item == null ? false : true;
+            button6.Enabled = item == null ? false : true;
+
+            executableFileCursor = item;
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
+            if (executableFileCursor == null) return;
+
             try
             {
-                StartProcess();
+                //StartProcess();
+                executableFileCursor.Execute();
+
+                var idx = executableFiles.IndexOf(executableFileCursor);
+                executableFiles[idx].hasRun = true;
+
+                saveList();
             }
             catch (Exception ex)
             {
-                var b = MessageBox.Show("Run application", ex.Message + " Delete?", MessageBoxButtons.YesNo);
+                var b = MessageBox.Show(ex.Message + " Delete?", "Run application", MessageBoxButtons.YesNo);
 
                 if (b == DialogResult.Yes)
                 {
@@ -173,78 +240,20 @@ namespace ExecuteRandomFromDirWithGUI
             DeleteExeFromList();
         }
 
-        void StartProcess()
-        {
-            var item = selectedLabel.Text;
-
-            ProcessStartInfo processInfo = new ProcessStartInfo();
-            processInfo.FileName = item;
-            processInfo.WorkingDirectory = Path.GetDirectoryName(item);
-            processInfo.ErrorDialog = true;
-            processInfo.UseShellExecute = false;
-            processInfo.RedirectStandardOutput = false;
-            processInfo.RedirectStandardError = false;
-            System.Diagnostics.Process.Start(processInfo);
-        }
-
         void DeleteExeFromList()
         {
-            var item = selectedLabel.Text;
-            setSelectedItem("");
-            var exeList = File.ReadAllLines("output.txt").ToList();
-            var list = exeList.Where(x => x != item).ToList();
-            listBox1.DataSource = list;
+            //var item = selectedLabel.Text;
+            var item = executableFileCursor;
+            
+            setCurrentFile(null);
 
-            File.WriteAllLines("output.txt", list);
-        }
+            executableFiles = executableFiles.Where(x => x.GetFullPath() != item.GetFullPath()).ToList();
+            saveList();
+            //var exeList = File.ReadAllLines("output.txt").ToList();
+            //var list = exeList.Where(x => x != item).ToList();
+            //listBox1.DataSource = list;
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            var BlackList = new List<string>();
-            if (File.Exists("BlackList.txt")) BlackList = File.ReadAllLines("BlackList.txt").ToList();
-
-            var input = "";
-            TextInputForm textDialog = new TextInputForm();
-            textDialog.label1.Text = "Enter blacklist word";
-            if (textDialog.ShowDialog(this) == DialogResult.OK)
-            {
-                input = textDialog.textBox1.Text;
-            }
-            textDialog.Dispose();
-
-            if (input == "")
-            {
-                MessageBox.Show("invalid word");
-                return;
-            }
-
-            if (BlackList.IndexOf(input) > -1)
-            {
-                MessageBox.Show($"\"{input}\" already exists in blacklist");
-            }
-            else
-            {
-                BlackList.Add(input);
-                var exeFiles = File.ReadAllLines("output.txt").ToList();
-
-                exeFiles = exeFiles.Where((x) =>
-                {
-                    for (int i = 0; i < BlackList.Count; i++)
-                    {
-                        if (x.ToUpper().Contains(BlackList[i].ToUpper())) return false;
-                    }
-                    return true;
-                }).ToList();
-
-                File.WriteAllLines("BlackList.txt", BlackList);
-                File.WriteAllLines("output.txt", exeFiles);
-                listBox1.DataSource = exeFiles;
-            }
-        }
-
-        private void selectedLabel_Click(object sender, EventArgs e)
-        {
-
+            //File.WriteAllLines("output.txt", list);
         }
 
         private void newListToolStripMenuItem_Click(object sender, EventArgs e)
@@ -284,26 +293,21 @@ namespace ExecuteRandomFromDirWithGUI
             else
             {
                 BlackList.Add(input);
-                var exeFiles = File.ReadAllLines("output.txt").ToList();
+                //var exeFiles = File.ReadAllLines("output.txt").ToList();
 
-                exeFiles = exeFiles.Where((x) =>
+                executableFiles = executableFiles.Where((x) =>
                 {
                     for (int i = 0; i < BlackList.Count; i++)
                     {
-                        if (x.ToUpper().Contains(BlackList[i].ToUpper())) return false;
+                        if (x.GetFullPath().ToUpper().Contains(BlackList[i].ToUpper())) return false;
                     }
                     return true;
                 }).ToList();
-
-                File.WriteAllLines("BlackList.txt", BlackList);
-                File.WriteAllLines("output.txt", exeFiles);
-                listBox1.DataSource = exeFiles;
+                saveList();
+                //File.WriteAllLines("BlackList.txt", BlackList);
+                //File.WriteAllLines("output.txt", exeFiles);
+                //listBox1.DataSource = exeFiles;
             }
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)

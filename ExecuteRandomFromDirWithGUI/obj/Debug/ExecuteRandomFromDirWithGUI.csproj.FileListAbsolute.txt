@@ -1,13 +1,7 @@
-C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\ExecuteRandomFromDirWithGUI.exe.config
-C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\ExecuteRandomFromDirWithGUI.exe
-C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\ExecuteRandomFromDirWithGUI.pdb
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.csprojAssemblyReference.cache
-C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.Form1.resources
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.Properties.Resources.resources
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.csproj.GenerateResource.cache
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.csproj.CoreCompileInputs.cache
-C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.exe
-C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.pdb
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.TextInputForm.resources
 C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.csprojAssemblyReference.cache
 C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.Properties.Resources.resources
@@ -21,3 +15,10 @@ C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWit
 C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\Execute Random From Directory.pdb
 C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\Execute Random From Directory.exe
 C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\Execute Random From Directory.pdb
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\Execute Random From Directory.exe.config
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\Execute Random From Directory.exe
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\Execute Random From Directory.pdb
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.MainForm.resources
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.About.resources
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\Execute Random From Directory.exe
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\Execute Random From Directory.pdb

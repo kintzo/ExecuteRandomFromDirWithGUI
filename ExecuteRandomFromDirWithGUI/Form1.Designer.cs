@@ -77,7 +77,6 @@
             this.label1.Size = new System.Drawing.Size(155, 16);
             this.label1.TabIndex = 5;
             this.label1.Text = "Selected Executable:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // selectedLabel
             // 
@@ -88,7 +87,6 @@
             this.selectedLabel.Name = "selectedLabel";
             this.selectedLabel.Size = new System.Drawing.Size(0, 13);
             this.selectedLabel.TabIndex = 6;
-            this.selectedLabel.Click += new System.EventHandler(this.selectedLabel_Click);
             // 
             // button5
             // 
