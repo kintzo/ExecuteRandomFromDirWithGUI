@@ -40,7 +40,7 @@ namespace ExecuteRandomFromDirWithGUI
 
         public override string ToString() 
         {
-            return theFile;
+            return theFile + (hasRun ? " [Has Executed]" : "");
         }
     }
 }

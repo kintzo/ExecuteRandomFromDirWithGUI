@@ -88,7 +88,8 @@ namespace ExecuteRandomFromDirWithGUI
             {
                 for (int i = 0; i < blacklist.Count; i++)
                 {
-                    if (x.ToUpper().Contains(blacklist[i].ToUpper())) return false;
+                    if (x.ToUpper().Contains(blacklist[i].ToUpper())) 
+                        return false;
                 }
                 return true;
             }).ToList();
@@ -215,7 +216,7 @@ namespace ExecuteRandomFromDirWithGUI
             }
             catch (Exception ex)
             {
-                var b = MessageBox.Show(ex.Message + " Delete?", "Run application", MessageBoxButtons.YesNo);
+                var b = MessageBox.Show(ex.Message + System.Environment.NewLine + $"Delete path \"{executableFileCursor.fullPath}\"?", "Run application", MessageBoxButtons.YesNo);
 
                 if (b == DialogResult.Yes)
                 {
@@ -288,12 +289,13 @@ namespace ExecuteRandomFromDirWithGUI
                 {
                     for (int i = 0; i < BlackList.Count; i++)
                     {
-                        if (x.fullPath.ToUpper().Contains(BlackList[i].ToUpper())) return false;
+                        if (x.fullPath.ToUpper().Contains(BlackList[i].ToUpper())) 
+                            return false;
                     }
                     return true;
                 }).ToList();
                 saveList();
-                //File.WriteAllLines("BlackList.txt", BlackList);
+                File.WriteAllLines("BlackList.txt", BlackList);
                 //File.WriteAllLines("output.txt", exeFiles);
                 //listBox1.DataSource = exeFiles;
             }

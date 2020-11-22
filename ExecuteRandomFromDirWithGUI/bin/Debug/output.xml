@@ -2,39 +2,15 @@
 <ExecutableFiles>
   <ExecutableFile>
     <hasRun>False</hasRun>
-    <fullPath>D:\games\notTetris-2\Not Tetris 2.exe</fullPath>
-    <path>D:\games\notTetris-2\Not Tetris 2.exe</path>
-    <theFile>Not Tetris 2.exe</theFile>
+    <fullPath>D:\games\pacapong.exe</fullPath>
+    <path>D:\games\pacapong.exe</path>
+    <theFile>pacapong.exe</theFile>
   </ExecutableFile>
   <ExecutableFile>
     <hasRun>False</hasRun>
     <fullPath>D:\games\Dos Games\Amazing SpiderMan (1989)\SPIDEY.EXE</fullPath>
     <path>D:\games\Dos Games\Amazing SpiderMan (1989)\SPIDEY.EXE</path>
     <theFile>SPIDEY.EXE</theFile>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
-    <fullPath>D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\file0001.exe</fullPath>
-    <path>D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\file0001.exe</path>
-    <theFile>file0001.exe</theFile>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
-    <fullPath>D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\helpme.exe</fullPath>
-    <path>D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\helpme.exe</path>
-    <theFile>helpme.exe</theFile>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
-    <fullPath>D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\jazz.exe</fullPath>
-    <path>D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\jazz.exe</path>
-    <theFile>jazz.exe</theFile>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
-    <fullPath>D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\setup.exe</fullPath>
-    <path>D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\setup.exe</path>
-    <theFile>setup.exe</theFile>
   </ExecutableFile>
   <ExecutableFile>
     <hasRun>False</hasRun>
@@ -95,5 +71,29 @@
     <fullPath>D:\games\mari0\mari0_1.6.exe</fullPath>
     <path>D:\games\mari0\mari0_1.6.exe</path>
     <theFile>mari0_1.6.exe</theFile>
+  </ExecutableFile>
+  <ExecutableFile>
+    <hasRun>False</hasRun>
+    <fullPath>D:\games\Not Pacman\Not Pacman.exe</fullPath>
+    <path>D:\games\Not Pacman\Not Pacman.exe</path>
+    <theFile>Not Pacman.exe</theFile>
+  </ExecutableFile>
+  <ExecutableFile>
+    <hasRun>True</hasRun>
+    <fullPath>D:\games\notTetris-2\Not Tetris 2.exe</fullPath>
+    <path>D:\games\notTetris-2\Not Tetris 2.exe</path>
+    <theFile>Not Tetris 2.exe</theFile>
+  </ExecutableFile>
+  <ExecutableFile>
+    <hasRun>False</hasRun>
+    <fullPath>D:\games\spelunky_1_1\config.exe</fullPath>
+    <path>D:\games\spelunky_1_1\config.exe</path>
+    <theFile>config.exe</theFile>
+  </ExecutableFile>
+  <ExecutableFile>
+    <hasRun>False</hasRun>
+    <fullPath>D:\games\spelunky_1_1\Spelunky.exe</fullPath>
+    <path>D:\games\spelunky_1_1\Spelunky.exe</path>
+    <theFile>Spelunky.exe</theFile>
   </ExecutableFile>
 </ExecutableFiles>
