@@ -9,3 +9,15 @@ C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFrom
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.exe
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.pdb
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.TextInputForm.resources
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.csprojAssemblyReference.cache
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.Properties.Resources.resources
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.TextInputForm.resources
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.csproj.GenerateResource.cache
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.csproj.CoreCompileInputs.cache
+C:\Users\Sadmin\source\repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.MainForm.resources
+C:\Users\Sadmin\source\repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.About.resources
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\Execute Random From Directory.exe.config
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\Execute Random From Directory.exe
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\Execute Random From Directory.pdb
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\Execute Random From Directory.exe
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\Execute Random From Directory.pdb

@@ -1,1 +1,8 @@
-D:\games
+X:\BattleNetGames
+X:\EpicGames
+X:\GOGLibrary
+X:\OriginGames
+X:\UplayGames
+X:\World_of_Tanks_EU
+X:\Cracked
+X:\SteamLib

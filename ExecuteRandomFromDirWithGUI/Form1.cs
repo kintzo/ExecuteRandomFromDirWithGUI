@@ -14,9 +14,9 @@ using System.Diagnostics;
 
 namespace ExecuteRandomFromDirWithGUI
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
@@ -136,13 +136,15 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            if (File.Exists("output.txt")) {
+            if (File.Exists("output.txt"))
+            {
                 List<string> exeList = File.ReadAllLines("output.txt").ToList();
                 listBox1.DataSource = exeList;
-            }        
+            }
         }
 
-        private void setSelectedItem(string item) {
+        private void setSelectedItem(string item)
+        {
             selectedLabel.Text = item;
 
             button5.Enabled = item == "" ? false : true;
@@ -151,13 +153,16 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void button5_Click(object sender, EventArgs e)
         {
-            try {
+            try
+            {
                 StartProcess();
             }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 var b = MessageBox.Show("Run application", ex.Message + " Delete?", MessageBoxButtons.YesNo);
 
-                if (b == DialogResult.Yes) {
+                if (b == DialogResult.Yes)
+                {
                     DeleteExeFromList();
                 }
             }
@@ -207,7 +212,8 @@ namespace ExecuteRandomFromDirWithGUI
             }
             textDialog.Dispose();
 
-            if (input == "") {
+            if (input == "")
+            {
                 MessageBox.Show("invalid word");
                 return;
             }
@@ -234,6 +240,76 @@ namespace ExecuteRandomFromDirWithGUI
                 File.WriteAllLines("output.txt", exeFiles);
                 listBox1.DataSource = exeFiles;
             }
+        }
+
+        private void selectedLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void newListToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            createList(false);
+        }
+
+        private void addToListToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            createList(true);
+        }
+
+        private void addToBlacklistToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var BlackList = new List<string>();
+            if (File.Exists("BlackList.txt")) BlackList = File.ReadAllLines("BlackList.txt").ToList();
+
+            var input = "";
+            TextInputForm textDialog = new TextInputForm();
+            textDialog.label1.Text = "Enter blacklist word";
+            if (textDialog.ShowDialog(this) == DialogResult.OK)
+            {
+                input = textDialog.textBox1.Text;
+            }
+            textDialog.Dispose();
+
+            if (input == "")
+            {
+                MessageBox.Show("invalid word");
+                return;
+            }
+
+            if (BlackList.IndexOf(input) > -1)
+            {
+                MessageBox.Show($"\"{input}\" already exists in blacklist");
+            }
+            else
+            {
+                BlackList.Add(input);
+                var exeFiles = File.ReadAllLines("output.txt").ToList();
+
+                exeFiles = exeFiles.Where((x) =>
+                {
+                    for (int i = 0; i < BlackList.Count; i++)
+                    {
+                        if (x.ToUpper().Contains(BlackList[i].ToUpper())) return false;
+                    }
+                    return true;
+                }).ToList();
+
+                File.WriteAllLines("BlackList.txt", BlackList);
+                File.WriteAllLines("output.txt", exeFiles);
+                listBox1.DataSource = exeFiles;
+            }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var nigga = new About();
+            nigga.Show();
         }
     }
 }

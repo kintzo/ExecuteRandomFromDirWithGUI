@@ -1,19 +1,1803 @@
-D:\games\pacapong.exe
-D:\games\Dos Games\Amazing SpiderMan (1989)\SPIDEY.EXE
-D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\file0001.exe
-D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\helpme.exe
-D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\jazz.exe
-D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\setup.exe
-D:\games\Dos Games\Megaman X (1995)(Capcom)\arj.exe
-D:\games\Dos Games\Megaman X (1995)(Capcom)\tduintro.exe
-D:\games\Dos Games\Megaman X (1995)(Capcom)\tdujam.exe
-D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\MMXRUN.EXE
-D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\README.EXE
-D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\TDUJAM.EXE
-D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\DRV\SETSOUND.EXE
-D:\games\Dos Games\X-Men (1989)\DRIVER.EXE
-D:\games\mari0\mari0_1.6.exe
-D:\games\Not Pacman\Not Pacman.exe
-D:\games\notTetris-2\Not Tetris 2.exe
-D:\games\spelunky_1_1\config.exe
-D:\games\spelunky_1_1\Spelunky.exe
+X:\BattleNetGames\Call of Duty Black Ops 4\Black Ops 4 Launcher.exe
+X:\BattleNetGames\Call of Duty Black Ops 4\BlackOps4.exe
+X:\BattleNetGames\Call of Duty Black Ops 4\BlackOps4_boot.exe
+X:\BattleNetGames\Call of Duty Black Ops 4\BlizzardBrowser\BlizzardBrowser.exe
+X:\BattleNetGames\Call of Duty Modern Warfare\Modern Warfare Launcher.exe
+X:\BattleNetGames\Call of Duty Modern Warfare\ModernWarfare.exe
+X:\BattleNetGames\Call of Duty Modern Warfare\BlizzardBrowser\BlizzardBrowser.exe
+X:\BattleNetGames\Hearthstone\Hearthstone.exe
+X:\BattleNetGames\Hearthstone\Hearthstone_Data\BlizzardBrowser\BlizzardBrowser.exe
+X:\BattleNetGames\Heroes of the Storm\Heroes of the Storm.exe
+X:\BattleNetGames\Heroes of the Storm\Support\BlizzardError.exe
+X:\BattleNetGames\Heroes of the Storm\Support\HeroesWeb.exe
+X:\BattleNetGames\Heroes of the Storm\Support\BlizzardBrowser\BlizzardBrowser.exe
+X:\BattleNetGames\Heroes of the Storm\Support64\HeroesSwitcher_x64.exe
+X:\BattleNetGames\Heroes of the Storm\Versions\Base81376\HeroesOfTheStorm_x64.exe
+X:\BattleNetGames\StarCraft II\StarCraft II.exe
+X:\BattleNetGames\StarCraft II\Support\BlizzardError.exe
+X:\BattleNetGames\StarCraft II\Support\SC2Switcher.exe
+X:\BattleNetGames\StarCraft II\Support\StarWeb.exe
+X:\BattleNetGames\StarCraft II\Support\BlizzardBrowser\BlizzardBrowser.exe
+X:\BattleNetGames\StarCraft II\Versions\Base81433\SC2.exe
+X:\BattleNetGames\StarCraft II\Versions\Base81433\SC2_x64.exe
+X:\EpicGames\AmnesiaAMFP\aamfp.exe
+X:\EpicGames\AmnesiaAMFP\Launcher.exe
+X:\EpicGames\ARKSurvivalEvolved\Engine\Binaries\ThirdParty\SteamCMD\Win64\steamcmd.exe
+X:\EpicGames\ARKSurvivalEvolved\ShooterGame\Binaries\Win64\ArkEGSLauncher.exe
+X:\EpicGames\ARKSurvivalEvolved\ShooterGame\Binaries\Win64\procdump.exe
+X:\EpicGames\ARKSurvivalEvolved\ShooterGame\Binaries\Win64\ShooterGame.exe
+X:\EpicGames\ARKSurvivalEvolved\ShooterGame\Binaries\Win64\ShooterGameServer.exe
+X:\EpicGames\ARKSurvivalEvolved\ShooterGame\Binaries\Win64\ShooterGame_BE.exe
+X:\EpicGames\ARKSurvivalEvolved\ShooterGame\Binaries\Win64\BattlEye\BEService_x64.exe
+X:\EpicGames\ARKSurvivalEvolved\Tools\LocalizationManager\LocalizationManager.exe
+X:\EpicGames\ARKSurvivalEvolved\Tools\LocalizationManager\LocalizationManager.vshost.exe
+X:\EpicGames\BlairWitch\Blairwitch.exe
+X:\EpicGames\BlairWitch\Blairwitch\Binaries\Win64\Blairwitch-Win64-Shipping-Win7.exe
+X:\EpicGames\BlairWitch\Blairwitch\Binaries\Win64\Blairwitch-Win64-Shipping.exe
+X:\EpicGames\Borderlands2\Binaries\Win32\Borderlands2.exe
+X:\EpicGames\Borderlands2\Binaries\Win32\Launcher.exe
+X:\EpicGames\BorderlandsThePreSequel\Binaries\Win32\BorderlandsPreSequel.exe
+X:\EpicGames\BorderlandsThePreSequel\Binaries\Win32\Launcher.exe
+X:\EpicGames\CostumeQuest2\CostumeQuest2.exe
+X:\EpicGames\EnterTheGungeon\EtG.exe
+X:\EpicGames\FootballManager2020\fm.exe
+X:\EpicGames\GhostbustersRemastered\ghost.exe
+X:\EpicGames\IntoTheBreach\Breach.exe
+X:\EpicGames\JustCause4\JustCause4.exe
+X:\EpicGames\KillingFloor2\Binaries\Win64\BsSndRpt64.exe
+X:\EpicGames\KillingFloor2\Binaries\Win64\KFGame.exe
+X:\EpicGames\KillingFloor2\Binaries\Win64\UnrealLightmass.exe
+X:\EpicGames\KingdomNewLands\Kingdom.exe
+X:\EpicGames\LayersofFear2\LOF2.exe
+X:\EpicGames\LayersofFear2\LOF2\Binaries\Win64\LOF2-Win64-Shipping.exe
+X:\EpicGames\rocketleague\Binaries\Win64\RocketLeague.exe
+X:\EpicGames\RollerCoasterTycoon3\RCT3.exe
+X:\EpicGames\RS2V\Binaries\Win64\BsSndRpt64.exe
+X:\EpicGames\RS2V\Binaries\Win64\RisingStorm2.exe
+X:\EpicGames\RS2V\Binaries\Win64\RS2.exe
+X:\EpicGames\RS2V\Binaries\Win64\VNGame.exe
+X:\EpicGames\SidMeiersCivilizationVI\Base\Binaries\Win64EOS\CivilizationVI.exe
+X:\EpicGames\SidMeiersCivilizationVI\Base\Binaries\Win64EOS\CivilizationVI_DX12.exe
+X:\EpicGames\SidMeiersCivilizationVI\LaunchPad\LaunchPad.exe
+X:\EpicGames\SidMeiersCivilizationVI\LaunchPad\QtWebEngineProcess.exe
+X:\EpicGames\StickItToTheMan\StickIt.exe
+X:\EpicGames\TrackmaniaNext\Trackmania.exe
+X:\EpicGames\TrackmaniaNext\UplayLaunch.exe
+X:\EpicGames\TrackmaniaNext\Uplay\UplayInstaller.exe
+X:\EpicGames\Watchdogs2\UplayLaunch.exe
+X:\EpicGames\Watchdogs2\Installer\autorun.exe
+X:\EpicGames\Watchdogs2\Installer\Uplay\UplayInstaller.exe
+X:\EpicGames\Watchdogs2\Uplay\UplayInstaller.exe
+X:\EpicGames\WorldWarZ\en_us\client\bin\pc\wwzProfileEgs.exe
+X:\EpicGames\WorldWarZ\en_us\client\bin\pc\wwzReleaseEgs.exe
+X:\EpicGames\WorldWarZ\en_us\client\bin\pc\wwzRetailEgs.exe
+X:\GOGLibrary\Gwent\BsSndRpt.exe
+X:\GOGLibrary\Gwent\Gwent.exe
+X:\GOGLibrary\The Witcher Enhanced Edition\launcher.exe
+X:\GOGLibrary\The Witcher Enhanced Edition\register.exe
+X:\GOGLibrary\The Witcher Enhanced Edition\System\djinni!.exe
+X:\GOGLibrary\The Witcher Enhanced Edition\System\TagesClient.exe
+X:\OriginGames\Battlefield 1\bf1.exe
+X:\OriginGames\Battlefield 1\bf1Trial.exe
+X:\OriginGames\Battlefield 1\bf1Trial.exe_DiP_STAGED_stream
+X:\OriginGames\Battlefield 1\bf1.exe_DiP_STAGED_stream
+X:\OriginGames\Battlefield 1942\BF1942.exe
+X:\OriginGames\Battlefield 1942\BF1942_w32ded.exe
+X:\OriginGames\Battlefield 1942\BlackScreen.exe
+X:\OriginGames\Battlefield 1942\DedicatedServer.exe
+X:\OriginGames\Battlefield 1942\fpupdate.exe
+X:\OriginGames\Battlefield 1942\AdminTool\RemoteConsole.exe
+X:\OriginGames\Battlefield 1942\eReg\Battlefield 1942_Code.exe
+X:\OriginGames\Battlefield 1942\eReg\Battlefield 1942_eReg.exe
+X:\OriginGames\Battlefield 1942\eReg\Battlefield 1942_EZ.exe
+X:\OriginGames\Battlefield 1942\eReg\go_ez.exe
+X:\OriginGames\Battlefield 1942\__Installer\HKLMPatcher.exe
+X:\OriginGames\Battlefield 3\bf3.exe
+X:\OriginGames\Battlefield 3\BF3WebHelper.exe
+X:\OriginGames\Battlefield 3\pbsvc.exe
+X:\OriginGames\Battlefield 3\Core\EACoreServer.exe
+X:\OriginGames\Battlefield 3\Core\EAProxyInstaller.exe
+X:\OriginGames\Battlefield 3\Core\PatchProgress.exe
+X:\OriginGames\Battlefield 4\bf4.exe
+X:\OriginGames\Battlefield 4\BF4X86WebHelper.exe
+X:\OriginGames\Battlefield 4\bf4_x86.exe
+X:\OriginGames\Battlefield 4\BFLauncher.exe
+X:\OriginGames\Battlefield 4\BFLauncher_x86.exe
+X:\OriginGames\Battlefield 4\pbsvc.exe
+X:\OriginGames\Battlefield 4\__Installer\customcomponent\webplugin\battlelog-web-plugins.exe
+X:\OriginGames\Battlefield V\bfv.exe
+X:\OriginGames\Battlefield V\bfvTrial.exe
+X:\OriginGames\Crysis 3\Bin32\Crysis3.exe
+X:\OriginGames\Dead Space\Dead Space.exe
+X:\OriginGames\Need for Speed\dbxMotionPanel.exe
+X:\OriginGames\Need for Speed\NFS16.exe
+X:\OriginGames\Need for Speed\NFS16_trial.exe
+X:\UplayGames\Tom Clancy's The Division 2\EACLaunch.exe
+X:\UplayGames\Tom Clancy's The Division 2\TheDivision2.exe
+X:\UplayGames\Tom Clancy's The Division 2\thedivision2launcher.exe
+X:\World_of_Tanks_EU\wgc_api.exe
+X:\World_of_Tanks_EU\WorldOfTanks.exe
+X:\World_of_Tanks_EU\win32\cef_browser_process.exe
+X:\World_of_Tanks_EU\win32\cef_subprocess.exe
+X:\World_of_Tanks_EU\win32\WargamingErrorMonitor.exe
+X:\World_of_Tanks_EU\win32\WorldOfTanks.exe
+X:\World_of_Tanks_EU\win64\cef_browser_process.exe
+X:\World_of_Tanks_EU\win64\cef_subprocess.exe
+X:\World_of_Tanks_EU\win64\WargamingErrorMonitor.exe
+X:\World_of_Tanks_EU\win64\WorldOfTanks.exe
+X:\Cracked\Age of Empires III - Definitive Edition\AoE3DE_s.exe
+X:\Cracked\Age of Empires III - Definitive Edition\AOEURLHelper.exe
+X:\Cracked\Age of Empires III - Definitive Edition\AoEURLInstaller_Steam.exe
+X:\Cracked\Age of Empires III - Definitive Edition\BattleServer.exe
+X:\Cracked\Age of Empires III - Definitive Edition\TestWebClient.exe
+X:\Cracked\Asterix & Obelix XXL 3\oXXL3Game.exe
+X:\Cracked\Automation\Automation Launcher Steam.exe
+X:\Cracked\Automation\CefSharp.BrowserSubprocess.exe
+X:\Cracked\Automation\LauncherWrapper.exe
+X:\Cracked\Automation\UE421\Engine\Binaries\Win32\BsSndRpt.exe
+X:\Cracked\Automation\UE421\Engine\Binaries\Win64\BsSndRpt.exe
+X:\Cracked\Automation\UE424\AutomationGame.exe
+X:\Cracked\Automation\UE424\AutomationGame\Binaries\Win32\AutomationGame-Win32-Shipping.exe
+X:\Cracked\Automation\UE424\AutomationGame\Binaries\Win64\AutomationGame-Win64-Shipping.exe
+X:\Cracked\Automation\UE424\Engine\Binaries\Win32\BsSndRpt.exe
+X:\Cracked\Automation\UE424\Engine\Binaries\Win64\BsSndRpt.exe
+X:\Cracked\Battlefield Hardline\bfh.exe
+X:\Cracked\Battlefield Hardline\BFHWebHelper.exe
+X:\Cracked\Battlefield Hardline\pbsvc.exe
+X:\Cracked\BDSM - Big Drunk Satanic Massacre\Big Drunk Satanic Massacre.exe
+X:\Cracked\BeamNG.drive.v0.19.4.2\BeamNG.drive.exe
+X:\Cracked\BeamNG.drive.v0.19.4.2\support.exe
+X:\Cracked\BeamNG.drive.v0.19.4.2\Bin32\BeamNG.drive.x86.exe
+X:\Cracked\BeamNG.drive.v0.19.4.2\Bin32\BeamNG.drive.x86.ui.exe
+X:\Cracked\BeamNG.drive.v0.19.4.2\Bin32\console.x86.exe
+X:\Cracked\BeamNG.drive.v0.19.4.2\Bin64\BeamNG.drive.x64.exe
+X:\Cracked\BeamNG.drive.v0.19.4.2\Bin64\BeamNG.drive.x64.ui.exe
+X:\Cracked\BeamNG.drive.v0.19.4.2\Bin64\console.x64.exe
+X:\Cracked\Besiege\Besiege.exe
+X:\Cracked\Big Pharma\Big Pharma.exe
+X:\Cracked\Black Mesa\bms.exe
+X:\Cracked\Black Mesa\bin\blackmesa_publish.exe
+X:\Cracked\Black Mesa\bin\captioncompiler.exe
+X:\Cracked\Black Mesa\bin\demoinfo.exe
+X:\Cracked\Black Mesa\bin\dmxconvert.exe
+X:\Cracked\Black Mesa\bin\dmxedit.exe
+X:\Cracked\Black Mesa\bin\glview.exe
+X:\Cracked\Black Mesa\bin\hammer.exe
+X:\Cracked\Black Mesa\bin\height2normal.exe
+X:\Cracked\Black Mesa\bin\height2ssbump.exe
+X:\Cracked\Black Mesa\bin\hlfaceposer.exe
+X:\Cracked\Black Mesa\bin\hlmv.exe
+X:\Cracked\Black Mesa\bin\mksheet.exe
+X:\Cracked\Black Mesa\bin\motionmapper.exe
+X:\Cracked\Black Mesa\bin\normal2ssbump.exe
+X:\Cracked\Black Mesa\bin\pfm2tgas.exe
+X:\Cracked\Black Mesa\bin\QC_Eyes.exe
+X:\Cracked\Black Mesa\bin\studiomdl.exe
+X:\Cracked\Black Mesa\bin\SymbolStoreUpdate.exe
+X:\Cracked\Black Mesa\bin\vbsp.exe
+X:\Cracked\Black Mesa\bin\vpk.exe
+X:\Cracked\Black Mesa\bin\vrad.exe
+X:\Cracked\Black Mesa\bin\vtex.exe
+X:\Cracked\Black Mesa\bin\vtfdiff.exe
+X:\Cracked\Black Mesa\bin\vtfscrew.exe
+X:\Cracked\Black Mesa\bin\vvis.exe
+X:\Cracked\Black Mesa\bin\thirdparty\brofiler\Brofiler.exe
+X:\Cracked\Borderlands 3\Borderlands3.exe
+X:\Cracked\Borderlands 3\OakGame\Binaries\Win64\Borderlands3.exe
+X:\Cracked\Bus Simulator 18\BS18Installer.exe
+X:\Cracked\Bus Simulator 18\BusSimulator18.exe
+X:\Cracked\Bus Simulator 18\BusSimulator18\Binaries\Win64\BusSimulator18-Win64-Shipping.exe
+X:\Cracked\Call of Duty - Modern Warfare 2 CR\MW2 Campaign Remastered Launcher.exe
+X:\Cracked\Call of Duty - Modern Warfare 2 CR\MW2CR.exe
+X:\Cracked\Call of Duty - Modern Warfare 2 CR\MW2CR_Old_Crack_Run_Once.exe
+X:\Cracked\Call of Duty 2\CoD2MP_s.exe
+X:\Cracked\Call of Duty 2\CoD2SP_s.exe
+X:\Cracked\Call of Duty 4 Modern Warfare\iw3mp.exe
+X:\Cracked\Call of Duty 4 Modern Warfare\iw3sp.exe
+X:\Cracked\Car Mechanic Simulator 2018 Mercedes Benz\cms2018.exe
+X:\Cracked\Cities - Skylines\Cities.exe
+X:\Cracked\Cities - Skylines\dowser.exe
+X:\Cracked\Cities - Skylines\Mono\bin\mono.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\al.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\booc.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\csharp.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\gacutil.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\gmcs.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\httpcfg.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\ilasm.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\installutil.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\lc.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\mconfig.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\mdoc.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\mkbundle.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\mono-service.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\mono-xmltool.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\monolinker.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\monop.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\nunit-console.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\pdb2mdb.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\RabbitMQ.Client.Apigen.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\resgen.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\sgen.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\sqlmetal.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\sqlsharp.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\svcutil.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\us.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\wsdl.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\xbuild.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\2.0\xsd.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\unity\booc.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\unity\us.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\unity_web\booc.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\unity_web\smcs.exe
+X:\Cracked\Cities - Skylines\Mono\lib\mono\unity_web\us.exe
+X:\Cracked\Command & Conquer - Remastered Collection\ClientG.exe
+X:\Cracked\Command & Conquer - Remastered Collection\ClientLauncherG.exe
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\AUTORUN.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\PREVIEW.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\README.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\SETUP.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\INTERNET\MPLAYNOW.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\INTERNET\PLAYTEN.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\INTERNET\PRIMENET.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\INTERNET\WESTWOOD.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\INTERNET\_ISDEL.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\INTERNET\TA\ACROREAD.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\INTERNET\TA\SETUP.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\PLANETWW\INSTALL.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\PLANETWW\SETUP.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\PLANETWW\_ISDEL.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\SETUP\INSTALL.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\SETUP\LICENSE.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\SETUP\SETUP.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\SETUP\_SETUP.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\SETUP\INSTALL\PATCH.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\SETUP95\INSTALL.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\RED_ALERT\COUNTERSTRIKE\SETUP95\_ISDEL.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\TIBERIAN_DAWN\CD1\INSTALL.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\TIBERIAN_DAWN\CD1\README.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\TIBERIAN_DAWN\CD1\SETUP.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\TIBERIAN_DAWN\CD2\README.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\TIBERIAN_DAWN\CD2\SETUP.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\TIBERIAN_DAWN\CD2\_SETUP.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\TIBERIAN_DAWN\CD2\INSTALL\C&C.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\TIBERIAN_DAWN\CD2\INSTALL\INSTICON.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\TIBERIAN_DAWN\CD2\INSTALL\RUNGAME.EXE
+X:\Cracked\Command & Conquer - Remastered Collection\DATA\CNCDATA\TIBERIAN_DAWN\CD2\INSTALL\_SETUP.EXE
+X:\Cracked\CONTROL - Ultimate Edition\Control.exe
+X:\Cracked\CONTROL - Ultimate Edition\Control_DX12.exe
+X:\Cracked\CONTROL - Ultimate Edition\NoDVD\CODEX\API\Control_DX11.exe
+X:\Cracked\CONTROL - Ultimate Edition\NoDVD\CODEX\API\Control_DX12.exe
+X:\Cracked\CONTROL - Ultimate Edition\NoDVD\CODEX\Client\Control_DX11.exe
+X:\Cracked\CONTROL - Ultimate Edition\NoDVD\CODEX\Client\Control_DX12.exe
+X:\Cracked\CONTROL - Ultimate Edition\NoDVD\Goldberg\Control_DX11.exe
+X:\Cracked\CONTROL - Ultimate Edition\NoDVD\Goldberg\Control_DX12.exe
+X:\Cracked\CONTROL - Ultimate Edition\NoDVD\Goldberg\SmartSteamLoader_x64.exe
+X:\Cracked\CONTROL - Ultimate Edition\_Unlockers\DLC+Outfits+Developer_Mode_Unlocker\Control_DX12.exe
+X:\Cracked\Cooking.Simulator.Beta\CookingSim.exe
+X:\Cracked\Crazy Machines 3\cm3.exe
+X:\Cracked\Crysis Remastered\Bin64\CrysisRemastered.exe
+X:\Cracked\Crysis Remastered\Bin64\dxc.exe
+X:\Cracked\Crysis Remastered\Bin64\fxc.exe
+X:\Cracked\Dark Souls 3\Game\DarkSoulsIII.exe
+X:\Cracked\Darkest Dungeon\_windows\Darkest.exe
+X:\Cracked\Darkest Dungeon\_windows\localization.exe
+X:\Cracked\Darkest Dungeon\_windows\steam_workshop_upload.exe
+X:\Cracked\Darkest Dungeon\_windowsnosteam\Darkest.exe
+X:\Cracked\Darkest Dungeon\_windowsnosteam\localization.exe
+X:\Cracked\Darkest Dungeon\_windowsnosteam\SaveGameTransfer.exe
+X:\Cracked\DCS World\Run.exe
+X:\Cracked\DCS World\bin\blocksimtest.exe
+X:\Cracked\DCS World\bin\curl.exe
+X:\Cracked\DCS World\bin\DCS.exe
+X:\Cracked\DCS World\bin\dcs_protect.exe
+X:\Cracked\DCS World\bin\edCefRenderProcess.exe
+X:\Cracked\DCS World\bin\edm_tool.exe
+X:\Cracked\DCS World\bin\fetchEffects.exe
+X:\Cracked\DCS World\bin\luac.exe
+X:\Cracked\DCS World\bin\luae.exe
+X:\Cracked\DCS World\bin\ModelConverter2.exe
+X:\Cracked\DCS World\bin\ModelViewer2.exe
+X:\Cracked\DCS World\bin\unit_tests.exe
+X:\Cracked\Dead Rising 4\deadrising4.exe
+X:\Cracked\Death Stranding\ds.exe
+X:\Cracked\Death Stranding\Windows 10 1803 Fix\ds.exe
+X:\Cracked\Deliver Us The Moon\MoonMan.exe
+X:\Cracked\Deliver Us The Moon\MoonMan\Binaries\Win64\MoonMan-Win64-Shipping.exe
+X:\Cracked\Destroy All Humans!\DH.exe
+X:\Cracked\Destroy All Humans!\DH\Binaries\Win64\DH-Win64-Shipping.exe
+X:\Cracked\Detroit - Become Human\breakpad_server.exe
+X:\Cracked\Detroit - Become Human\DetroitBecomeHuman.exe
+X:\Cracked\Devil May Cry 5\DevilMayCry5.exe
+X:\Cracked\Devil May Cry 5\DevilMayCry5_Bloody_Palace_Unlocked.exe
+X:\Cracked\Divinity - Original Sin 2\bin\CefSharp.BrowserSubprocess.exe
+X:\Cracked\Divinity - Original Sin 2\bin\SupportTool.exe
+X:\Cracked\Divinity - Original Sin 2\Classic\EoCApp.exe
+X:\Cracked\Divinity - Original Sin 2\Classic\SupportTool.exe
+X:\Cracked\Divinity - Original Sin 2\DefEd\bin\EoCApp.exe
+X:\Cracked\Divinity - Original Sin 2\DefEd\bin\SupportTool.exe
+X:\Cracked\DOOM Eternal\DOOMEternalx64vk.exe
+X:\Cracked\DOOM Eternal\idTechLauncher.exe
+X:\Cracked\Duke Nukem Forever\System\DukeForever.exe
+X:\Cracked\Dying Light - The Following\DyingLightGame.exe
+X:\Cracked\Dying Light - The Following\DevTools\DyingLightPlayer.exe
+X:\Cracked\Factorio\bin\x64\factorio.exe
+X:\Cracked\Fallout 4\Fallout4.exe
+X:\Cracked\Fallout 4\Fallout4Launcher.exe
+X:\Cracked\Fallout 4\NoDVD\3DM\Fallout4.exe
+X:\Cracked\Fallout 4\NoDVD\ALI213\Fallout4.exe
+X:\Cracked\Fallout 4\NoDVD\CODEX\Fallout4.exe
+X:\Cracked\Fallout 4\Papyrus Compiler\PapyrusAssembler.exe
+X:\Cracked\Fallout 4\Papyrus Compiler\PapyrusCompiler.exe
+X:\Cracked\Fallout 4\Tools\PapyrusStackDumpAnalyzer.exe
+X:\Cracked\Fallout 4\Tools\Archive2\Archive2.exe
+X:\Cracked\Fallout 4\Tools\Audio\xwmaencode.exe
+X:\Cracked\Fallout 4\Tools\Elric\Elrich.exe
+X:\Cracked\Fallout 4\Tools\Elric\texconv.exe
+X:\Cracked\Fallout 4\Tools\LipGen\CreationKit32.exe
+X:\Cracked\Fallout 4\Tools\LipGen\LipFuzer\LIPFuzer.exe
+X:\Cracked\Far Cry - New Dawn\bin\FarCryNewDawn.exe
+X:\Cracked\Far Cry 3 - Duology\Far Cry 3\bin\farcry3.exe
+X:\Cracked\Far Cry 3 - Duology\Far Cry 3\bin\farcry3_d3d11.exe
+X:\Cracked\Far Cry 3 - Duology\Far Cry 3\bin\FC3UpdaterSteam.exe
+X:\Cracked\Far Cry 3 - Duology\Far Cry 3\bin\FirewallInstall.exe
+X:\Cracked\Far Cry 3 - Duology\Far Cry 3\bin\GDFInstall.exe
+X:\Cracked\Far Cry 3 - Duology\Far Cry 3 - Blood Dragon\bin\FC3BDUpdater.exe
+X:\Cracked\Far Cry 3 - Duology\Far Cry 3 - Blood Dragon\bin\fc3_blooddragon.exe
+X:\Cracked\Far Cry 3 - Duology\Far Cry 3 - Blood Dragon\bin\fc3_blooddragon_d3d11.exe
+X:\Cracked\Far Cry 3 - Duology\Far Cry 3 - Blood Dragon\bin\GDFInstall.exe
+X:\Cracked\Far Cry 5\bin\EACLaunch.exe
+X:\Cracked\Far Cry 5\bin\FarCry5.exe
+X:\Cracked\FFXV\ffxv_s.exe
+X:\Cracked\Frostpunk\Frostpunk.exe
+X:\Cracked\Galactic Civilizations III\DXAtlasWin.exe
+X:\Cracked\Galactic Civilizations III\GalCiv3.exe
+X:\Cracked\Galactic Civilizations III\gc3_prefs_wipe.exe
+X:\Cracked\Galactic Civilizations III\SDCR32.exe
+X:\Cracked\Galactic Civilizations III\SDCR64.exe
+X:\Cracked\Galactic Civilizations III\tachyon.exe
+X:\Cracked\Galactic Civilizations III\tachyon_html.exe
+X:\Cracked\Galactic Civilizations III\Updater.exe
+X:\Cracked\Galactic Civilizations III\Tools\GC3DataCompiler.exe
+X:\Cracked\Galactic Civilizations III\Tools\GC3Utils.exe
+X:\Cracked\Grand Theft Auto San Andreas\gta-sa.exe
+X:\Cracked\Halo - The Master Chief Collection\mcclauncher.exe
+X:\Cracked\Halo - The Master Chief Collection\MCC\Binaries\Win64\MCC-Win64-Shipping.exe
+X:\Cracked\Heroes of Hammerwatch\HWR.exe
+X:\Cracked\Heroes of Hammerwatch\HWRToolkit.exe
+X:\Cracked\Heroes of Hammerwatch\PACKAGER.exe
+X:\Cracked\HITMAN 2\Launcher.exe
+X:\Cracked\HITMAN 2\dx12Retail\HITMAN2.exe
+X:\Cracked\HITMAN 2\Retail\HITMAN2.exe
+X:\Cracked\Honey Select 2 - Libido\HoneySelect2.exe
+X:\Cracked\Honey Select 2 - Libido\BepInEx\Plugins\XUnity.AutoTranslator\Translators\FullNET\Common.ExtProtocol.Executor.exe
+X:\Cracked\Honey Select 2 - Libido\BepInEx\Plugins\XUnity.AutoTranslator\Translators\FullNET\ezTransXP.ExtProtocol.exe
+X:\Cracked\Honey Select 2 - Libido\BepInEx\Plugins\XUnity.AutoTranslator\Translators\FullNET\Lec.ExtProtocol.exe
+X:\Cracked\Honey Select 2 - Libido\[MODDING] Tools\dnSpy v6.1.4\dnSpy-x86.exe
+X:\Cracked\Honey Select 2 - Libido\[MODDING] Tools\dnSpy v6.1.4\dnSpy.Console.exe
+X:\Cracked\Honey Select 2 - Libido\[MODDING] Tools\dnSpy v6.1.4\dnSpy.exe
+X:\Cracked\Honey Select 2 - Libido\[MODDING] Tools\dnSpy v6.1.4 (net472)\dnSpy-x86.exe
+X:\Cracked\Honey Select 2 - Libido\[MODDING] Tools\dnSpy v6.1.4 (net472)\dnSpy.Console.exe
+X:\Cracked\Honey Select 2 - Libido\[MODDING] Tools\dnSpy v6.1.4 (net472)\dnSpy.exe
+X:\Cracked\Honey Select 2 - Libido\[MODDING] Tools\dnSpy v6.1.4 (netcore-win64)\dnSpy.Console.exe
+X:\Cracked\Honey Select 2 - Libido\[MODDING] Tools\dnSpy v6.1.4 (netcore-win64)\dnSpy.exe
+X:\Cracked\Honey Select 2 - Libido\[MODDING] Tools\SB3Utility v20.5\SB3UtilityGUI.exe
+X:\Cracked\Honey Select 2 - Libido\[MODDING] Tools\SB3Utility v20.5\SB3UtilityScript.exe
+X:\Cracked\Honey Select 2 - Libido\[MODDING] Tools\ZipStudio v0.2.1\ZipStudio.exe
+X:\Cracked\Honey Select 2 - Libido\[OPTIONAL] BRExtras\Vanilla Launcher\InitSetting.exe
+X:\Cracked\Honey Select 2 - Libido\[UTILITY] KKManager\KKManager.exe
+X:\Cracked\Honey Select 2 - Libido\[UTILITY] KKManager\StandaloneUpdater.exe
+X:\Cracked\Honey Select 2 - Libido\[UTILITY] KKManager\SB3UGS\SB3UtilityGUI.exe
+X:\Cracked\Honey Select 2 - Libido\[UTILITY] KKManager\SB3UGS\SB3UtilityScript.exe
+X:\Cracked\Honey Select 2 - Libido\[UTILITY] StudioGet\StudioGet.exe
+X:\Cracked\House Flipper HGTV\HouseFlipper.exe
+X:\Cracked\Insurgency - Sandstorm\Client\Insurgency.exe
+X:\Cracked\Insurgency - Sandstorm\Client\InsurgencyEAC.exe
+X:\Cracked\Insurgency - Sandstorm\Client\Insurgency\Binaries\Win64\InsurgencyClient-Win64-Shipping.exe
+X:\Cracked\Insurgency - Sandstorm\NoDVD\Default\Client\Insurgency\Binaries\Win64\InsurgencyClient-Win64-Shipping.exe
+X:\Cracked\Insurgency - Sandstorm\NoDVD\Experimental\Client\Insurgency\Binaries\Win64\InsurgencyClient-Win64-Shipping.exe
+X:\Cracked\Insurgency - Sandstorm\Server\InsurgencyServer.exe
+X:\Cracked\Insurgency - Sandstorm\Server\Insurgency\Binaries\Win64\InsurgencyServer-Win64-Shipping.exe
+X:\Cracked\Ion Fury\fury.exe
+X:\Cracked\Kill It With Fire\Kani.exe
+X:\Cracked\Kill It With Fire\Kani\Binaries\Win64\Kani-Win64-Shipping.exe
+X:\Cracked\Kingdom Come - Deliverance\Bin\Win64\KingdomCome.exe
+X:\Cracked\L.A. Noire - The Complete Edition\LANLauncher.exe
+X:\Cracked\L.A. Noire - The Complete Edition\LANPatcher.exe
+X:\Cracked\L.A. Noire - The Complete Edition\ypatcher.exe
+X:\Cracked\Mafia - Definitive Edition\launcher.exe
+X:\Cracked\Mafia - Definitive Edition\mafiadefinitiveedition.exe
+X:\Cracked\Marvel's Avengers\avengers.exe
+X:\Cracked\Mass Effect - Andromeda\MassEffectAndromeda.exe
+X:\Cracked\Medieval Engineers\Bin64\MedievalEngineers.exe
+X:\Cracked\Medieval Engineers\Bin64\ModTools\DataHashGenerator.exe
+X:\Cracked\Medieval Engineers\Bin64\ModTools\ModApiAnalyzer.exe
+X:\Cracked\Metal Gear Solid V - The Phantom Pain\mgsvtpp.exe
+X:\Cracked\Metro Exodus - Gold Edition\Benchmark.exe
+X:\Cracked\Metro Exodus - Gold Edition\MetroExodus.exe
+X:\Cracked\Micro Machines - World Series\MicroMachines.exe
+X:\Cracked\Microsoft Flight Simulator\FlightSimulator.exe
+X:\Cracked\Microsoft Flight Simulator\InstallUtils\CustomInstaller.exe
+X:\Cracked\Minecraft Dungeons\Dungeons.exe
+X:\Cracked\Minecraft Dungeons\minecraft_server.exe
+X:\Cracked\Minecraft Dungeons\Dungeons\Binaries\Win64\Dungeons-Win64-Shipping.exe
+X:\Cracked\Mordhau\Mordhau.exe
+X:\Cracked\Mordhau\Mordhau\Binaries\Win64\Mordhau-Win64-Shipping.exe
+X:\Cracked\Motorsport Manager - Endurance Series\MM.exe
+X:\Cracked\NASCAR Heat 5\NascarHeat5.exe
+X:\Cracked\Need for Speed - Hot Pursuit\ConfigTool.exe
+X:\Cracked\Need for Speed - Hot Pursuit\NFS11.exe
+X:\Cracked\Need for Speed - Payback\NeedForSpeedPayback.exe
+X:\Cracked\Need for Speed Carbon Collectors Edition\NFSC.exe
+X:\Cracked\Need for Speed Carbon Collectors Edition\setup.exe
+X:\Cracked\Need for Speed Heat\NeedForSpeedHeat.exe
+X:\Cracked\Need For Speed Most Wanted Black Edition\safemode_inst.exe
+X:\Cracked\Need For Speed Most Wanted Black Edition\shell_inst.exe
+X:\Cracked\Need For Speed Most Wanted Black Edition\speed.exe
+X:\Cracked\Need For Speed Pro Street\nfs.exe
+X:\Cracked\Need For Speed Pro Street\ONLINE\bombd.exe
+X:\Cracked\Need For Speed Pro Street\ONLINE\lanserver.exe
+X:\Cracked\Need For Speed Pro Street\ONLINE\launcher.exe
+X:\Cracked\Need For Speed Pro Street\ONLINE\rebroadcasterlan.exe
+X:\Cracked\Need For Speed Undercover\nfs.exe
+X:\Cracked\Need For Speed Undercover\setup.exe
+X:\Cracked\Need for Speed Underground 2\SPEED2.EXE
+X:\Cracked\Need for Speed Underground 2\Support\EasyInfo.exe
+X:\Cracked\Need for Speed Underground 2\Support\EReg.exe
+X:\Cracked\Need for Speed Underground 2\Support\Need for Speed Underground 2_code.exe
+X:\Cracked\Need For Speed. The Run\Need For Speed The Run.exe
+X:\Cracked\No Man's Sky\Binaries\NMS.exe
+X:\Cracked\Oxygen Not Included Automation Pack\OxygenNotIncluded.exe
+X:\Cracked\Oxygen Not Included Automation Pack\Restarter.exe
+X:\Cracked\PC Building Simulator Overclockers UK Workshop\PCBS.exe
+X:\Cracked\PC Building Simulator Overclockers UK Workshop\PCBS_Data\Plugins\ZFGameBrowser.exe
+X:\Cracked\Plague Inc. Evolved The Fake News\PlagueIncEvolved.exe
+X:\Cracked\Plague Inc. Evolved The Fake News\PlagueIncSC.exe
+X:\Cracked\Poly Bridge 2 v1.20\Win32\Poly Bridge 2.exe
+X:\Cracked\Poly Bridge 2 v1.20\Win64\Poly Bridge 2.exe
+X:\Cracked\POSTAL.4.No.Regerts.v0.1.4.1.35\Postal4.exe
+X:\Cracked\POSTAL.4.No.Regerts.v0.1.4.1.35\Postal4\Binaries\Win64\Postal4-Win64-Shipping.exe
+X:\Cracked\Production.Line.v1.81\32bit\ProductionLine32.exe
+X:\Cracked\Project Highrise\Game.exe
+X:\Cracked\Prototype 2\prototype2.exe
+X:\Cracked\RAGE 2\RAGE2.exe
+X:\Cracked\Rainbow Six\DevicePicker.exe
+X:\Cracked\Rainbow Six\mplaynow.exe
+X:\Cracked\Rainbow Six\RainbowSix.exe
+X:\Cracked\Rainbow Six\RainbowSixMP.exe
+X:\Cracked\Rainbow Six - Lockdown\Lockdown.exe
+X:\Cracked\Rainbow Six - Lockdown\LockdownDed.exe
+X:\Cracked\Rainbow Six - Lockdown\data\patch.tmp\UpgradeLauncher.exe
+X:\Cracked\Rainbow Six - Raven Shield\Mods\IronWrath\Register\register.exe
+X:\Cracked\Rainbow Six - Raven Shield\Mods\IronWrath\Register\schedule.exe
+X:\Cracked\Rainbow Six - Raven Shield\Mods\IronWrath\Register\dll\xmlinst.exe
+X:\Cracked\Rainbow Six - Raven Shield\system\RavenShield.exe
+X:\Cracked\Rainbow Six - Raven Shield\system\Setup.exe
+X:\Cracked\Rainbow Six - Raven Shield\system\UCC.exe
+X:\Cracked\Rainbow Six - Raven Shield\system\UnrealEd.exe
+X:\Cracked\Rainbow Six - Raven Shield\system\UpgradeLauncher.exe
+X:\Cracked\Rainbow Six - Rogue Spear\CovertOperations.exe
+X:\Cracked\Rainbow Six - Rogue Spear\mplaynow.exe
+X:\Cracked\Rainbow Six - Rogue Spear\RogueSpear.exe
+X:\Cracked\Rainbow Six - Rogue Spear\RSConfig.exe
+X:\Cracked\Rainbow Six - Rogue Spear\UrbanOperations.exe
+X:\Cracked\Rainbow Six - Rogue Spear\BlackThorn\BlackThorn.exe
+X:\Cracked\Rainbow Six - Rogue Spear\BlackThorn\RSConfig.exe
+X:\Cracked\Rainbow Six - Vegas 2\Binaries\Detection.exe
+X:\Cracked\Rainbow Six - Vegas 2\Binaries\R6Vegas2_Game.exe
+X:\Cracked\Rainbow Six - Vegas 2\Binaries\R6Vegas2_Launcher.exe
+X:\Cracked\Rainbow Six - Vegas 2\Binaries\RainbowSixVegas2_SADS.exe
+X:\Cracked\Rebel Galaxy Outlaw\RebelGalaxySteam.exe
+X:\Cracked\Rebel Galaxy Outlaw\SteamLauncher.exe
+X:\Cracked\Rebel Galaxy Outlaw\ScnLib.DLLs\ScnRec64.exe
+X:\Cracked\Red Dead Redemption 2\Launcher.exe
+X:\Cracked\Red Dead Redemption 2\PlayRDR2.exe
+X:\Cracked\Red Dead Redemption 2\RDR2.exe
+X:\Cracked\Retro.City.Rampage.DX\retrocityrampage.exe
+X:\Cracked\RIDE 4\ride4.exe
+X:\Cracked\RIDE 4\ride4\Binaries\Win64\ride4-Win64-Shipping.exe
+X:\Cracked\RollerCoaster.Tycoon.Classic.v2.12.110\RCTClassic.exe
+X:\Cracked\S.T.A.L.K.E.R - Call Of Pripyat\Stalker-COP.exe
+X:\Cracked\S.T.A.L.K.E.R - Call Of Pripyat\bin\xrEngine.exe
+X:\Cracked\S.T.A.L.K.E.R - Call Of Pripyat\bin\dedicated\xrEngine.exe
+X:\Cracked\S.T.A.L.K.E.R - Clear Sky\bin\xrEngine.exe
+X:\Cracked\S.T.A.L.K.E.R - Clear Sky\bin\dedicated\xrEngine.exe
+X:\Cracked\S.T.A.L.K.E.R - Shadow of Chernobyl\bin\XR_3DA.exe
+X:\Cracked\S.T.A.L.K.E.R - Shadow of Chernobyl\bin\dedicated\XR_3DA.exe
+X:\Cracked\Saints Row - The Third Remastered\SRTTR.exe
+X:\Cracked\Saints Row - The Third Remastered\NoDVD\Online Fix\Launcher.exe
+X:\Cracked\Scum.v0.1.17.9119\SCUMGame\SCUM_Launcher.exe
+X:\Cracked\Scum.v0.1.17.9119\SCUMGame\SCUM\Binaries\Win64\SCUM.exe
+X:\Cracked\Serious Sam 4\SmartSteamLoader_x64.exe
+X:\Cracked\Serious Sam 4\Bin\x64\Sam4.exe
+X:\Cracked\Serious Sam 4\Bin\x64\Sam4_Unrestricted.exe
+X:\Cracked\Serious Sam 4\NoDVD\Goldberg\CLIENT\SmartSteamLoader_x64.exe
+X:\Cracked\Serious Sam 4\NoDVD\SSE\SmartSteamLoader_x64.exe
+X:\Cracked\Serious Sam Classics Revolution\Bin\SeriousSam.exe
+X:\Cracked\Serious Sam The Second Encounter\Bin\AskFiles.exe
+X:\Cracked\Serious Sam The Second Encounter\Bin\DecodeReport.exe
+X:\Cracked\Serious Sam The Second Encounter\Bin\DedicatedServer.exe
+X:\Cracked\Serious Sam The Second Encounter\Bin\Depend.exe
+X:\Cracked\Serious Sam The Second Encounter\Bin\Ecc.exe
+X:\Cracked\Serious Sam The Second Encounter\Bin\MakeFONT.exe
+X:\Cracked\Serious Sam The Second Encounter\Bin\RCon.exe
+X:\Cracked\Serious Sam The Second Encounter\Bin\SeriousModeler.exe
+X:\Cracked\Serious Sam The Second Encounter\Bin\SeriousSam.exe
+X:\Cracked\Serious Sam The Second Encounter\Bin\SeriousSkaStudio.exe
+X:\Cracked\Serious Sam The Second Encounter\Bin\GameSpy\ArcadeInstallSSAMSE108f.exe
+X:\Cracked\SHIFT 2 UNLEASHED\shift2u.exe
+X:\Cracked\SHIFT 2 UNLEASHED\Support\EADM\eadm-installer.exe
+X:\Cracked\Shortest.Trip.to.Earth.v1.2.3\ST Earth.exe
+X:\Cracked\SimCity 4 Deluxe Edition\autosave.exe
+X:\Cracked\SimCity 4 Deluxe Edition\SC4Launcher.exe
+X:\Cracked\SimCity 4 Deluxe Edition\SC4LUpdater.exe
+X:\Cracked\SimCity 4 Deluxe Edition\Apps\SimCity 4.exe
+X:\Cracked\SimCity 4 Deluxe Edition\Support\go_ez.exe
+X:\Cracked\SimCity 4 Deluxe Edition\Support\SimCity 4 Deluxe_EZ.exe
+X:\Cracked\Sniper - Ghost Warrior Contracts\Launch_Game.exe
+X:\Cracked\Sniper - Ghost Warrior Contracts\win_x64\SGWContracts.exe
+X:\Cracked\Sonic Mania\SonicMania.exe
+X:\Cracked\South Park - The Fractured but Whole\SouthPark_TFBW.exe
+X:\Cracked\Spelunky 2\Spel2.exe
+X:\Cracked\SpongeBob SquarePants - BfBBR\SpongeBob_BFBB_R.exe
+X:\Cracked\SpongeBob SquarePants - BfBBR\Pineapple\Binaries\Win64\Pineapple-Win64-Shipping.exe
+X:\Cracked\Star Wars - Battlefront 2\starwarsbattlefrontii.exe
+X:\Cracked\Star Wars Jedi - Fallen Order\SwGame\Binaries\Win64\starwarsjedifallenorder.exe
+X:\Cracked\Star Wars Jedi - Fallen Order\tools\unrar.exe
+X:\Cracked\Star Wars Jedi - Fallen Order\tools\x.exe
+X:\Cracked\Stardew.Valley.v1.4.5\Stardew Valley.exe
+X:\Cracked\Starfighter Origins Remastered\StarfighterOriginsRM.exe
+X:\Cracked\Starfighter Origins Remastered\StarfighterOriginsRM\Binaries\Win64\StarfighterOriginsRM-Win64-Shipping.exe
+X:\Cracked\Starpoint Gemini 2\AI_Assembly.exe
+X:\Cracked\Starpoint Gemini 2\Scripterion.exe
+X:\Cracked\Starpoint Gemini 2\Scripterion2.exe
+X:\Cracked\Starpoint Gemini 2\ScyptCompiler.exe
+X:\Cracked\Starpoint Gemini 2\SPG2ModManager.exe
+X:\Cracked\Starpoint Gemini 2\StarpointGemini2.exe
+X:\Cracked\Starpoint Gemini 2\StarpointGemini2_win7.exe
+X:\Cracked\Starpoint Gemini 2\StarpointGemini2_x86.exe
+X:\Cracked\State of Decay 2 - Juggernaut Edition\StateOfDecay2.exe
+X:\Cracked\State of Decay 2 - Juggernaut Edition\NoDVD\Online Fix with Update 3\StateOfDecay2\Binaries\Win64\StateOfDecay2-Win64-Shipping.exe
+X:\Cracked\State of Decay 2 - Juggernaut Edition\StateOfDecay2\Binaries\Win64\StateOfDecay2-Win64-Shipping.exe
+X:\Cracked\Subnautica\Subnautica.exe
+X:\Cracked\Subnautica\Subnautica32.exe
+X:\Cracked\Subnautica\SubnauticaMonitor.exe
+X:\Cracked\SUPERHOT - MIND CONTROL DELETE\SHMCD.exe
+X:\Cracked\SUPERHOT - MIND CONTROL DELETE\SUPERHOTMCD.exe
+X:\Cracked\SUPERHOT - MIND CONTROL DELETE\SHMCD_Data\StreamingAssets\FFmpegOut\Windows\ffmpeg.exe
+X:\Cracked\Surviving Mars\MarsSteam.exe
+X:\Cracked\Surviving Mars\ModTools\ddstrunc.exe
+X:\Cracked\Surviving Mars\ModTools\hgimgcvt.exe
+X:\Cracked\Surviving Mars\ModTools\opusenc.exe
+X:\Cracked\Surviving Mars\ModTools\AssetsProcessor\AssetsProcessor.exe
+X:\Cracked\Surviving Mars\ModTools\AssetsProcessor\hgnvcompress.exe
+X:\Cracked\TEKKEN 7\TEKKEN 7.exe
+X:\Cracked\TEKKEN 7\TekkenGame\Binaries\Win64\TekkenGame-Win64-Shipping.exe
+X:\Cracked\Terminator - Resistance\Terminator.exe
+X:\Cracked\Terminator - Resistance\Terminator\Binaries\Win64\Terminator-Win64-Shipping.exe
+X:\Cracked\The Elder Scrolls - Skyrim - Special Edition\SkyrimSE.exe
+X:\Cracked\The Elder Scrolls - Skyrim - Special Edition\SkyrimSELauncher.exe
+X:\Cracked\The Elder Scrolls - Skyrim - Special Edition\NoDVD\ALI213\SkyrimSE.exe
+X:\Cracked\The Elder Scrolls - Skyrim - Special Edition\NoDVD\CODEX\SkyrimSE.exe
+X:\Cracked\The Elder Scrolls - Skyrim - Special Edition\NoDVD\SSE_v1.4.3\SkyrimSE.exe
+X:\Cracked\The Elder Scrolls - Skyrim - Special Edition\NoDVD\SSE_v1.4.3\SmartSteamLoader_x64.exe
+X:\Cracked\The Jackbox Party Pack 5\The Jackbox Party Pack 5.exe
+X:\Cracked\The Jackbox Party Pack 6\The Jackbox Party Pack 6.exe
+X:\Cracked\The Legend of Zelda - Breath of the Wild\cemu\Cemu.exe
+X:\Cracked\The Movies Complete Collection\MoviesSE.exe
+X:\Cracked\The Movies Complete Collection\StarMaker.exe
+X:\Cracked\The Sims 4\Game\Bin\TS4_x64.exe
+X:\Cracked\The Sims 4\Game\Bin_LE\TS4.exe
+X:\Cracked\The Sims 4\__Installer\vp6\vp6install.exe
+X:\Cracked\The Witcher 3 - Wild Hunt\bin\x64\witcher3.exe
+X:\Cracked\theHunter - Call of the Wild\theHunterCotW_F.exe
+X:\Cracked\Thief Simulator\thief.exe
+X:\Cracked\Titanfall 2\Titanfall2.exe
+X:\Cracked\Titanfall 2\__overlay\overlayinjector.exe
+X:\Cracked\Tom Clancy's Ghost Recon - Wildlands\GRW.exe
+X:\Cracked\Tom Clancy's Ghost Recon - Wildlands\rungame.exe
+X:\Cracked\Total Overdose\TOD.exe
+X:\Cracked\Total Overdose\TotalOverdose.exe
+X:\Cracked\Totally Reliable Delivery Service Deluxe Edition\Totally Reliable Delivery Service.exe
+X:\Cracked\Two Point Hospital\TPH.exe
+X:\Cracked\Undertale\UNDERTALE.exe
+X:\Cracked\Universe.Sandbox.2.Update.24.0.1\Universe Sandbox VR.exe
+X:\Cracked\Universe.Sandbox.2.Update.24.0.1\Universe Sandbox x64.exe
+X:\Cracked\Wasteland 2 - Director's Cut\WL2.exe
+X:\Cracked\Wolfenstein - Youngblood\Youngblood_x64vk.exe
+X:\Cracked\Worms Armageddon\WA.exe
+X:\Cracked\WRC 8\dbxMotionPanel.exe
+X:\Cracked\Wreckfest\DataCleaner.exe
+X:\Cracked\Wreckfest\Wreckfest.exe
+X:\Cracked\Wreckfest\Wreckfest_x64.exe
+X:\Cracked\Wreckfest\BagEdit\BagEditCommunity.exe
+X:\Cracked\Wreckfest\server\Wreckfest.exe
+X:\Cracked\Wreckfest\tools\bgeometry.exe
+X:\Cracked\Wreckfest\tools\bimage.exe
+X:\Cracked\Wreckfest\tools\workshop\Uploader.exe
+X:\Cracked\Wrench.Build.90\WrenchGame.exe
+X:\Cracked\Wrench.Build.90\WrenchGame\Binaries\Win64\WrenchGame-Win64-Shipping.exe
+X:\Cracked\WWE 2K20\WWE2K20_x64.exe
+X:\Cracked\WWE 2K20\WWE2K20_x64.unpatched.exe
+X:\Cracked\X-Plane 11\Airfoil Maker.exe
+X:\Cracked\X-Plane 11\Plane Maker.exe
+X:\Cracked\X-Plane 11\X-Plane.exe
+X:\Cracked\X-Plane 11\Resources\dlls\64\cef\win\bin\release\cefSimpleHelper.exe
+X:\Cracked\Yakuza 0\media\Yakuza0.exe
+X:\Cracked\Yakuza Kiwami\media\YakuzaKiwami.exe
+X:\Cracked\Yakuza Kiwami 2\YakuzaKiwami2.exe
+X:\SteamLib\steamapps\common\!Dead Pixels Adventure!\prikol228.exe
+X:\SteamLib\steamapps\common\- Occult Raise -\Game.exe
+X:\SteamLib\steamapps\common\2048\ded.exe
+X:\SteamLib\steamapps\common\3DMark\3DMarkLauncher.exe
+X:\SteamLib\steamapps\common\3DMark\SystemInfoSetupAssistant.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\3DMark.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\adapter_info.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\DetectArchitecture.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\dxinfo.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\DXR_info.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\StorageReader.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\SystemInfoHelper.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\jre\bin\jabswitch.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\jre\bin\jaccessinspector-32.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\jre\bin\jaccessinspector.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\jre\bin\jaccesswalker-32.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\jre\bin\jaccesswalker.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\jre\bin\java.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\jre\bin\javaw.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\jre\bin\jfr.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\jre\bin\jjs.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\jre\bin\keytool.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\jre\bin\kinit.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\jre\bin\klist.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\jre\bin\pack200.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\jre\bin\rmid.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\jre\bin\rmiregistry.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x64\jre\bin\unpack200.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\3DMark.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\adapter_info.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\DetectArchitecture.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\dxinfo.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\DXR_info.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\StorageReader.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\SystemInfoHelper.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\jre\bin\jabswitch.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\jre\bin\jaccessinspector-32.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\jre\bin\jaccessinspector.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\jre\bin\jaccesswalker-32.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\jre\bin\jaccesswalker.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\jre\bin\java.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\jre\bin\javaw.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\jre\bin\jfr.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\jre\bin\jjs.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\jre\bin\jrunscript.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\jre\bin\keytool.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\jre\bin\klist.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\jre\bin\pack200.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\jre\bin\rmid.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\jre\bin\rmiregistry.exe
+X:\SteamLib\steamapps\common\3DMark\bin\x86\jre\bin\unpack200.exe
+X:\SteamLib\steamapps\common\3DMark\dlc\fire-strike-test\bin\x64\3DMarkICFDemo.exe
+X:\SteamLib\steamapps\common\3DMark\dlc\fire-strike-test\bin\x64\3DMarkICFWorkload.exe
+X:\SteamLib\steamapps\common\3DMark\dlc\fire-strike-test\bin\x86\3DMarkICFDemo.exe
+X:\SteamLib\steamapps\common\3DMark\dlc\fire-strike-test\bin\x86\3DMarkICFWorkload.exe
+X:\SteamLib\steamapps\common\3DMark\dlc\time-spy-test\bin\x64\3DMarkTimeSpy.exe
+X:\SteamLib\steamapps\common\A Story About My Uncle\Binaries\Win32\ASAMU-Win32-Shipping.exe
+X:\SteamLib\steamapps\common\A Story About My Uncle\Binaries\Win32\UserCode\UnSetupNativeWrapper.exe
+X:\SteamLib\steamapps\common\Adventure Rage\game.exe
+X:\SteamLib\steamapps\common\Adventures Of Kok\Adventures Of Kok.exe
+X:\SteamLib\steamapps\common\Aegis Defenders\AegisDefenders.exe
+X:\SteamLib\steamapps\common\Afterfall InSanity\Binaries\Win32\InSanity-Win32-Shipping.exe
+X:\SteamLib\steamapps\common\Age Of Empires 3\bin\age3.exe
+X:\SteamLib\steamapps\common\Age Of Empires 3\bin\Age3Launcher.exe
+X:\SteamLib\steamapps\common\Age Of Empires 3\bin\age3x.exe
+X:\SteamLib\steamapps\common\Age Of Empires 3\bin\Age3xLauncher.exe
+X:\SteamLib\steamapps\common\Age Of Empires 3\bin\age3y.exe
+X:\SteamLib\steamapps\common\Age Of Empires 3\bin\autopatcher.exe
+X:\SteamLib\steamapps\common\Age Of Empires 3\bin\autopatcher2.exe
+X:\SteamLib\steamapps\common\Age Of Empires 3\bin\autopatcherx.exe
+X:\SteamLib\steamapps\common\Age Of Empires 3\bin\autopatchery.exe
+X:\SteamLib\steamapps\common\Age Of Empires 3\bin\chktrust.exe
+X:\SteamLib\steamapps\common\Age Of Empires 3\bin\dw15.exe
+X:\SteamLib\steamapps\common\Age Of Empires 3\bin\filecrc.exe
+X:\SteamLib\steamapps\common\Age Of Empires 3\bin\instapupx.exe
+X:\SteamLib\steamapps\common\Age Of Empires 3\bin\splash.exe
+X:\SteamLib\steamapps\common\Age Of Empires 3\msxml\msxml4-KB954430-enu.exe
+X:\SteamLib\steamapps\common\Age Of Empires 3\msxml\msxml4-KB973688-enu.exe
+X:\SteamLib\steamapps\common\Age of Mythology\AoMX.exe
+X:\SteamLib\steamapps\common\Age of Mythology\Launcher.exe
+X:\SteamLib\steamapps\common\Age of Mythology\movieplayer.exe
+X:\SteamLib\steamapps\common\Age of Mythology\tools\TextureCompiler.exe
+X:\SteamLib\steamapps\common\Age of Mythology\tools\TextureExtractor.exe
+X:\SteamLib\steamapps\common\Age of Mythology\tools\TextureCompiler_v2\TextureCompiler.exe
+X:\SteamLib\steamapps\common\Alien Isolation\AI.exe
+X:\SteamLib\steamapps\common\Alter Ego\AlterEgo.exe
+X:\SteamLib\steamapps\common\Alter Ego\RunDev.exe
+X:\SteamLib\steamapps\common\Alter Ego\tools\GDFInstall.exe
+X:\SteamLib\steamapps\common\Ambers BOOM\AmbersBOOM.exe
+X:\SteamLib\steamapps\common\Amnesia The Dark Descent\Amnesia.exe
+X:\SteamLib\steamapps\common\Amnesia The Dark Descent\Amnesia_NoSteam.exe
+X:\SteamLib\steamapps\common\Amnesia The Dark Descent\Launcher.exe
+X:\SteamLib\steamapps\common\AoW3\AoW3.exe
+X:\SteamLib\steamapps\common\AoW3\AoW3Launcher.exe
+X:\SteamLib\steamapps\common\AoW3\AoW3_Debug.exe
+X:\SteamLib\steamapps\common\AoW3\AoW3_PackageManager.exe
+X:\SteamLib\steamapps\common\AoW3\ModContentEd.exe
+X:\SteamLib\steamapps\common\AoW3\ModResourceEd.exe
+X:\SteamLib\steamapps\common\Apex Legends\r5apex.exe
+X:\SteamLib\steamapps\common\Ar-k\ark1.exe
+X:\SteamLib\steamapps\common\Ar-k\ark2.exe
+X:\SteamLib\steamapps\common\Ar-k\Launcher.exe
+X:\SteamLib\steamapps\common\Arma 2\arma2.exe
+X:\SteamLib\steamapps\common\Arma 2\BEsetup\setup_BattlEyeARMA2.exe
+X:\SteamLib\steamapps\common\Arma 2 Operation Arrowhead\ArmA2OA.exe
+X:\SteamLib\steamapps\common\Arma 2 Operation Arrowhead\arma2oaserver.exe
+X:\SteamLib\steamapps\common\Arma 2 Operation Arrowhead\ArmA2OA_BE.exe
+X:\SteamLib\steamapps\common\Arma 2 Operation Arrowhead\BattlEye\BEService.exe
+X:\SteamLib\steamapps\common\Arma 2 Operation Arrowhead\BattlEye\BEService_x64.exe
+X:\SteamLib\steamapps\common\Arma 2 Operation Arrowhead\DLCsetup\0ACRlite\datacachepreprocessor.exe
+X:\SteamLib\steamapps\common\Arma 2 Operation Arrowhead\DLCsetup\0ACRlite\datacacheremoval.exe
+X:\SteamLib\steamapps\common\Arma 2 Operation Arrowhead\Expansion\BattlEye\BEService.exe
+X:\SteamLib\steamapps\common\Arma 2 Operation Arrowhead\Expansion\BattlEye\BEService_x64.exe
+X:\SteamLib\steamapps\common\ARMA Cold War Assault\ColdWarAssault.exe
+X:\SteamLib\steamapps\common\ARMA Cold War Assault\ColdWarAssaultPreferences.exe
+X:\SteamLib\steamapps\common\ARMA Cold War Assault\ColdWarAssault_Server.exe
+X:\SteamLib\steamapps\common\ARMA Gold\arma.exe
+X:\SteamLib\steamapps\common\ARMA Gold\arma_server.exe
+X:\SteamLib\steamapps\common\ARMA Gold\BEsetup\Setup_BattlEyeARMAGold.exe
+X:\SteamLib\steamapps\common\ArmaTactics\ArmaTactics.exe
+X:\SteamLib\steamapps\common\Army Craft\ArmyCraft.exe
+X:\SteamLib\steamapps\common\ASCII Game Series Blocks\ASCII.exe
+X:\SteamLib\steamapps\common\Ashes of the Singularity Escalation\AshesEscalation.exe
+X:\SteamLib\steamapps\common\Ashes of the Singularity Escalation\AshesEscalation_DX11.exe
+X:\SteamLib\steamapps\common\Ashes of the Singularity Escalation\AshesEscalation_DX12.exe
+X:\SteamLib\steamapps\common\Ashes of the Singularity Escalation\AshesEscalation_Vulkan.exe
+X:\SteamLib\steamapps\common\Ashes of the Singularity Escalation\SDCR64.exe
+X:\SteamLib\steamapps\common\Ashes of the Singularity Escalation\StardockLauncher.exe
+X:\SteamLib\steamapps\common\Ashes of the Singularity Escalation\tachyon_html.exe
+X:\SteamLib\steamapps\common\Ashes of the Singularity Escalation\Updater.exe
+X:\SteamLib\steamapps\common\Assassin's Creed 2\AssassinsCreedIIGame.exe
+X:\SteamLib\steamapps\common\Assassin's Creed 2\UPlayBrowser.exe
+X:\SteamLib\steamapps\common\Assassin's Creed 2\UplayInstaller.exe
+X:\SteamLib\steamapps\common\Asset Flip Simulator - ZFE (Zero Effort Edition)\afs.exe
+X:\SteamLib\steamapps\common\assettocorsa\acs.exe
+X:\SteamLib\steamapps\common\assettocorsa\acShowroom.exe
+X:\SteamLib\steamapps\common\assettocorsa\acs_x86.exe
+X:\SteamLib\steamapps\common\assettocorsa\AssettoCorsa.exe
+X:\SteamLib\steamapps\common\assettocorsa\SteamStatisticsReader.exe
+X:\SteamLib\steamapps\common\assettocorsa\sdk\dev\acRemoteServerUDP_Example\acRemoteServerUDP_Example\obj\Debug\acRemoteServerUDP_Example.exe
+X:\SteamLib\steamapps\common\assettocorsa\sdk\dev\ksFontGenerator\ksFontGenerator.exe
+X:\SteamLib\steamapps\common\assettocorsa\sdk\dev\ksPreviewBuilder\ksPreviewBuilder.exe
+X:\SteamLib\steamapps\common\assettocorsa\server\acServer.exe
+X:\SteamLib\steamapps\common\AX EL\Air XenoDawn.exe
+X:\SteamLib\steamapps\common\BaikonurSpace\BaikonurSpace.exe
+X:\SteamLib\steamapps\common\Battalion 1944\Battalion.exe
+X:\SteamLib\steamapps\common\Battalion 1944\Battalion\Binaries\Win64\Battalion.exe
+X:\SteamLib\steamapps\common\Battalion 1944\Battalion\Binaries\Win64\BattalionModInstaller.exe
+X:\SteamLib\steamapps\common\Battlefield Bad Company 2\BFBC2Game.exe
+X:\SteamLib\steamapps\common\Battlefield Bad Company 2\install\PunkBuster\pbsvc_bc2.exe
+X:\SteamLib\steamapps\common\beyond_divinity\configtool.exe
+X:\SteamLib\steamapps\common\beyond_divinity\div.exe
+X:\SteamLib\steamapps\common\BioShock Infinite\Binaries\Prerequisites\D3D11Install_2010\D3D11Install_2010.exe
+X:\SteamLib\steamapps\common\BioShock Infinite\Binaries\Win32\BioShockInfinite.exe
+X:\SteamLib\steamapps\common\Bitcoin Miner\bitcoinminer.exe
+X:\SteamLib\steamapps\common\Black Squad\binaries\awesomium_process.exe
+X:\SteamLib\steamapps\common\Black Squad\binaries\BSLauncher.exe
+X:\SteamLib\steamapps\common\Black Squad\binaries\AutoReporter\AutoReporter.exe
+X:\SteamLib\steamapps\common\Black Squad\binaries\win32\BlackSquadGame.exe
+X:\SteamLib\steamapps\common\Black Squad\binaries\win32\BlackSquadGame_BELauncher.exe
+X:\SteamLib\steamapps\common\Black Squad\binaries\win32\BattlEye\BEService_x64.exe
+X:\SteamLib\steamapps\common\Black Squad\binaries\win64\BlackSquadGame.exe
+X:\SteamLib\steamapps\common\Black Squad\binaries\win64\BlackSquadGame_BELauncher.exe
+X:\SteamLib\steamapps\common\Black Squad\binaries\win64\BattlEye\BEService_x64.exe
+X:\SteamLib\steamapps\common\Blood Feed\BloodFeed.exe
+X:\SteamLib\steamapps\common\Bloodbath Kavkaz\FontReg.exe
+X:\SteamLib\steamapps\common\Bloodbath Kavkaz\bin\nw.exe
+X:\SteamLib\steamapps\common\BloonsTD6\BloonsTD6.exe
+X:\SteamLib\steamapps\common\BloonsTD6\Cleaner\Cleaner-BTD6.exe
+X:\SteamLib\steamapps\common\Bombastic Cars\BombasticCars.exe
+X:\SteamLib\steamapps\common\BROKE PROTOCOL\CEF\SharedPluginServer.exe
+X:\SteamLib\steamapps\common\BROKE PROTOCOL\CEF\TestClient.exe
+X:\SteamLib\steamapps\common\BrutalLegend\BrutalLegend.exe
+X:\SteamLib\steamapps\common\Bubble Strike\BubbleStrike.exe
+X:\SteamLib\steamapps\common\Bully Scholarship Edition\Bully.exe
+X:\SteamLib\steamapps\common\Bully Scholarship Edition\testapp.exe
+X:\SteamLib\steamapps\common\Burnout(TM) Paradise The Ultimate Box\BurnoutConfigTool.exe
+X:\SteamLib\steamapps\common\Burnout(TM) Paradise The Ultimate Box\BurnoutParadise.exe
+X:\SteamLib\steamapps\common\C2H6O\C2H6O.exe
+X:\SteamLib\steamapps\common\Call of Duty Advanced Warfare\s1_mp64_ship.exe
+X:\SteamLib\steamapps\common\Call of Duty Advanced Warfare\s1_sp64_ship.exe
+X:\SteamLib\steamapps\common\Call of Duty Black Ops\BlackOps.exe
+X:\SteamLib\steamapps\common\Call of Duty Black Ops\BlackOpsMP.exe
+X:\SteamLib\steamapps\common\Call of Duty Black Ops II\t6mp.exe
+X:\SteamLib\steamapps\common\Call of Duty Black Ops II\t6sp.exe
+X:\SteamLib\steamapps\common\Call of Duty Black Ops II\t6zm.exe
+X:\SteamLib\steamapps\common\Call of Duty Modern Warfare 2\iw4mp.exe
+X:\SteamLib\steamapps\common\Call of Duty Modern Warfare 2\iw4sp.exe
+X:\SteamLib\steamapps\common\Call of Duty Modern Warfare 2\iw4x.exe
+X:\SteamLib\steamapps\common\Call of Duty Modern Warfare 3\iw5mp.exe
+X:\SteamLib\steamapps\common\Call of Duty Modern Warfare 3\iw5sp.exe
+X:\SteamLib\steamapps\common\Call of Duty World at War\CoDWaW.exe
+X:\SteamLib\steamapps\common\Call of Duty World at War\CoDWaWmp.exe
+X:\SteamLib\steamapps\common\Call of Duty World at War\installers\pbsvc.exe
+X:\SteamLib\steamapps\common\Call of Duty WWII\DLogUploader.exe
+X:\SteamLib\steamapps\common\Call of Duty WWII\s2_mp64_ship.exe
+X:\SteamLib\steamapps\common\Call of Duty WWII\s2_sp64_ship.exe
+X:\SteamLib\steamapps\common\Call of Juarez - The Cartel\CoJ_TheCartel.exe
+X:\SteamLib\steamapps\common\Call to Arms\binaries\x64\BsSndRpt64.exe
+X:\SteamLib\steamapps\common\Call to Arms\binaries\x64\call_to_arms.exe
+X:\SteamLib\steamapps\common\Call to Arms\binaries\x64\call_to_arms_ed.exe
+X:\SteamLib\steamapps\common\Call to Arms\binaries\x64\call_to_arms_server.exe
+X:\SteamLib\steamapps\common\Call to Arms\binaries\x64\call_to_arms_workshop.exe
+X:\SteamLib\steamapps\common\Call to Arms\mods\tools\BDMPEG1SETUP.EXE
+X:\SteamLib\steamapps\common\Car Mechanic Simulator\cms.exe
+X:\SteamLib\steamapps\common\Car Mechanic Simulator 2015\cms2015.exe
+X:\SteamLib\steamapps\common\Carmageddon Max Damage\bin\Carmageddon_Max_Damage.exe
+X:\SteamLib\steamapps\common\Carmageddon1\CARMA\3DFX.EXE
+X:\SteamLib\steamapps\common\Carmageddon1\CARMA\3DfxCarm.exe
+X:\SteamLib\steamapps\common\Carmageddon1\CARMA\CARMA.EXE
+X:\SteamLib\steamapps\common\Carmageddon1\CARMA\DOS4GW.EXE
+X:\SteamLib\steamapps\common\Carmageddon1\CARMA\PASS.EXE
+X:\SteamLib\steamapps\common\Carmageddon1\CARMA\SNDSETUP.EXE
+X:\SteamLib\steamapps\common\Carmageddon1\CARMA\VOODO2C.EXE
+X:\SteamLib\steamapps\common\Carmageddon1\CARSPLAT\CARMAG.EXE
+X:\SteamLib\steamapps\common\Carmageddon1\CARSPLAT\CARMAGV.EXE
+X:\SteamLib\steamapps\common\Carmageddon1\CARSPLAT\CARMAV.EXE
+X:\SteamLib\steamapps\common\Carmageddon1\CARSPLAT\DOS4GW.EXE
+X:\SteamLib\steamapps\common\Carmageddon1\CARSPLAT\SETUP.EXE
+X:\SteamLib\steamapps\common\Carmageddon1\CARSPLAT\SNDSETUP.EXE
+X:\SteamLib\steamapps\common\Carmageddon1\CARSPLAT\VOODO2C.exe
+X:\SteamLib\steamapps\common\Carmageddon1\DOSBOX\dosbox.exe
+X:\SteamLib\steamapps\common\Carmageddon1\DOSBOX\DOSBOXConf.exe
+X:\SteamLib\steamapps\common\Carmageddon1\DOSBOX\nglide_config.exe
+X:\SteamLib\steamapps\common\Carmageddon2\carma2.exe
+X:\SteamLib\steamapps\common\Carmageddon2\CARMA2_HW.EXE
+X:\SteamLib\steamapps\common\Carmageddon2\Carma2_SW.exe
+X:\SteamLib\steamapps\common\Carmageddon2\ipxconfig.exe
+X:\SteamLib\steamapps\common\Carmageddon2\nglide_config.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\ChivLauncher.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\CookerSync.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\GameplayProfiler.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\MemLeakCheckDiffer.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\PackageDiffFrontEnd.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\SDKFrontend.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\SDKFrontend.vshost.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\ShaderKeyTool.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\StatsComparison.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\StatsThreshold.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\StatsViewer.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\SwarmAgent.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\SwarmCoordinator.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\UnrealCommand.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\UnrealConsole.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\UnrealLightmass.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\Win32\CMW.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\Win32\UDK.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\Win32\UnrealLightmass.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\Win32\WorkshopProc.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\Win32\WorkshopServerTool.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\Win32\WorkshopUserTool.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\Win64\CMW.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\Win64\UDK.exe
+X:\SteamLib\steamapps\common\chivalrymedievalwarfare\Binaries\Win64\UnrealLightmass.exe
+X:\SteamLib\steamapps\common\City Life 2008\BIN\BuildingImporter.exe
+X:\SteamLib\steamapps\common\City Life 2008\BIN\Citylife_launcher.exe
+X:\SteamLib\steamapps\common\City Life 2008\BIN\cld.exe
+X:\SteamLib\steamapps\common\City Life 2008\BIN\testapp.exe
+X:\SteamLib\steamapps\common\City Life 2008\Data\_FileSystemPacker.exe
+X:\SteamLib\steamapps\common\City Life 2008\Data\FxCode\Shaders\fxc.exe
+X:\SteamLib\steamapps\common\City Life 2008\Register\ShelExec.exe
+X:\SteamLib\steamapps\common\Civil Warfare Another Bullet In The War\CivilWarfare.exe
+X:\SteamLib\steamapps\common\Combat Wings Battle of Britain\game.exe
+X:\SteamLib\steamapps\common\Comedy Night\Comedy Night.exe
+X:\SteamLib\steamapps\common\Comic Book Hero\CBH.exe
+X:\SteamLib\steamapps\common\Comic Book Hero\Dependencies\Dependency_Installer.exe
+X:\SteamLib\steamapps\common\Command and Conquer Red Alert 3\RA3.exe
+X:\SteamLib\steamapps\common\Command and Conquer Red Alert 3\runme.exe
+X:\SteamLib\steamapps\common\Command and Conquer Red Alert 3\Support\Red Alert 3_code.exe
+X:\SteamLib\steamapps\common\Command and Conquer Red Alert 3\Support\EADM\eadm-installer.exe
+X:\SteamLib\steamapps\common\Company of Heroes 2\Archive.exe
+X:\SteamLib\steamapps\common\Company of Heroes 2\BsSndRpt.exe
+X:\SteamLib\steamapps\common\Company of Heroes 2\RelicCoH2.exe
+X:\SteamLib\steamapps\common\Company of Heroes 2\WorldBuilder_CoH_2.exe
+X:\SteamLib\steamapps\common\Cortex Command\Cortex Command.exe
+X:\SteamLib\steamapps\common\Counter-Strike Global Offensive\csgo.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\hl2.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\bspzip.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\captioncompiler.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\demoinfo.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\dmxconvert.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\dmxedit.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\elementviewer.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\glview.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\hammer.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\height2normal.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\height2ssbump.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\hlfaceposer.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\MakeScenesImage.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\mksheet.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\motionmapper.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\normal2ssbump.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\pfm2tgas.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\qc_eyes.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\splitskybox.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\steamerrorreporter.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\studiomdl.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\vbspinfo.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\vpk.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\vrad.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\vtex.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\vtf2tga.exe
+X:\SteamLib\steamapps\common\Counter-Strike Source\bin\vvis.exe
+X:\SteamLib\steamapps\common\Crazy Taxi\AppLauncher.exe
+X:\SteamLib\steamapps\common\Crazy Taxi\Crazy Taxi.exe
+X:\SteamLib\steamapps\common\CURE Demo\CURE Demo.exe
+X:\SteamLib\steamapps\common\D.R.O.N.E. The Game\D.R.O.N.E. Launcher.exe
+X:\SteamLib\steamapps\common\D.R.O.N.E. The Game\branches\arena-builder\D.R.O.N.E. Arena Builder.exe
+X:\SteamLib\steamapps\common\D.R.O.N.E. The Game\branches\stable\D.R.O.N.E. The Game.exe
+X:\SteamLib\steamapps\common\Dangerous Golf\Orlando.exe
+X:\SteamLib\steamapps\common\Dangerous Golf\Orlando\Binaries\Win64\Orlando-Win64-Shipping.exe
+X:\SteamLib\steamapps\common\Dark Forces\Game\DARK.EXE
+X:\SteamLib\steamapps\common\Dark Forces\Game\DOS4GW.EXE
+X:\SteamLib\steamapps\common\Dark Forces\Game\IMUSE.EXE
+X:\SteamLib\steamapps\common\Dark Forces\Game\INSTALL.EXE
+X:\SteamLib\steamapps\common\Darkness II\DarknessII.exe
+X:\SteamLib\steamapps\common\Darwin Project\Darwin.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\hl2.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\bspzip.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\captioncompiler.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\demoinfo.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\dmxconvert.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\dmxedit.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\elementviewer.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\hammer.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\height2normal.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\height2ssbump.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\hlfaceposer.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\hlmv.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\MakeScenesImage.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\mksheet.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\motionmapper.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\pfm2tgas.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\qc_eyes.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\steamerrorreporter.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\studiomdl.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\vbspinfo.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\vpk.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\vrad.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\vtex.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\vtf2tga.exe
+X:\SteamLib\steamapps\common\Day of Defeat Source\bin\vvis.exe
+X:\SteamLib\steamapps\common\dayofinfamy\dayofinfamy.exe
+X:\SteamLib\steamapps\common\dayofinfamy\dayofinfamy_BE.exe
+X:\SteamLib\steamapps\common\dayofinfamy\dayofinfamy_x64.exe
+X:\SteamLib\steamapps\common\dayofinfamy\BattlEye\BEService.exe
+X:\SteamLib\steamapps\common\dayofinfamy\BattlEye\BEService_x64.exe
+X:\SteamLib\steamapps\common\dayofinfamy\bin\captioncompiler.exe
+X:\SteamLib\steamapps\common\dayofinfamy\bin\dmxconvert.exe
+X:\SteamLib\steamapps\common\dayofinfamy\bin\dmxedit.exe
+X:\SteamLib\steamapps\common\dayofinfamy\bin\hammer.exe
+X:\SteamLib\steamapps\common\dayofinfamy\bin\hammer_run_map_launcher.exe
+X:\SteamLib\steamapps\common\dayofinfamy\bin\height2normal.exe
+X:\SteamLib\steamapps\common\dayofinfamy\bin\height2ssbump.exe
+X:\SteamLib\steamapps\common\dayofinfamy\bin\hlmv.exe
+X:\SteamLib\steamapps\common\dayofinfamy\bin\mksheet.exe
+X:\SteamLib\steamapps\common\dayofinfamy\bin\modelbrowser.exe
+X:\SteamLib\steamapps\common\dayofinfamy\bin\studiomdl.exe
+X:\SteamLib\steamapps\common\dayofinfamy\bin\vbspinfo.exe
+X:\SteamLib\steamapps\common\dayofinfamy\bin\vpk.exe
+X:\SteamLib\steamapps\common\dayofinfamy\bin\vrad.exe
+X:\SteamLib\steamapps\common\dayofinfamy\bin\vtex.exe
+X:\SteamLib\steamapps\common\dayofinfamy\bin\vtf2tga.exe
+X:\SteamLib\steamapps\common\dayofinfamy\bin\vvis.exe
+X:\SteamLib\steamapps\common\Dead Maze\DeadMaze.exe
+X:\SteamLib\steamapps\common\Dead Rising 2\deadrising2.exe
+X:\SteamLib\steamapps\common\Dead Rising 2\Zdp\zdp.exe
+X:\SteamLib\steamapps\common\DeadEffect\DeadEffect.exe
+X:\SteamLib\steamapps\common\Deadlight\Binaries\Win32\LOTDGame.exe
+X:\SteamLib\steamapps\common\Deadly Metal\nw.exe
+X:\SteamLib\steamapps\common\deadrising3\deadrising3.exe
+X:\SteamLib\steamapps\common\Defy Gravity\DefyGravity.exe
+X:\SteamLib\steamapps\common\Deponia The Complete Journey\deponia.exe
+X:\SteamLib\steamapps\common\Deponia The Complete Journey\VisionaireConfigurationTool.exe
+X:\SteamLib\steamapps\common\Destiny 2\destiny2.exe
+X:\SteamLib\steamapps\common\Destiny 2\miniTicketDbg.exe
+X:\SteamLib\steamapps\common\DIDE\DeadIslandGame.exe
+X:\SteamLib\steamapps\common\Dino D-Day\dinodday.exe
+X:\SteamLib\steamapps\common\Dino D-Day\srcds.exe
+X:\SteamLib\steamapps\common\Dinosaur Forest\DinosaurForest.exe
+X:\SteamLib\steamapps\common\Dinosaur Hunt Africa Contract\DinosaurHunterWin.exe
+X:\SteamLib\steamapps\common\DiRT 3 Complete Edition\dirt3_game.exe
+X:\SteamLib\steamapps\common\DiRT Rally\drt.exe
+X:\SteamLib\steamapps\common\DiRT Rally\tools\benchmarkparser.exe
+X:\SteamLib\steamapps\common\DiRT Showdown\showdown.exe
+X:\SteamLib\steamapps\common\DiRT Showdown\showdown_avx.exe
+X:\SteamLib\steamapps\common\DiRT Showdown\support\game_gdf_install.exe
+X:\SteamLib\steamapps\common\DiRT Showdown\support\Rapture3D\rapture3d.exe
+X:\SteamLib\steamapps\common\divine_divinity\configtool.exe
+X:\SteamLib\steamapps\common\divine_divinity\div.exe
+X:\SteamLib\steamapps\common\divinity2_dev_cut\Autorun.exe
+X:\SteamLib\steamapps\common\divinity2_dev_cut\bin\Divinity2-debug.exe
+X:\SteamLib\steamapps\common\divinity2_dev_cut\bin\Divinity2.exe
+X:\SteamLib\steamapps\common\divinity2_dev_cut\support\Adobe\AdbeRdr1014_en.exe
+X:\SteamLib\steamapps\common\divinity2_dev_cut\support\Adobe\AdbeRdr950_en.exe
+X:\SteamLib\steamapps\common\divinity2_dev_cut\support\PhysX\PhysX_9.09.0428_SystemSoftware.exe
+X:\SteamLib\steamapps\common\DOOM\DOOMx64.exe
+X:\SteamLib\steamapps\common\DOOM\DOOMx64vk.exe
+X:\SteamLib\steamapps\common\Doom 2\base\DOOM2.EXE
+X:\SteamLib\steamapps\common\Doom 2\base\dosbox.exe
+X:\SteamLib\steamapps\common\Doom 2\rerelease\DOOM II.exe
+X:\SteamLib\steamapps\common\DoucheBag\DoucheBag.exe
+X:\SteamLib\steamapps\common\Draft Day Sports College Basketball 3\DDSCB3.exe
+X:\SteamLib\steamapps\common\Draft Day Sports Pro Basketball 4\DDSPB4.exe
+X:\SteamLib\steamapps\common\DrinkBox_Game4\Game.exe
+X:\SteamLib\steamapps\common\DrinkBox_Game4\CustomSkins\DBImport.exe
+X:\SteamLib\steamapps\common\Duke Nukem 3D Twentieth Anniversary World Tour\duke3d.exe
+X:\SteamLib\steamapps\common\Duke Nukem 3D Twentieth Anniversary World Tour\DukeWorkshopUploader.exe
+X:\SteamLib\steamapps\common\Dungeons Of Kremlin Remastered\Dungeons Of Kremlin Remastered.exe
+X:\SteamLib\steamapps\common\Dying Light\DyingLightGame.exe
+X:\SteamLib\steamapps\common\Dying Light\DevTools\DyingLightPlayer.exe
+X:\SteamLib\steamapps\common\E-Startup\EStartup\Binaries\Win64\EStartup-Win64-Shipping.exe
+X:\SteamLib\steamapps\common\Enclave\Enclave.exe
+X:\SteamLib\steamapps\common\Endless Space\EndlessSpace.exe
+X:\SteamLib\steamapps\common\Enemy Front\Bin32\DedicatedServer.exe
+X:\SteamLib\steamapps\common\Enemy Front\Bin32\EnemyFront.exe
+X:\SteamLib\steamapps\common\Epic drag puZOOls\nw.exe
+X:\SteamLib\steamapps\common\Euro Truck Simulator 2\bin\win_x64\eurotrucks2.exe
+X:\SteamLib\steamapps\common\Euro Truck Simulator 2\bin\win_x86\eurotrucks2.exe
+X:\SteamLib\steamapps\common\Evergarden\Evergarden.exe
+X:\SteamLib\steamapps\common\EXIST\EXIST.exe
+X:\SteamLib\steamapps\common\EXIST\Engine\Binaries\Win64\UE4Game-Win64-Shipping.exe
+X:\SteamLib\steamapps\common\Existence speed\Existence speed.exe
+X:\SteamLib\steamapps\common\F.E.A.R. 3\F.E.A.R. 3.exe
+X:\SteamLib\steamapps\common\F1 2011\CheckXPAdminAction.exe
+X:\SteamLib\steamapps\common\F1 2011\CustomActionOnFinishInst.exe
+X:\SteamLib\steamapps\common\F1 2011\CustomActionOnGameRemoval.exe
+X:\SteamLib\steamapps\common\F1 2011\F1_2011.exe
+X:\SteamLib\steamapps\common\F1 2011\GFWL\gfwlivesetup.exe
+X:\SteamLib\steamapps\common\F1 2011\OpenAL\OpenALwEAX.exe
+X:\SteamLib\steamapps\common\F1 2012\F1_2012.exe
+X:\SteamLib\steamapps\common\F1 2014\F1_2014.exe
+X:\SteamLib\steamapps\common\F1 2015\F1_2015.exe
+X:\SteamLib\steamapps\common\f1 race stars\f1racestars.exe
+X:\SteamLib\steamapps\common\f1 race stars\support\openal\openalweax.exe
+X:\SteamLib\steamapps\common\f1 race stars\support\rapture3d\rapture3d_2.5.1game.exe
+X:\SteamLib\steamapps\common\FACE\FACE.exe
+X:\SteamLib\steamapps\common\FACE\__MACOSX\._FACE.exe
+X:\SteamLib\steamapps\common\Far Cry 2\bin\FarCry2.exe
+X:\SteamLib\steamapps\common\Far Cry 2\bin\FC2BenchmarkTool.exe
+X:\SteamLib\steamapps\common\Far Cry 2\bin\FC2Launcher.exe
+X:\SteamLib\steamapps\common\Far Cry 2\bin\FC2ServerLauncher.exe
+X:\SteamLib\steamapps\common\Far Cry 2\installers\PunkBuster\pbsvc.exe
+X:\SteamLib\steamapps\common\Fast Rolling\Rolling.exe
+X:\SteamLib\steamapps\common\Fast Rolling\Engine\Binaries\Win32\UE4Game-Win32-Shipping.exe
+X:\SteamLib\steamapps\common\Final Doom\base\DOOM2.EXE
+X:\SteamLib\steamapps\common\Final Doom\base\dosbox.exe
+X:\SteamLib\steamapps\common\firstassault\Data\shaders\fxc.exe
+X:\SteamLib\steamapps\common\firstassault\Shipping\awesomium_process.exe
+X:\SteamLib\steamapps\common\firstassault\Shipping\GAME.exe
+X:\SteamLib\steamapps\common\firstassault\Shipping\nxsteam.exe
+X:\SteamLib\steamapps\common\Five Nights at Freddy's Sister Location\SisterLocation.exe
+X:\SteamLib\steamapps\common\FlameInTheFlood\RiverGame.exe
+X:\SteamLib\steamapps\common\FlameInTheFlood\RiverGame\Binaries\Win64\RiverGame-Win64-Shipping.exe
+X:\SteamLib\steamapps\common\FlatOut\flatout.exe
+X:\SteamLib\steamapps\common\FlatOut\testapp.exe
+X:\SteamLib\steamapps\common\Flatout 3\Flatout.exe
+X:\SteamLib\steamapps\common\FlatOut Ultimate Carnage\Fouc.exe
+X:\SteamLib\steamapps\common\FlatOut Ultimate Carnage\launcher.exe
+X:\SteamLib\steamapps\common\FlatOut Ultimate Carnage\LiveUpdateLauncher.exe
+X:\SteamLib\steamapps\common\FlatOut2\FlatOut2.exe
+X:\SteamLib\steamapps\common\FlatOut2\TestApp.exe
+X:\SteamLib\steamapps\common\FlowThe Sliding\Windows\FlowTheSliding.exe
+X:\SteamLib\steamapps\common\For Honor\eac.exe
+X:\SteamLib\steamapps\common\For Honor\forhonor.exe
+X:\SteamLib\steamapps\common\For Honor\splashscreen.exe
+X:\SteamLib\steamapps\common\For Honor\Support\UplayPC\UplayInstaller.exe
+X:\SteamLib\steamapps\common\FRContainment\Containment.exe
+X:\SteamLib\steamapps\common\FSX\activate.exe
+X:\SteamLib\steamapps\common\FSX\DLCHelper.exe
+X:\SteamLib\steamapps\common\FSX\DVDCheck.exe
+X:\SteamLib\steamapps\common\FSX\FS2000.exe
+X:\SteamLib\steamapps\common\FSX\FS2002.exe
+X:\SteamLib\steamapps\common\FSX\FS9.exe
+X:\SteamLib\steamapps\common\FSX\fsx.exe
+X:\SteamLib\steamapps\common\FSX\FSXSEConfig.exe
+X:\SteamLib\steamapps\common\FSX\Kiosk.exe
+X:\SteamLib\steamapps\common\FSX\gmax\gmax12.exe
+X:\SteamLib\steamapps\common\FSX\gmax\gmax12_help.exe
+X:\SteamLib\steamapps\common\FSX\gmax\gmax12_tutorials.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\AI Objects and Waypoints\AI Objects and Waypoints.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Client Event\Client Event.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Cockpit Camera\Cockpit Camera.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Dialog Box Mode\Dialog Box Mode.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\FacilitiesData\FacilitiesData.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Input Event\Input Event.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Joystick Input\Joystick Input.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Menu Items\Menu Items.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Mission Action\Mission Action.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\No Callback\No Callback.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Request Data\Request Data.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Reserved Key\Reserved Key.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Send Event A\Send Event A.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Send Event B\Send Event B.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Send Event C\Send Event C.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Set Data\Set Data.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\System Event\System Event.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Tagged Data\Tagged Data.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\TextMenu\TextMenu.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Throttle Control\Throttle Control.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Tracking Errors\Tracking Errors.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Variable Strings\Variable Strings.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Weather Station\Weather Station.exe
+X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\Windows Event\Windows Event.exe
+X:\SteamLib\steamapps\common\FSX\SDK\SP1a\fsx_sdk_sp1a.exe
+X:\SteamLib\steamapps\common\FSX\Unsigned\Kiosk.exe
+X:\SteamLib\steamapps\common\FTL Faster Than Light\FTLGame.exe
+X:\SteamLib\steamapps\common\FullMojoRampage\FullMojo.exe
+X:\SteamLib\steamapps\common\Galactic Civilizations I Ultimate Edition\GalCiv1_steam_setup.exe
+X:\SteamLib\steamapps\common\Galactic Civilizations I Ultimate Edition\AltarianProphecy\GalCiv.exe
+X:\SteamLib\steamapps\common\Galactic Civilizations I Ultimate Edition\AltarianProphecy\gcloader.exe
+X:\SteamLib\steamapps\common\Galactic Civilizations I Ultimate Edition\GalCiv\galciv.exe
+X:\SteamLib\steamapps\common\Galactic Civilizations I Ultimate Edition\GalCiv\register_dart.exe
+X:\SteamLib\steamapps\common\Galactic Civilizations II - Ultimate Edition\DarkAvatar\GC2DarkAvatar.exe
+X:\SteamLib\steamapps\common\Galactic Civilizations II - Ultimate Edition\Twilight\GC2TwilightOfTheArnor.exe
+X:\SteamLib\steamapps\common\GarrysMod\hl2.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\awesomium_process.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\bspzip.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\captioncompiler.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\demoinfo.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\dmxedit.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\elementviewer.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\glview.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\gmad.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\gmpublish.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\hammer.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\height2normal.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\height2ssbump.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\hlfaceposer.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\hlmv.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\splitskybox.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\studiomdl.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\vbsp.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\vpk.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\vrad.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\vtex.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\vtf2tga.exe
+X:\SteamLib\steamapps\common\GarrysMod\bin\vvis.exe
+X:\SteamLib\steamapps\common\Ghost Killer\Ghost Killer.exe
+X:\SteamLib\steamapps\common\Goat of Duty\GoatOfDuty.exe
+X:\SteamLib\steamapps\common\Goat of Duty\GoatOfDuty\Binaries\Win64\GoatOfDuty-Win64-Shipping.exe
+X:\SteamLib\steamapps\common\Goat of Duty\GoatOfDuty\Plugins\SCUE4\Source\ThirdParty\x64\SCUE4x64.exe
+X:\SteamLib\steamapps\common\GoatSimulator\Binaries\Win32\GoatGame-Win32-Shipping.exe
+X:\SteamLib\steamapps\common\GoatSimulator\Install\amdcpusetup.exe
+X:\SteamLib\steamapps\common\Grand Theft Auto 3\gta3.exe
+X:\SteamLib\steamapps\common\Grand Theft Auto 3\testapp.exe
+X:\SteamLib\steamapps\common\Grand Theft Auto IV\GTAIV\gtaEncoder.exe
+X:\SteamLib\steamapps\common\Grand Theft Auto IV\GTAIV\GTAIV.exe
+X:\SteamLib\steamapps\common\Grand Theft Auto IV\GTAIV\PlayGTAIV.exe
+X:\SteamLib\steamapps\common\Grand Theft Auto V\GTA5.exe
+X:\SteamLib\steamapps\common\Grand Theft Auto V\GTAVLauncher.exe
+X:\SteamLib\steamapps\common\Grand Theft Auto V\PlayGTAV.exe
+X:\SteamLib\steamapps\common\Grand Theft Auto V\Installers\Rockstar-Games-Launcher.exe
+X:\SteamLib\steamapps\common\Grand Theft Auto Vice City\gta-vc.exe
+X:\SteamLib\steamapps\common\Grand Theft Auto Vice City\testapp.exe
+X:\SteamLib\steamapps\common\Great War 1914\1914.exe
+X:\SteamLib\steamapps\common\Grid\grid.exe
+X:\SteamLib\steamapps\common\grid 2\grid2.exe
+X:\SteamLib\steamapps\common\grid 2\grid2_avx.exe
+X:\SteamLib\steamapps\common\grid 2\tools\benchmarkparser.exe
+X:\SteamLib\steamapps\common\Guns of Icarus Online\GunsOfIcarusOnline.exe
+X:\SteamLib\steamapps\common\Guns of Icarus Online\workshop\Workshop.exe
+X:\SteamLib\steamapps\common\Half-Life\hl.exe
+X:\SteamLib\steamapps\common\Half-Life\hltv.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\hl2.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\bspzip.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\captioncompiler.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\demoinfo.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\dmxconvert.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\dmxedit.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\elementviewer.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\glview.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\hammer.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\height2normal.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\height2ssbump.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\hlfaceposer.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\hlmv.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\MakeScenesImage.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\mksheet.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\motionmapper.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\pfm2tgas.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\qc_eyes.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\splitskybox.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\steamerrorreporter.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\studiomdl.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\vbsp.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\vbspinfo.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\vpk.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\vrad.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\vtex.exe
+X:\SteamLib\steamapps\common\Half-Life 1 Source Deathmatch\bin\vvis.exe
+X:\SteamLib\steamapps\common\Half-Life 2\hl2.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\bspzip.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\captioncompiler.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\demoinfo.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\dmxconvert.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\dmxedit.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\elementviewer.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\glview.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\hammer.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\height2normal.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\hlfaceposer.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\hlmv.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\mksheet.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\motionmapper.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\pfm2tgas.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\qc_eyes.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\splitskybox.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\studiomdl.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\vbsp.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\vbspinfo.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\vpk.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\vrad.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\vtex.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\vtf2tga.exe
+X:\SteamLib\steamapps\common\Half-Life 2\bin\vvis.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\hl2.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\bspzip.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\captioncompiler.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\demoinfo.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\dmxconvert.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\dmxedit.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\elementviewer.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\glview.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\hammer.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\height2normal.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\height2ssbump.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\hlfaceposer.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\hlmv.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\MakeScenesImage.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\mksheet.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\motionmapper.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\normal2ssbump.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\pfm2tgas.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\qc_eyes.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\splitskybox.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\steamerrorreporter.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\studiomdl.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\vbsp.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\vbspinfo.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\vpk.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\vrad.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\vtex.exe
+X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\vtf2tga.exe
+X:\SteamLib\steamapps\common\Haunted\bin\release_optimized\Haunted-Settings.exe
+X:\SteamLib\steamapps\common\Haunted\bin\release_optimized\Haunted.exe
+X:\SteamLib\steamapps\common\Haunted\media\shared\gui\imagesets\AtlasCreationTool.exe
+X:\SteamLib\steamapps\common\HeadSnatchers\Headsnatchers.exe
+X:\SteamLib\steamapps\common\HeadSnatchers\Headsnatchers\Binaries\Win64\Headsnatchers-Win64-Shipping.exe
+X:\SteamLib\steamapps\common\Hearts of Iron 3\hoi3.exe
+X:\SteamLib\steamapps\common\Hearts of Iron 3\hoi3game.exe
+X:\SteamLib\steamapps\common\Hearts of Iron 3\install\NetFx64.exe
+X:\SteamLib\steamapps\common\Hentai University\HU.exe
+X:\SteamLib\steamapps\common\Hitman Absolution\HMA.exe
+X:\SteamLib\steamapps\common\Hitman™\Launcher.exe
+X:\SteamLib\steamapps\common\Hitman™\dx12Retail\HITMAN.exe
+X:\SteamLib\steamapps\common\Hitman™\Retail\HITMAN.exe
+X:\SteamLib\steamapps\common\HOMEFRONT\Binaries\HOMEFRONT.exe
+X:\SteamLib\steamapps\common\Hotline Miami 2\HotlineMiami2.exe
+X:\SteamLib\steamapps\common\hotline_miami\HotlineGL.exe
+X:\SteamLib\steamapps\common\hotline_miami\HotlineMiami.exe
+X:\SteamLib\steamapps\common\hotline_miami\HotlineMiami_Original.exe
+X:\SteamLib\steamapps\common\House of 1,000 Doors - Family Secrets\HouseOf1000Doors_FamilySecretsCE.exe
+X:\SteamLib\steamapps\common\House of 1000 Doors The Palm of Zoroaster\HouseOf1000Doors_ThePalmOfZoroasterCE.exe
+X:\SteamLib\steamapps\common\How to Survive\Detect.exe
+X:\SteamLib\steamapps\common\How to Survive\HowToSurvive.exe
+X:\SteamLib\steamapps\common\Human Fall Flat\Human.exe
+X:\SteamLib\steamapps\common\Insane Road\IR.exe
+X:\SteamLib\steamapps\common\insurgency2\insurgency.exe
+X:\SteamLib\steamapps\common\insurgency2\insurgency_BE.exe
+X:\SteamLib\steamapps\common\insurgency2\insurgency_x64.exe
+X:\SteamLib\steamapps\common\insurgency2\BattlEye\BEService.exe
+X:\SteamLib\steamapps\common\insurgency2\BattlEye\BEService_x64.exe
+X:\SteamLib\steamapps\common\insurgency2\bin\hammer_run_map_launcher.exe
+X:\SteamLib\steamapps\common\insurgency2\bin\hlfaceposer.exe
+X:\SteamLib\steamapps\common\insurgency2\bin\hlmv.exe
+X:\SteamLib\steamapps\common\insurgency2\bin\SDKLauncher.exe
+X:\SteamLib\steamapps\common\insurgency2\bin\studiomdl.exe
+X:\SteamLib\steamapps\common\insurgency2\bin\vbsp.exe
+X:\SteamLib\steamapps\common\insurgency2\bin\vrad.exe
+X:\SteamLib\steamapps\common\insurgency2\bin\vvis.exe
+X:\SteamLib\steamapps\common\InTheFighting\InTheFighting.exe
+X:\SteamLib\steamapps\common\Inverted Evolution\TheInvertedEvolution.exe
+X:\SteamLib\steamapps\common\Iron Storm\Game.exe
+X:\SteamLib\steamapps\common\Iron Storm\IronStorm.exe
+X:\SteamLib\steamapps\common\Iron Storm\IronStorm_DS.exe
+X:\SteamLib\steamapps\common\Iron Storm\ISLauncher.exe
+X:\SteamLib\steamapps\common\ISIS Simulator\isis.exe
+X:\SteamLib\steamapps\common\Jedi Academy\JediAcademy.exe
+X:\SteamLib\steamapps\common\Jedi Academy\GameData\jamp.exe
+X:\SteamLib\steamapps\common\Jedi Academy\GameData\jasp.exe
+X:\SteamLib\steamapps\common\Jedi Academy\Install\doc.exe
+X:\SteamLib\steamapps\common\Jedi Academy\Install\syscheck.exe
+X:\SteamLib\steamapps\common\Jotun\Jotun.exe
+X:\SteamLib\steamapps\common\JReX\jrex.exe
+X:\SteamLib\steamapps\common\Just Cause 2\JustCause2.exe
+X:\SteamLib\steamapps\common\Just Cause 2 - Multiplayer Mod\JcmpLauncher.exe
+X:\SteamLib\steamapps\common\Just Cause 3\JustCause3.exe
+X:\SteamLib\steamapps\common\Kane & Lynch 2 - Dog Days\kl2.exe
+X:\SteamLib\steamapps\common\Kane and Lynch Dead Men\kaneandlynch.exe
+X:\SteamLib\steamapps\common\Kane and Lynch Dead Men\knlterm.exe
+X:\SteamLib\steamapps\common\Kane and Lynch Dead Men\Launcher.exe
+X:\SteamLib\steamapps\common\Kerbal Space Program\KSP_x64.exe
+X:\SteamLib\steamapps\common\Kerbal Space Program\Launcher.exe
+X:\SteamLib\steamapps\common\KillerIsDead\Binaries\Win32\KidGame.exe
+X:\SteamLib\steamapps\common\KillingFloor\System\KillingFloor.exe
+X:\SteamLib\steamapps\common\Kung Fury Street Rage\KungFury.exe
+X:\SteamLib\steamapps\common\Learn to Drive on Moto Wars\Learn to Drive on Moto Wars.exe
+X:\SteamLib\steamapps\common\LEGO Lord of the Rings\LEGOLOTR.exe
+X:\SteamLib\steamapps\common\Life Is Strange\Binaries\Win32\LifeIsStrange.exe
+X:\SteamLib\steamapps\common\Light Gravity Cube\Light Gravity Cube.exe
+X:\SteamLib\steamapps\common\Light Gravity Cube\Temp\StagingArea\Light Gravity Cube.exe
+X:\SteamLib\steamapps\common\Lopp\nw.exe
+X:\SteamLib\steamapps\common\Lost Legends The Weeping Woman\LostLegends_TheWeepingWoman_CE.exe
+X:\SteamLib\steamapps\common\Lucius\Lucius.exe
+X:\SteamLib\steamapps\common\LuciusII\LuciusII.exe
+X:\SteamLib\steamapps\common\Machine Hunt\MachineHuntWin.exe
+X:\SteamLib\steamapps\common\Mafia II\launcher.exe
+X:\SteamLib\steamapps\common\Mafia II\pc\mafia2.exe
+X:\SteamLib\steamapps\common\Mafia II\pc\RemoveSaves.exe
+X:\SteamLib\steamapps\common\Mafia II Definitive Edition\pc\Mafia II Definitive Edition.exe
+X:\SteamLib\steamapps\common\Mafia II Definitive Edition\pc\Mafia2Launcher\Launcher.exe
+X:\SteamLib\steamapps\common\ManiaPlanet_TMStadium\ManiaPlanet.exe
+X:\SteamLib\steamapps\common\ManiaPlanet_TMStadium\ManiaPlanet32.exe
+X:\SteamLib\steamapps\common\ManiaPlanet_TMStadium\ManiaPlanetLauncher.exe
+X:\SteamLib\steamapps\common\ManiaPlanet_TMStadium\Updater.exe
+X:\SteamLib\steamapps\common\ManiaPlanet_TMStadium\Installer\D3D11Install.exe
+X:\SteamLib\steamapps\common\Master Levels of Doom\dosbox.exe
+X:\SteamLib\steamapps\common\Master Levels of Doom\doom2\DOOM2.EXE
+X:\SteamLib\steamapps\common\Master Levels of Doom\master\DMLOAD.EXE
+X:\SteamLib\steamapps\common\Master Levels of Doom\master\SETPATH.EXE
+X:\SteamLib\steamapps\common\Mata Hari\MataHari.exe
+X:\SteamLib\steamapps\common\Maybe Drinking. Russian Style\Maybe Drinking. Russian Style.exe
+X:\SteamLib\steamapps\common\Medal of Honor\Binaries\moh.exe
+X:\SteamLib\steamapps\common\Medal of Honor\install\PhysX\PhysX_9.09.0408_SystemSoftware.exe
+X:\SteamLib\steamapps\common\Medal of Honor\install\Punkbuster\pbsvc_moh.exe
+X:\SteamLib\steamapps\common\Medal of Honor\MP\mohmpgame.exe
+X:\SteamLib\steamapps\common\Medal of Honor Airborne\install\PunkBuster\pbsvc.exe
+X:\SteamLib\steamapps\common\Medal of Honor Airborne\UnrealEngine3\Binaries\moha_setup.exe
+X:\SteamLib\steamapps\common\Megalonia\Megalonia.exe
+X:\SteamLib\steamapps\common\Metro 2033\metro2033.exe
+X:\SteamLib\steamapps\common\Metro 2033\metro2033benchmark.exe
+X:\SteamLib\steamapps\common\Metro 2033\install\PhysX_10.02.22_9.10.0222_SystemSoftware.exe
+X:\SteamLib\steamapps\common\Metro 2033\install\D3D11Install\D3D11Install.exe
+X:\SteamLib\steamapps\common\Metro 2033 Redux\metro.exe
+X:\SteamLib\steamapps\common\Metro 2033 Redux\metro_benchmark.exe
+X:\SteamLib\steamapps\common\Metro Last Light Redux\metro.exe
+X:\SteamLib\steamapps\common\Metro Last Light Redux\metro_benchmark.exe
+X:\SteamLib\steamapps\common\mirrors edge\Binaries\MirrorsEdge.exe
+X:\SteamLib\steamapps\common\mirrors edge\PhysX\PhysX_SystemSoftware.exe
+X:\SteamLib\steamapps\common\mirrors edge\Support\Mirror's Edge_code.exe
+X:\SteamLib\steamapps\common\mirrors edge\Support\EADM\eadm-installer.exe
+X:\SteamLib\steamapps\common\MotoG14_Compact\MotoGP14.exe
+X:\SteamLib\steamapps\common\MotoG14_Compact\MotoGP14X64.exe
+X:\SteamLib\steamapps\common\Murazu\nw.exe
+X:\SteamLib\steamapps\common\Need for Speed Hot Pursuit\NFS11.exe
+X:\SteamLib\steamapps\common\Need for Speed Hot Pursuit\Support\EADM\eadm-installer.exe
+X:\SteamLib\steamapps\common\Need for Speed Undercover\nfs.exe
+X:\SteamLib\steamapps\common\Need for Speed Undercover\setup.exe
+X:\SteamLib\steamapps\common\Need for Speed Undercover\testapp.exe
+X:\SteamLib\steamapps\common\Need for Speed Undercover\pbsetup\pbsetup.exe
+X:\SteamLib\steamapps\common\Need for Speed Undercover\Support\EAregister.exe
+X:\SteamLib\steamapps\common\Need for Speed(TM) Most Wanted\NFS13.exe
+X:\SteamLib\steamapps\common\Need for Speed(TM) Most Wanted\D3D11Installer\D3D11Install.exe
+X:\SteamLib\steamapps\common\Need for Speed(TM) Most Wanted\__overlay\overlayinjector.exe
+X:\SteamLib\steamapps\common\NeonGalaxy Wars\NeonGalaxy Wars.exe
+X:\SteamLib\steamapps\common\Neonicum\Neonicum.exe
+X:\SteamLib\steamapps\common\Nice Way\Nice Way.exe
+X:\SteamLib\steamapps\common\Nice Way\__MACOSX\._Nice Way.exe
+X:\SteamLib\steamapps\common\Ninja jump\ninja.exe
+X:\SteamLib\steamapps\common\Noise\Noise.exe
+X:\SteamLib\steamapps\common\NZA\bin\NZA.exe
+X:\SteamLib\steamapps\common\Ochkarik\Ochkarik.exe
+X:\SteamLib\steamapps\common\Oddworld Abes Oddysee\AbeWin.exe
+X:\SteamLib\steamapps\common\Oddworld Abes Oddysee\testapp.exe
+X:\SteamLib\steamapps\common\OHOTA KREPKOE\OHOTA KREPKOE alpha.exe
+X:\SteamLib\steamapps\common\OneScreen Solar Sails\nw.exe
+X:\SteamLib\steamapps\common\Operation Flashpoint Dragon Rising\OFDR.exe
+X:\SteamLib\steamapps\common\Orwell\Orwell.exe
+X:\SteamLib\steamapps\common\OutDrive\OutDrive.exe
+X:\SteamLib\steamapps\common\Outlast\OutlastLauncher.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\CookerSync.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\GameplayProfiler.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\MemLeakCheckDiffer.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\NetworkProfiler.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\PackageDiffFrontEnd.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\RPCUtility.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\ShaderKeyTool.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\StatsComparison.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\StatsThreshold.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\StatsViewer.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\UnrealCommand.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\UnrealConsole.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\UnrealFrontend.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\UnrealLoc.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\UnSetup.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\GFx\gfxexport.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\GFx\GFxMediaPlayerD3d9.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\GFx\GFxMediaPlayerOpenGL.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\GFx\AMP\GFxAmpClient.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\Win32\OLGame.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\Win32\OLGame_R.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\Win32\UserCode\UnSetupNativeWrapper.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\Win64\OLGame.exe
+X:\SteamLib\steamapps\common\Outlast\Binaries\Win64\OLGame_R.exe
+X:\SteamLib\steamapps\common\Outlast 2\Binaries\Win64\Outlast2.exe
+X:\SteamLib\steamapps\common\Outrunner 2\Outrunner 2.exe
+X:\SteamLib\steamapps\common\Over 9000 Zombies!\Over9000Zombies.exe
+X:\SteamLib\steamapps\common\PapersPlease\PapersPlease.exe
+X:\SteamLib\steamapps\common\PAYDAY 2\payday2_win32_release.exe
+X:\SteamLib\steamapps\common\PAYDAY 2\payday2_win32_release_vr.exe
+X:\SteamLib\steamapps\common\Pixel War\Pixel War.exe
+X:\SteamLib\steamapps\common\Plants Vs Zombies\PlantsVsZombies.exe
+X:\SteamLib\steamapps\common\Polygoneer\Polygoneer.exe
+X:\SteamLib\steamapps\common\Portal\hl2.exe
+X:\SteamLib\steamapps\common\Portal\bin\captioncompiler.exe
+X:\SteamLib\steamapps\common\Portal\bin\demoinfo.exe
+X:\SteamLib\steamapps\common\Portal\bin\dmxconvert.exe
+X:\SteamLib\steamapps\common\Portal\bin\dmxedit.exe
+X:\SteamLib\steamapps\common\Portal\bin\elementviewer.exe
+X:\SteamLib\steamapps\common\Portal\bin\glview.exe
+X:\SteamLib\steamapps\common\Portal\bin\hammer.exe
+X:\SteamLib\steamapps\common\Portal\bin\height2ssbump.exe
+X:\SteamLib\steamapps\common\Portal\bin\hlfaceposer.exe
+X:\SteamLib\steamapps\common\Portal\bin\hlmv.exe
+X:\SteamLib\steamapps\common\Portal\bin\mksheet.exe
+X:\SteamLib\steamapps\common\Portal\bin\motionmapper.exe
+X:\SteamLib\steamapps\common\Portal\bin\normal2ssbump.exe
+X:\SteamLib\steamapps\common\Portal\bin\pfm2tgas.exe
+X:\SteamLib\steamapps\common\Portal\bin\qc_eyes.exe
+X:\SteamLib\steamapps\common\Portal\bin\splitskybox.exe
+X:\SteamLib\steamapps\common\Portal\bin\vbspinfo.exe
+X:\SteamLib\steamapps\common\Portal\bin\vpk.exe
+X:\SteamLib\steamapps\common\Portal\bin\vrad.exe
+X:\SteamLib\steamapps\common\Portal\bin\vtex.exe
+X:\SteamLib\steamapps\common\Portal\bin\vvis.exe
+X:\SteamLib\steamapps\common\POSTAL2Complete\ShareThePain\System\Postal2MP.exe
+X:\SteamLib\steamapps\common\POSTAL2Complete\ShareThePain\System\UCC.exe
+X:\SteamLib\steamapps\common\POSTAL2Complete\ShareThePain\System\UnrealEd.exe
+X:\SteamLib\steamapps\common\POSTAL2Complete\System\Postal2.exe
+X:\SteamLib\steamapps\common\Princess.Loot.Pixel.Again\game.exe
+X:\SteamLib\steamapps\common\Prison Architect\Prison Architect.exe
+X:\SteamLib\steamapps\common\Prison Architect\Prison Architect64.exe
+X:\SteamLib\steamapps\common\Prison Architect\Launcher\dowser.exe
+X:\SteamLib\steamapps\common\Prototype\prototypef.exe
+X:\SteamLib\steamapps\common\Psi Project\PSI PROJECT.exe
+X:\SteamLib\steamapps\common\Psychonauts\Psychonauts.exe
+X:\SteamLib\steamapps\common\PUBG\TslGame\Binaries\ThirdParty\WinMTR\WinMTR.exe
+X:\SteamLib\steamapps\common\PUBG\TslGame\Binaries\Win64\ExecPubg.exe
+X:\SteamLib\steamapps\common\PUBG\TslGame\Binaries\Win64\TslGame.exe
+X:\SteamLib\steamapps\common\PUBG\TslGame\Binaries\Win64\TslGame_BE.exe
+X:\SteamLib\steamapps\common\PUBG\TslGame\Binaries\Win64\TslGame_EAC.exe
+X:\SteamLib\steamapps\common\PUBG\TslGame\Binaries\Win64\TslGame_UC.exe
+X:\SteamLib\steamapps\common\PUBG\TslGame\Binaries\Win64\ucsvc.exe
+X:\SteamLib\steamapps\common\PUBG\TslGame\Binaries\Win64\BattlEye\BEService_x64.exe
+X:\SteamLib\steamapps\common\PUBG\TslGame\Binaries\Win64\iigw\iigw_server.exe
+X:\SteamLib\steamapps\common\PUTIN 20!8\game.exe
+X:\SteamLib\steamapps\common\Quake 3 Arena\Check for Q3A Updates.exe
+X:\SteamLib\steamapps\common\Quake 3 Arena\Check for Quake III Arena Updates.exe
+X:\SteamLib\steamapps\common\Quake 3 Arena\quake3.exe
+X:\SteamLib\steamapps\common\Quake 3 Arena\testapp.exe
+X:\SteamLib\steamapps\common\Quake 3 Arena\Extras\cs\sysinfo.exe
+X:\SteamLib\steamapps\common\Quake 3 Arena\Team Arena Help\register.exe
+X:\SteamLib\steamapps\common\Quake 3 Arena\Team Arena Help\Extras\cs\sysinfo.exe
+X:\SteamLib\steamapps\common\Quake II RTX\q2rtx.exe
+X:\SteamLib\steamapps\common\Quake II RTX\q2rtxded.exe
+X:\SteamLib\steamapps\common\Quake II RTX\setup\Quake2RTX-Steam-Setup.exe
+X:\SteamLib\steamapps\common\quakechampions\client\bin\pc\QuakeChampions.exe
+X:\SteamLib\steamapps\common\Randomizator\Randomizator.exe
+X:\SteamLib\steamapps\common\Ranger in Spider's den\Ranger in Spider's den.exe
+X:\SteamLib\steamapps\common\Real 1942\Real 1942.exe
+X:\SteamLib\steamapps\common\Red Orchestra 2\Binaries\Win32\ROGame.exe
+X:\SteamLib\steamapps\common\Red Orchestra 2\Binaries\Windows\pbsvc_hos.exe
+X:\SteamLib\steamapps\common\Red Wake Carnage\RedWakeCarnage.exe
+X:\SteamLib\steamapps\common\Redium\nw.exe
+X:\SteamLib\steamapps\common\RESIDENT EVIL 2  BIOHAZARD RE2\re2.exe
+X:\SteamLib\steamapps\common\Resident Evil 4\Bin32\bio4.exe
+X:\SteamLib\steamapps\common\RESIDENT EVIL 7 biohazard\re7.exe
+X:\SteamLib\steamapps\common\RESIDENT EVIL REVELATIONS 2\rerev2.exe
+X:\SteamLib\steamapps\common\Retrowave\Retrowave.exe
+X:\SteamLib\steamapps\common\Ridge Racer Unbounded\RRU.exe
+X:\SteamLib\steamapps\common\Rise of the Tomb Raider\NvProfileFixer.exe
+X:\SteamLib\steamapps\common\Rise of the Tomb Raider\ROTTR.exe
+X:\SteamLib\steamapps\common\ROAD OF DANGER\ROAD OF DANGER.exe
+X:\SteamLib\steamapps\common\Ropelike\Ropelike.exe
+X:\SteamLib\steamapps\common\Running Man 3D\RM3D.exe
+X:\SteamLib\steamapps\common\Running Man 3D\RM3D\Binaries\Win64\RM3D-Win64-Shipping.exe
+X:\SteamLib\steamapps\common\RUSSIA BATTLEGROUNDS\RUSSIA BATTLEGROUNDS.exe
+X:\SteamLib\steamapps\common\RUSSIA HORROR 20!8\RUSSIA HORROR 20!8.exe
+X:\SteamLib\steamapps\common\Saints Row the Third\game_launcher.exe
+X:\SteamLib\steamapps\common\Saints Row the Third\SaintsRowTheThird.exe
+X:\SteamLib\steamapps\common\Saints Row the Third\SaintsRowTheThird_DX11.exe
+X:\SteamLib\steamapps\common\Sanctum2\Binaries\Win32\SanctumGame-Win32-Shipping.exe
+X:\SteamLib\steamapps\common\Sanctum2\Binaries\Win32\UnSetupNativeWrapper.exe
+X:\SteamLib\steamapps\common\Sanctum2\Install\AMD\amdcpusetup.exe
+X:\SteamLib\steamapps\common\Sang-Froid Tales of Werewolves\SangFroid.exe
+X:\SteamLib\steamapps\common\Sang-Froid Tales of Werewolves\Install\SangFroidSetup.exe
+X:\SteamLib\steamapps\common\SatelliteReign\SatelliteReignWindows.exe
+X:\SteamLib\steamapps\common\SaveHer\SaveHer.exe
+X:\SteamLib\steamapps\common\Sega Classics\SEGAGameRoom.exe
+X:\SteamLib\steamapps\common\Sega Classics\SEGAGenesisClassics.exe
+X:\SteamLib\steamapps\common\Sense of The Devil\SenseofTheDevil.exe
+X:\SteamLib\steamapps\common\Septerra Core\septerra.exe
+X:\SteamLib\steamapps\common\Septerra Core\qt\QuickTimeInstaller.exe
+X:\SteamLib\steamapps\common\Serial Cleaner\Cleaner.exe
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\bin\build.exe
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\bin\sw.exe
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\bin\cmdtool\cmdtool.exe
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\bin\dosbox\DOSBox.exe
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\Commit.exe
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\Setmain.exe
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\Setup.exe
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\Sw.exe
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\Swhelp.exe
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\wanton.exe
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\build\BUILD.EXE
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\build\EDITART.EXE
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\build\KGROUP.EXE
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\build\SLABSPRI.EXE
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\docs\msword\WD95VW71.EXE
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\dragon\Commit.exe
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\dragon\Setmain.exe
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\dragon\Setup.exe
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\dragon\Sw.exe
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\dragon\Swhelp.exe
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\dragon\TDRAGON.EXE
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\dragon\DRAGONBU\SW.EXE
+X:\SteamLib\steamapps\common\Shadow Warrior Classic\gameroot\classic\dragon\DRAGONBU\SW_TD.EXE
+X:\SteamLib\steamapps\common\Showtime\Showtime.exe
+X:\SteamLib\steamapps\common\Sid Meier's Civilization III Complete\civ3PTW\Civ3XEdit.exe
+X:\SteamLib\steamapps\common\Sid Meier's Civilization III Complete\Conquests\Civ3Conquests.exe
+X:\SteamLib\steamapps\common\Sid Meier's Civilization III Complete\Conquests\Civ3Restarter.exe
+X:\SteamLib\steamapps\common\Sid Meier's Civilization V\CivilizationV.exe
+X:\SteamLib\steamapps\common\Sid Meier's Civilization V\CivilizationV_DX11.exe
+X:\SteamLib\steamapps\common\Sid Meier's Civilization V\CivilizationV_Tablet.exe
+X:\SteamLib\steamapps\common\Sid Meier's Civilization V\Launcher.exe
+X:\SteamLib\steamapps\common\Sid Meier's Civilization V\DirectX\D3D11Install.exe
+X:\SteamLib\steamapps\common\Sid Meier's Civilization V\LaunchPad\LaunchPad.exe
+X:\SteamLib\steamapps\common\Sid Meier's Civilization V\LaunchPad\QtWebEngineProcess.exe
+X:\SteamLib\steamapps\common\Sinister Zombies\Sinister Zombies.exe
+X:\SteamLib\steamapps\common\SleepingDogsDefinitiveEdition\sdhdship.exe
+X:\SteamLib\steamapps\common\Small Town Terrors Galdor's Bluff Collector's Edition\SmallTownTerrors_GaldorsBluff_CE.exe
+X:\SteamLib\steamapps\common\Small Town Terrors Livingston\SmallTownTerrors_Livingston.exe
+X:\SteamLib\steamapps\common\Snake Pass\SnakeSimulator\Binaries\Win64\SnakePass-Win64-Shipping.exe
+X:\SteamLib\steamapps\common\Sniper Elite\SniperElite.exe
+X:\SteamLib\steamapps\common\Sniper Elite\Graphics\SpecialFX\dxtex.exe
+X:\SteamLib\steamapps\common\Sniper Elite\Patches\fpupdate.exe
+X:\SteamLib\steamapps\common\Sniper Elite 3\bin\SniperElite3.exe
+X:\SteamLib\steamapps\common\Sniper Elite 3\Launcher\Sniper3Launcher.exe
+X:\SteamLib\steamapps\common\Sniper Elite Nazi Zombie Army 2\bin\NZA2.exe
+X:\SteamLib\steamapps\common\Sniper Elite V2\bin\SniperEliteV2.exe
+X:\SteamLib\steamapps\common\Sniper Elite V2\Launcher\SniperV2Launcher.exe
+X:\SteamLib\steamapps\common\Sniper Ghost Warrior\Sniper_x86.exe
+X:\SteamLib\steamapps\common\SNIPER TANKS\SNIPER TANKS.exe
+X:\SteamLib\steamapps\common\SniperGhostWarrior2\Bin32\fxc.exe
+X:\SteamLib\steamapps\common\SniperGhostWarrior2\Bin32\SniperGhostWarrior2.exe
+X:\SteamLib\steamapps\common\Sonic Adventure 2\Launcher.exe
+X:\SteamLib\steamapps\common\Sonic Adventure 2\sonic2app.exe
+X:\SteamLib\steamapps\common\Sonic Adventure DX\AppLauncher.exe
+X:\SteamLib\steamapps\common\Sonic Adventure DX\Sonic Adventure DX.exe
+X:\SteamLib\steamapps\common\Sonic and SEGA All Stars Racing\Config.exe
+X:\SteamLib\steamapps\common\Sonic and SEGA All Stars Racing\Sonic & SEGA All-Stars Racing.exe
+X:\SteamLib\steamapps\common\Sonic CD\soniccd.exe
+X:\SteamLib\steamapps\common\Sonic the Hedgehog 4 EP 1\SonicLauncher.exe
+X:\SteamLib\steamapps\common\Sonic the Hedgehog 4 EP 1\Sonic_vis.exe
+X:\SteamLib\steamapps\common\Sonic the Hedgehog 4 EP 1\Sonic_xp.exe
+X:\SteamLib\steamapps\common\Sos i Pie Sos\cheese.exe
+X:\SteamLib\steamapps\common\Soul Gambler\nw.exe
+X:\SteamLib\steamapps\common\Space Hurricane Storm\Space Hurricane Storm.exe
+X:\SteamLib\steamapps\common\Space Legends At the Edge of the Universe\game.exe
+X:\SteamLib\steamapps\common\Space Pilgrim Episode IV Sol\Game.exe
+X:\SteamLib\steamapps\common\Space Ranger vs. Reptiloids 2 Edition\Space Ranger vs Reptiloids 2 Edition.exe
+X:\SteamLib\steamapps\common\SpaceEngineers\Bin64\SpaceEngineers.exe
+X:\SteamLib\steamapps\common\SpaceEngineers\Tools\AdpcmEncode.exe
+X:\SteamLib\steamapps\common\SpaceEngineers\Tools\xWMAEncode.exe
+X:\SteamLib\steamapps\common\SpaceEngineers\Tools\DilationForm\DilationForm.exe
+X:\SteamLib\steamapps\common\SpaceEngineers\Tools\Fonts\BMFontGen\bmfontgen.exe
+X:\SteamLib\steamapps\common\SpaceEngineers\Tools\Fonts\BMFontGen\XNA\SimpleFontTest\Build\SimpleFontTest.exe
+X:\SteamLib\steamapps\common\SpaceEngineers\Tools\MwmBuilder\MwmBuilder.exe
+X:\SteamLib\steamapps\common\SpaceEngineers\Tools\Space texture converter\Textures converter\TextureBuilder.exe
+X:\SteamLib\steamapps\common\SpaceEngineers\Tools\TexturePacking\DilationForm.exe
+X:\SteamLib\steamapps\common\SpaceEngineers\Tools\TexturePacking\TexturePacking.exe
+X:\SteamLib\steamapps\common\SpaceEngineers\Tools\TexturePacking\Tools\texassemble.exe
+X:\SteamLib\steamapps\common\SpecOps_TheLine\Binaries\Win32\SpecOpsTheLine.exe
+X:\SteamLib\steamapps\common\Spelunky\Spelunky.exe
+X:\SteamLib\steamapps\common\SplitSecond\SplitSecond.exe
+X:\SteamLib\steamapps\common\Spore\runme.exe
+X:\SteamLib\steamapps\common\Spore\SporeBin\SporeApp.exe
+X:\SteamLib\steamapps\common\Spy Chameleon RGB Agent\Spy Chameleon RGB Agent.exe
+X:\SteamLib\steamapps\common\Spyro Reignited Trilogy\Spyro.exe
+X:\SteamLib\steamapps\common\Spyro Reignited Trilogy\Falcon\Binaries\Win64\Spyro-Win64-Shipping.exe
+X:\SteamLib\steamapps\common\Star Trek Bridge Crew\stbc.exe
+X:\SteamLib\steamapps\common\Star Trek Bridge Crew\UplayInstaller.exe
+X:\SteamLib\steamapps\common\Stellar Interface\StellarInterface.exe
+X:\SteamLib\steamapps\common\Stickman - Killer of Apples\Stickman - Killer of Apples.exe
+X:\SteamLib\steamapps\common\Stigmat\Stigmat.exe
+X:\SteamLib\steamapps\common\Street Racing Syndicate\Bin\SRS.EXE
+X:\SteamLib\steamapps\common\Suicideville\Suicideville.exe
+X:\SteamLib\steamapps\common\Super Meat Boy\SuperMeatBoy.exe
+X:\SteamLib\steamapps\common\Supreme Commander 2\bin\SupremeCommander2.exe
+X:\SteamLib\steamapps\common\swkotor\swconfig.exe
+X:\SteamLib\steamapps\common\swkotor\swkotor.exe
+X:\SteamLib\steamapps\common\swkotor\swupdate.exe
+X:\SteamLib\steamapps\common\swkotor\utils\swstub.exe
+X:\SteamLib\steamapps\common\Synthetik\SYNTHETIK.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\hl2.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\bspzip.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\demoinfo.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\dmxconvert.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\elementviewer.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\glview.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\hammer.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\height2normal.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\height2ssbump.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\hlfaceposer.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\hlmv.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\MakeScenesImage.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\mksheet.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\motionmapper.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\normal2ssbump.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\pfm2tgas.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\qc_eyes.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\splitskybox.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\steamerrorreporter.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\studiomdl.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\vbsp.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\vbspinfo.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\vpk.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\vrad.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\vtex.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\vtf2tga.exe
+X:\SteamLib\steamapps\common\Team Fortress 2\bin\vvis.exe
+X:\SteamLib\steamapps\common\Terraria\Terraria.exe
+X:\SteamLib\steamapps\common\Terraria\TerrariaServer.exe
+X:\SteamLib\steamapps\common\The Battle for the Hut\The Battle for the Hut.exe
+X:\SteamLib\steamapps\common\The Binding Of Isaac\Binding_of_Isaac.exe
+X:\SteamLib\steamapps\common\The Binding Of Isaac\FlashAchievements.exe
+X:\SteamLib\steamapps\common\The Binding Of Isaac\Isaac.exe
+X:\SteamLib\steamapps\common\The Bureau\Binaries\Win32\TheBureau.exe
+X:\SteamLib\steamapps\common\The Forest\TheForest.exe
+X:\SteamLib\steamapps\common\The Forest\TheForest32.exe
+X:\SteamLib\steamapps\common\The Forest\TheForestVR.exe
+X:\SteamLib\steamapps\common\The Last Hero\nw.exe
+X:\SteamLib\steamapps\common\The mutton horn - Jump jump!\The mutton horn - Jump jump!.exe
+X:\SteamLib\steamapps\common\The Scarecrow\nw.exe
+X:\SteamLib\steamapps\common\The Uncertain\splash.exe
+X:\SteamLib\steamapps\common\The Uncertain\TUE1.exe
+X:\SteamLib\steamapps\common\The Walking Dead\WalkingDead101.exe
+X:\SteamLib\steamapps\common\The Walking Dead Season Two\TheWalkingDead2.exe
+X:\SteamLib\steamapps\common\TheRedSolstice\bin\Game.exe
+X:\SteamLib\steamapps\common\Thunderbolt\Thunderbolt.exe
+X:\SteamLib\steamapps\common\Tom Clancy's Rainbow Six Siege\RainbowSix.exe
+X:\SteamLib\steamapps\common\Tom Clancy's Rainbow Six Siege\RainbowSix_BE.exe
+X:\SteamLib\steamapps\common\Tom Clancy's Rainbow Six Siege\RainbowSix_Vulkan.exe
+X:\SteamLib\steamapps\common\Tom Clancy's Rainbow Six Siege\BattlEye\BEService_x64.exe
+X:\SteamLib\steamapps\common\Tom Clancy's Rainbow Six Siege\Support\Cleaner\Cleaner.exe
+X:\SteamLib\steamapps\common\Tom Clancy's Rainbow Six Siege\Support\FirewallHelper\FirewallInstall.exe
+X:\SteamLib\steamapps\common\Tom Clancy's Rainbow Six Siege\Support\InstallerResources\UplayInstaller.exe
+X:\SteamLib\steamapps\common\Tom Clancy's The Division\thedivision.exe
+X:\SteamLib\steamapps\common\Tom Clancy's The Division\tools\uplay\uplayinstaller.exe
+X:\SteamLib\steamapps\common\Tomb Raider\TombRaider.exe
+X:\SteamLib\steamapps\common\Total Extreme Wrestling\TEW2010.exe
+X:\SteamLib\steamapps\common\Total Extreme Wrestling\UNWISE.EXE
+X:\SteamLib\steamapps\common\Total Extreme Wrestling\TEW\TEWsetup.exe
+X:\SteamLib\steamapps\common\Total Pro Golf 3\TPG3.exe
+X:\SteamLib\steamapps\common\ToyboxTurbos\ToyboxTurbos.exe
+X:\SteamLib\steamapps\common\True Bliss\TrueBliss.exe
+X:\SteamLib\steamapps\common\Tumblestone\Tumblestone.exe
+X:\SteamLib\steamapps\common\Twisted Lands Trilogy Collector's Edition\TwistedLands3in1.exe
+X:\SteamLib\steamapps\common\Twisted Lands Trilogy Collector's Edition\My Games\1\TwistedLandsShadowTown.exe
+X:\SteamLib\steamapps\common\Twisted Lands Trilogy Collector's Edition\My Games\2\TwistedLands2CE.exe
+X:\SteamLib\steamapps\common\Twisted Lands Trilogy Collector's Edition\My Games\3\TwistedLands3.exe
+X:\SteamLib\steamapps\common\Two Worlds II\TwoWorlds2.exe
+X:\SteamLib\steamapps\common\Two Worlds II\TwoWorlds2_DX10.exe
+X:\SteamLib\steamapps\common\Two Worlds II\install\PhysX\PhysX_10.01.29_9.10.0129_SystemSoftware.exe
+X:\SteamLib\steamapps\common\Ultimate Doom\base\dosbox.exe
+X:\SteamLib\steamapps\common\Ultimate Doom\rerelease\DOOM.exe
+X:\SteamLib\steamapps\common\Ultimate Epic Battle Simulator\UEBS.exe
+X:\SteamLib\steamapps\common\Underwater hunting\nw.exe
+X:\SteamLib\steamapps\common\Unreal Gold\System\gamespyinstaller220std.exe
+X:\SteamLib\steamapps\common\Unreal Gold\System\Setup.exe
+X:\SteamLib\steamapps\common\Unreal Gold\System\testapp.exe
+X:\SteamLib\steamapps\common\Unreal Gold\System\UCC.exe
+X:\SteamLib\steamapps\common\Unreal Gold\System\Unreal.exe
+X:\SteamLib\steamapps\common\Unreal Gold\System\UnrealEd.exe
+X:\SteamLib\steamapps\common\Unreal II The Awakening\System\GlmEd.exe
+X:\SteamLib\steamapps\common\Unreal II The Awakening\System\Setup.exe
+X:\SteamLib\steamapps\common\Unreal II The Awakening\System\testapp.exe
+X:\SteamLib\steamapps\common\Unreal II The Awakening\System\UCC.exe
+X:\SteamLib\steamapps\common\Unreal II The Awakening\System\Unreal2.exe
+X:\SteamLib\steamapps\common\Unreal II The Awakening\System\UnrealEd.exe
+X:\SteamLib\steamapps\common\Unreal Tournament\System\GotoHeat.exe
+X:\SteamLib\steamapps\common\Unreal Tournament\System\mplaynow.exe
+X:\SteamLib\steamapps\common\Unreal Tournament\System\Setup.exe
+X:\SteamLib\steamapps\common\Unreal Tournament\System\testapp.exe
+X:\SteamLib\steamapps\common\Unreal Tournament\System\UCC.exe
+X:\SteamLib\steamapps\common\Unreal Tournament\System\UnrealEd.exe
+X:\SteamLib\steamapps\common\Unreal Tournament\System\UnrealTournament.exe
+X:\SteamLib\steamapps\common\Unreal Tournament 2004\Manual\AdbeRdr60_enu_full.exe
+X:\SteamLib\steamapps\common\Unreal Tournament 2004\System\BugReport.exe
+X:\SteamLib\steamapps\common\Unreal Tournament 2004\System\testapp.exe
+X:\SteamLib\steamapps\common\Unreal Tournament 2004\System\UCCDepend.exe
+X:\SteamLib\steamapps\common\Unreal Tournament 2004\System\UDebugger.exe
+X:\SteamLib\steamapps\common\Unreal Tournament 2004\System\UnrealEd.exe
+X:\SteamLib\steamapps\common\Unreal Tournament 2004\System\UT2004.exe
+X:\SteamLib\steamapps\common\Unreal Tournament 3\Binaries\CookerSync.exe
+X:\SteamLib\steamapps\common\Unreal Tournament 3\Binaries\ISCopyFiles.exe
+X:\SteamLib\steamapps\common\Unreal Tournament 3\Binaries\testapp.exe
+X:\SteamLib\steamapps\common\Unreal Tournament 3\Binaries\ueScriptProfiler.exe
+X:\SteamLib\steamapps\common\Unreal Tournament 3\Binaries\UnrealConsole.exe
+X:\SteamLib\steamapps\common\Unreal Tournament 3\Binaries\UnrealFrontend.exe
+X:\SteamLib\steamapps\common\Unreal Tournament 3\Binaries\UT3.exe
+X:\SteamLib\steamapps\common\Unreal Tournament 3\Binaries\UT3OSHelper.exe
+X:\SteamLib\steamapps\common\Warface\WarfaceMycomSteamLoader.exe
+X:\SteamLib\steamapps\common\Warface\13_2000076\Bin32Release\Game.exe
+X:\SteamLib\steamapps\common\Warface\13_2000076\Bin32Release\mracinstall.exe
+X:\SteamLib\steamapps\common\Warface\13_2000076\Bin32Release\mracinstall64.exe
+X:\SteamLib\steamapps\common\Warface\13_2000076\Bin32Release\pcnsl.exe
+X:\SteamLib\steamapps\common\Warface\13_2000076\Bin64Release\Game.exe
+X:\SteamLib\steamapps\common\Warface\13_2000076\Bin64Release\mracinstall64.exe
+X:\SteamLib\steamapps\common\Warface\13_2000076\Bin64Release\pcnsl.exe
+X:\SteamLib\steamapps\common\Warface\GameCenter\BrowserClient.exe
+X:\SteamLib\steamapps\common\Warface\GameCenter\GameCenter.exe
+X:\SteamLib\steamapps\common\Warface\GameCenter\HG64.exe
+X:\SteamLib\steamapps\common\Warface\GameCenter\MyComGames.exe
+X:\SteamLib\steamapps\common\Warhammer 40,000 Space Marine\bssndrpt.exe
+X:\SteamLib\steamapps\common\Warhammer 40,000 Space Marine\SpaceMarine.exe
+X:\SteamLib\steamapps\common\Weird Dungeon Explorer Defender\nw.exe
+X:\SteamLib\steamapps\common\Wolfenstein 3D\base\dosbox.exe
+X:\SteamLib\steamapps\common\Wolfenstein 3D\base\Wolf3d.exe
+X:\SteamLib\steamapps\common\Wolfenstein.II.The.New.Colossus\NewColossus_x64vk.exe
+X:\SteamLib\steamapps\common\Wolfenstein.The.New.Order\WolfNewOrder_x64.exe
+X:\SteamLib\steamapps\common\World of Mixed Martial Arts 3\UNWISE.EXE
+X:\SteamLib\steamapps\common\World of Mixed Martial Arts 3\WMMA3.exe
+X:\SteamLib\steamapps\common\World of Mixed Martial Arts 3\MMA3\WMMA3setup.exe
+X:\SteamLib\steamapps\common\World War 2 Time of Wrath\tow_setup.exe
+X:\SteamLib\steamapps\common\World War 2 Time of Wrath\ww2.exe
+X:\SteamLib\steamapps\common\World War 2 Time of Wrath\data\scenarios\Fall Weiss\Edytor Grafu Miast.exe
+X:\SteamLib\steamapps\common\Worms\DOSBox\DOSBox.exe
+X:\SteamLib\steamapps\common\Worms\DriveC\WORMS\DOS4GW.EXE
+X:\SteamLib\steamapps\common\Worms\DriveC\WORMS\BIN\BLACK.EXE
+X:\SteamLib\steamapps\common\Worms\DriveC\WORMS\BIN\MODESET.EXE
+X:\SteamLib\steamapps\common\Worms\DriveC\WORMS\DATA\CUSTOM\GFX\DOS4GW.EXE
+X:\SteamLib\steamapps\common\Worms\DriveC\WORMS\DATA\CUSTOM\GFX\GFXCON.EXE
+X:\SteamLib\steamapps\common\Worms\DriveC\WORMS\EXTRAS\BANKEDIT\BANKEDIT.EXE
+X:\SteamLib\steamapps\common\Worms\DriveC\WORMS\EXTRAS\BANKEDIT\DOS4GW.EXE
+X:\SteamLib\steamapps\common\Worms\DriveC\WORMS\EXTRAS\CONVERT\CONVERT.EXE
+X:\SteamLib\steamapps\common\Worms\DriveC\WORMS\EXTRAS\CONVERT\DOS4GW.EXE
+X:\SteamLib\steamapps\common\Worms\DriveC\WORMS\EXTRAS\GFXCON\DOS4GW.EXE
+X:\SteamLib\steamapps\common\Worms\DriveC\WORMS\EXTRAS\GFXCON\GFXCON.EXE
+X:\SteamLib\steamapps\common\Worms\WormsCD\DOS4GW.EXE
+X:\SteamLib\steamapps\common\Worms\WormsCD\INSTALL.EXE
+X:\SteamLib\steamapps\common\Worms\WormsCD\BIN\BLACK.EXE
+X:\SteamLib\steamapps\common\Worms\WormsCD\BIN\MODESET.EXE
+X:\SteamLib\steamapps\common\Worms\WormsCD\BIN\WRMS.EXE
+X:\SteamLib\steamapps\common\Worms\WormsCD\DATA\CUSTOM\GFX\DOS4GW.EXE
+X:\SteamLib\steamapps\common\Worms\WormsCD\EXTRAS\BANKEDIT\BANKEDIT.EXE
+X:\SteamLib\steamapps\common\Worms\WormsCD\EXTRAS\BANKEDIT\DOS4GW.EXE
+X:\SteamLib\steamapps\common\Worms\WormsCD\EXTRAS\CONVERT\CONVERT.EXE
+X:\SteamLib\steamapps\common\Worms\WormsCD\EXTRAS\CONVERT\DOS4GW.EXE
+X:\SteamLib\steamapps\common\Worms\WormsCD\EXTRAS\GFXCON\DOS4GW.EXE
+X:\SteamLib\steamapps\common\Worms\WormsCD\EXTRAS\GFXCON\GFXCON.EXE
+X:\SteamLib\steamapps\common\Worms\WormsCD\EXTRAS\RANK\RANK.EXE
+X:\SteamLib\steamapps\common\Worms\WormsCD\FMV\DOS4GW.EXE
+X:\SteamLib\steamapps\common\Worms\WormsCD\FMV\PLAY.EXE
+X:\SteamLib\steamapps\common\Worms Armageddon\WA.exe
+X:\SteamLib\steamapps\common\Worms Blast\main.exe
+X:\SteamLib\steamapps\common\Worms Blast\XOM\bin\WormsBlast.exe
+X:\SteamLib\steamapps\common\Worms Clan Wars\WormsClanWars.exe
+X:\SteamLib\steamapps\common\Worms Pinball\mmlauncher.exe
+X:\SteamLib\steamapps\common\Worms Pinball\pincfg.exe
+X:\SteamLib\steamapps\common\Worms Reloaded\WormsReloaded.exe
+X:\SteamLib\steamapps\common\WormsGolf2010\WormsCrazyGolf.exe
+X:\SteamLib\steamapps\common\Zombie Kill of the Week - Reborn\Reborn.exe
+X:\SteamLib\steamapps\common\Zomborg\Zomborg.exe
