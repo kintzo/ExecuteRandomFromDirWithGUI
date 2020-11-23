@@ -21,5 +21,10 @@ namespace ExecuteRandomFromDirWithGUI
         {
             this.DialogResult = DialogResult.OK;
         }
+
+        private void TextInputForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

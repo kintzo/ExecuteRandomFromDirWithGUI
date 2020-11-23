@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gkint\\Source\\Repos\\kintzo\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI.csproj": {}
+    "C:\\Users\\Sadmin\\Source\\Repos\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gkint\\Source\\Repos\\kintzo\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI.csproj": {
+    "C:\\Users\\Sadmin\\Source\\Repos\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gkint\\Source\\Repos\\kintzo\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI.csproj",
+        "projectUniqueName": "C:\\Users\\Sadmin\\Source\\Repos\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI.csproj",
         "projectName": "ExecuteRandomFromDirWithGUI",
-        "projectPath": "C:\\Users\\gkint\\Source\\Repos\\kintzo\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI.csproj",
-        "packagesPath": "C:\\Users\\gkint\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gkint\\Source\\Repos\\kintzo\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI\\obj\\",
+        "projectPath": "C:\\Users\\Sadmin\\Source\\Repos\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI.csproj",
+        "packagesPath": "C:\\Users\\Sadmin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Sadmin\\Source\\Repos\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gkint\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
