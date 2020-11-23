@@ -19,44 +19,6 @@ namespace ExecuteRandomFromDirWithGUI
         private List<ExecutableFile> executableFiles = new List<ExecutableFile>();
         private ExecutableFile executableFileCursor;
 
-        void createList(Boolean add)
-        {
-            var foldersList = File.Exists("folders.txt") ? File.ReadAllLines("folders.txt").ToList() : new List<string>();
-
-            using (FolderBrowserDialog mainFolder = new FolderBrowserDialog())
-            {
-                DialogResult result = mainFolder.ShowDialog();
-
-                if (add && foldersList.IndexOf(mainFolder.SelectedPath) > -1)
-                {
-                    MessageBox.Show($"path \"{mainFolder.SelectedPath}\" already exists");
-                    return;
-                }
-
-                if (result == DialogResult.OK)
-                {
-                    if (add)
-                    {
-                        foldersList.Add(mainFolder.SelectedPath);
-                        File.WriteAllLines("folders.txt", foldersList);
-                    }
-                    else File.WriteAllText("folders.txt", mainFolder.SelectedPath);
-
-                    string[] exefiles = GetAllSafeFiles(mainFolder.SelectedPath, null, "*.exe");
-
-                    if (add)
-                        foreach (var exeFile in exefiles) 
-                        {
-                            executableFiles.Add(new ExecutableFile(exeFile, mainFolder.SelectedPath));
-                        }
-                    else
-                        executableFiles = exefiles.Select(x => new ExecutableFile(x, "")).ToList();
-
-                    filterByBlackList();
-                    saveList();
-                }
-            }
-        }
         public static string[] GetAllSafeFiles(string path, IProgress<int> progress, string searchPattern = "*.*")
         {
             List<string> allFiles = new List<string>();
@@ -199,28 +161,12 @@ namespace ExecuteRandomFromDirWithGUI
 
         void DeleteExeFromList()
         {
-            //var item = selectedLabel.Text;
             var item = executableFileCursor;
             
             setCurrentFile(null);
 
             executableFiles = executableFiles.Where(x => x.fullPath != item.fullPath).ToList();
             saveList();
-            //var exeList = File.ReadAllLines("output.txt").ToList();
-            //var list = exeList.Where(x => x != item).ToList();
-            //listBox1.DataSource = list;
-
-            //File.WriteAllLines("output.txt", list);
-        }
-
-        private void newListToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            createList(false);
-        }
-
-        private void addToListToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            createList(true);
         }
 
         private void addToBlacklistToolStripMenuItem_Click(object sender, EventArgs e)
@@ -279,10 +225,12 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (listBox1.SelectedIndex < 0) return;
-
-            var item = executableFiles[listBox1.SelectedIndex];
-            setCurrentFile(item);
+            try
+            {
+                var item = executableFiles[listBox1.SelectedIndex];
+                setCurrentFile(item);
+            }
+            catch { }  
         }
 
         private void editToolStripMenuItem_Click(object sender, EventArgs e)
