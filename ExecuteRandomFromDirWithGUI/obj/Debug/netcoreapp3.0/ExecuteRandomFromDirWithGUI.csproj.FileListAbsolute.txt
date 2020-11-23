@@ -5,7 +5,6 @@ C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFrom
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\netcoreapp3.0\ExecuteRandomFromDirWithGUI.runtimeconfig.dev.json
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\netcoreapp3.0\ExecuteRandomFromDirWithGUI.dll
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\netcoreapp3.0\ExecuteRandomFromDirWithGUI.pdb
-C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\netcoreapp3.0\ExecuteRandomFromDirWithGUI.csprojAssemblyReference.cache
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\netcoreapp3.0\ExecuteRandomFromDirWithGUI.About.resources
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\netcoreapp3.0\ExecuteRandomFromDirWithGUI.FormBlackList.resources
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\netcoreapp3.0\ExecuteRandomFromDirWithGUI.FormFolders.resources
@@ -17,3 +16,4 @@ C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFrom
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\netcoreapp3.0\ExecuteRandomFromDirWithGUI.dll
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\netcoreapp3.0\ExecuteRandomFromDirWithGUI.pdb
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\netcoreapp3.0\ExecuteRandomFromDirWithGUI.genruntimeconfig.cache
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\netcoreapp3.0\ExecuteRandomFromDirWithGUI.csprojAssemblyReference.cache

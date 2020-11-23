@@ -187,7 +187,8 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void button6_Click(object sender, EventArgs e)
         {
-            DeleteExeFromList();
+            var b = MessageBox.Show($"Remove Path: \"{executableFileCursor.fullPath}\" ?", $"Delete {executableFileCursor.theFile}", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (b == DialogResult.Yes) DeleteExeFromList();
         }
 
         void DeleteExeFromList()
@@ -252,8 +253,17 @@ namespace ExecuteRandomFromDirWithGUI
             if (executableFiles.Count > 0)
             {
                 var tmpList = executableFiles.Where(x => !x.hasRun).ToList();
-                int index = new Random().Next(tmpList.Count);
-                setCurrentFile(tmpList[index]);
+
+                if (tmpList.Count == 0) 
+                {
+                    MessageBox.Show("No file was found that hasn't been executed.", "Select Something New", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                int tmpIndex = new Random().Next(tmpList.Count);
+                var lbIndex = listBox1.Items.IndexOf(tmpList[tmpIndex]);
+
+                setCurrentFile((ExecutableFile)listBox1.Items[lbIndex]);
             }
             else
             {
@@ -277,6 +287,13 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void renewToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            var b = MessageBox.Show(
+                "Do you want to renew the files list? " + Environment.NewLine + Environment.NewLine + "Warning: This action will clear the existing list and replace it with a new one!",
+                "Renew List", MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning);
+
+            if (b == DialogResult.No) return;
+
             var foldersList = File.Exists("folders.txt") ? File.ReadAllLines("folders.txt").ToList() : new List<string>();
 
             executableFiles = new List<ExecutableFile>();
