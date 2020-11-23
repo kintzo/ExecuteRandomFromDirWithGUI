@@ -5,7 +5,6 @@ C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFrom
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\netcoreapp3.1\ExecuteRandomFromDirWithGUI.runtimeconfig.dev.json
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\netcoreapp3.1\ExecuteRandomFromDirWithGUI.dll
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\netcoreapp3.1\ExecuteRandomFromDirWithGUI.pdb
-C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\netcoreapp3.1\ExecuteRandomFromDirWithGUI.csprojAssemblyReference.cache
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\netcoreapp3.1\ExecuteRandomFromDirWithGUI.About.resources
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\netcoreapp3.1\ExecuteRandomFromDirWithGUI.FormBlackList.resources
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\netcoreapp3.1\ExecuteRandomFromDirWithGUI.FormFolders.resources
@@ -36,3 +35,5 @@ C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWit
 C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\netcoreapp3.1\ExecuteRandomFromDirWithGUI.dll
 C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\netcoreapp3.1\ExecuteRandomFromDirWithGUI.pdb
 C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\netcoreapp3.1\ExecuteRandomFromDirWithGUI.genruntimeconfig.cache
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\netcoreapp3.1\BetterFolderBrowser.dll
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\netcoreapp3.1\ExecuteRandomFromDirWithGUI.csproj.CopyComplete

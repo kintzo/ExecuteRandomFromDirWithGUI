@@ -98,10 +98,10 @@
             this.selectedLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.selectedLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.selectedLabel.ForeColor = System.Drawing.Color.White;
-            this.selectedLabel.Location = new System.Drawing.Point(13, 391);
+            this.selectedLabel.Location = new System.Drawing.Point(14, 392);
             this.selectedLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.selectedLabel.Name = "selectedLabel";
-            this.selectedLabel.Size = new System.Drawing.Size(598, 41);
+            this.selectedLabel.Size = new System.Drawing.Size(598, 17);
             this.selectedLabel.TabIndex = 6;
             // 
             // button5
@@ -288,10 +288,10 @@
             // ProgressLabel
             // 
             this.ProgressLabel.ForeColor = System.Drawing.Color.White;
-            this.ProgressLabel.Location = new System.Drawing.Point(14, 399);
+            this.ProgressLabel.Location = new System.Drawing.Point(14, 414);
             this.ProgressLabel.MaximumSize = new System.Drawing.Size(640, 0);
             this.ProgressLabel.Name = "ProgressLabel";
-            this.ProgressLabel.Size = new System.Drawing.Size(598, 21);
+            this.ProgressLabel.Size = new System.Drawing.Size(598, 27);
             this.ProgressLabel.TabIndex = 15;
             this.ProgressLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -301,7 +301,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.ClientSize = new System.Drawing.Size(624, 441);
-            this.Controls.Add(this.ProgressLabel);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.Separator);
             this.Controls.Add(this.label2);
@@ -314,6 +313,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.listCountLabel);
+            this.Controls.Add(this.ProgressLabel);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
