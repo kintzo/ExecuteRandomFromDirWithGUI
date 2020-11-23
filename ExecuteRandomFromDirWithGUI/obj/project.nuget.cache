@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t6ZtCuGPfQ3t8MaHKwkA4WmKu9aku4NDBNaQze1+ApvhCeAll0JNv7z2+JFWkg9A46z34B1jIxHaAGirlcKpkw==",
+  "dgSpecHash": "c5UhtnSCrkl/QiFD6+ub7BCNCcgx6oPwC7PlGwoIE0Z+FFLjOJcfzR8moScY+gxN+P03zXBHXCPuRrG7Gnujmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sadmin\\Source\\Repos\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Sadmin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
-    "C:\\Users\\Sadmin\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
-    "C:\\Users\\Sadmin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.0.3\\microsoft.netcore.app.host.win-x64.3.0.3.nupkg.sha512",
-    "C:\\Users\\Sadmin\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\gkint\\Source\\Repos\\kintzo\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI\\ExecuteRandomFromDirWithGUI.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

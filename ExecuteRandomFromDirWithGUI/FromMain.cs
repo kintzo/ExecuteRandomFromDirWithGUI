@@ -5,6 +5,7 @@ using System.Linq;
 using System.Windows.Forms;
 using System.IO;
 using System.Xml.Linq;
+using System.Threading.Tasks;
 
 namespace ExecuteRandomFromDirWithGUI
 {
@@ -41,7 +42,7 @@ namespace ExecuteRandomFromDirWithGUI
                     }
                     else File.WriteAllText("folders.txt", mainFolder.SelectedPath);
 
-                    string[] exefiles = GetAllSafeFiles(mainFolder.SelectedPath, "*.exe");
+                    string[] exefiles = GetAllSafeFiles(mainFolder.SelectedPath, null, "*.exe");
 
                     if (add)
                         foreach (var exeFile in exefiles) 
@@ -56,24 +57,28 @@ namespace ExecuteRandomFromDirWithGUI
                 }
             }
         }
-        public static string[] GetAllSafeFiles(string path, string searchPattern = "*.*")
+        public static string[] GetAllSafeFiles(string path, IProgress<int> progress, string searchPattern = "*.*")
         {
             List<string> allFiles = new List<string>();
             string[] root = Directory.GetFiles(path, searchPattern);
             allFiles.AddRange(root);
 
             string[] folders = Directory.GetDirectories(path);
-            foreach (string folder in folders)
+            for (var i = 0; i < folders.Length; i++)
             {
+                var perComplete = (i * 100) / folders.Length;
+                progress.Report(perComplete);
+
                 try
                 {
-                    if (!IsIgnorable(folder))
+                    if (!IsIgnorable(folders[i]))
                     {
-                        allFiles.AddRange(Directory.GetFiles(folder, searchPattern, SearchOption.AllDirectories));
+                        allFiles.AddRange(Directory.GetFiles(folders[i], searchPattern, SearchOption.AllDirectories));
                     }
                 }
                 catch { }
             }
+
             return allFiles.ToArray();
         }
 
@@ -286,7 +291,7 @@ namespace ExecuteRandomFromDirWithGUI
             foldersListForm.Show();
         }      
 
-        private void renewToolStripMenuItem_Click(object sender, EventArgs e)
+        private async void renewToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var b = MessageBox.Show(
                 "Do you want to renew the files list? " + Environment.NewLine + Environment.NewLine + "Warning: This action will clear the existing list and replace it with a new one!",
@@ -299,38 +304,43 @@ namespace ExecuteRandomFromDirWithGUI
 
             executableFiles = new List<ExecutableFile>();
 
+            progressBar1.Visible = true;
             foreach (var folder in foldersList) 
             {
-                var exefiles = GetAllSafeFiles(folder, "*.exe").ToList();
+                var progress = new Progress<int>(value =>
+                {
+                    progressBar1.Value = value;
+                });
+
+                var exefiles = await Task.Run(() => GetAllSafeFiles(folder, progress, "*.exe"));
                 executableFiles.AddRange(exefiles.Select(x => new ExecutableFile(x, folder)).ToList());
             }
+            progressBar1.Visible = false;
 
             saveList();
         }
 
-        private void updateToolStripMenuItem_Click(object sender, EventArgs e)
+        private async void updateToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var foldersList = File.Exists("folders.txt") ? File.ReadAllLines("folders.txt").ToList() : new List<string>();
 
+            progressBar1.Visible = true;
             foreach (var folder in foldersList)
             {
                 if (executableFiles.Where(x => x.selectedFolder == folder).ToList().Count > 0) continue;
 
-                var exefiles = GetAllSafeFiles(folder, "*.exe").ToList();
+                var progress = new Progress<int>(value =>
+                {
+                    progressBar1.Value = value;
+                });
+
+                var exefiles = await Task.Run(() => GetAllSafeFiles(folder, progress, "*.exe"));
+
                 executableFiles.AddRange(exefiles.Select(x => new ExecutableFile(x, folder)).ToList());
             }
+            progressBar1.Visible = false;
 
             saveList();
-        }
-
-        private void selectedLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
         }
     }
 }

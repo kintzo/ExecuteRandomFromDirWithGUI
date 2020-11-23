@@ -48,6 +48,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.listCountLabel = new System.Windows.Forms.Label();
             this.Separator = new System.Windows.Forms.Label();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -101,7 +102,6 @@
             this.selectedLabel.Name = "selectedLabel";
             this.selectedLabel.Size = new System.Drawing.Size(598, 41);
             this.selectedLabel.TabIndex = 6;
-            this.selectedLabel.Click += new System.EventHandler(this.selectedLabel_Click);
             // 
             // button5
             // 
@@ -141,7 +141,6 @@
             this.menuStrip1.Size = new System.Drawing.Size(624, 24);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // listToolStripMenuItem
             // 
@@ -277,12 +276,21 @@
             this.Separator.TabIndex = 13;
             this.Separator.Text = "label3";
             // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(0, 436);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(624, 23);
+            this.progressBar1.TabIndex = 14;
+            this.progressBar1.Visible = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.ClientSize = new System.Drawing.Size(624, 441);
+            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.Separator);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.smth_new);
@@ -330,6 +338,7 @@
         private System.Windows.Forms.ToolStripMenuItem updateToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
         private System.Windows.Forms.Label Separator;
+        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }
 
