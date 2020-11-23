@@ -288,9 +288,10 @@
             // ProgressLabel
             // 
             this.ProgressLabel.ForeColor = System.Drawing.Color.White;
-            this.ProgressLabel.Location = new System.Drawing.Point(13, 417);
+            this.ProgressLabel.Location = new System.Drawing.Point(14, 399);
+            this.ProgressLabel.MaximumSize = new System.Drawing.Size(640, 0);
             this.ProgressLabel.Name = "ProgressLabel";
-            this.ProgressLabel.Size = new System.Drawing.Size(598, 16);
+            this.ProgressLabel.Size = new System.Drawing.Size(598, 21);
             this.ProgressLabel.TabIndex = 15;
             this.ProgressLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 

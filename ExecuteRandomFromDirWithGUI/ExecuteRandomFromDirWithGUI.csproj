@@ -4,5 +4,6 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
 </Project>
