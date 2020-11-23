@@ -99,6 +99,7 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            menuStrip1.ForeColor=System.Drawing.Color.White;
             readList();           
         }
 
@@ -320,6 +321,16 @@ namespace ExecuteRandomFromDirWithGUI
             }
 
             saveList();
+        }
+
+        private void selectedLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

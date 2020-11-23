@@ -2,13 +2,6 @@
 <ExecutableFiles>
   <ExecutableFile>
     <hasRun>True</hasRun>
-    <fullPath>D:\games\pacapong.exe</fullPath>
-    <path>D:\games</path>
-    <theFile>pacapong.exe</theFile>
-    <selectedFolder>D:\games</selectedFolder>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>True</hasRun>
     <fullPath>D:\games\Dos Games\Amazing SpiderMan (1989)\SPIDEY.EXE</fullPath>
     <path>D:\games\Dos Games\Amazing SpiderMan (1989)</path>
     <theFile>SPIDEY.EXE</theFile>
@@ -271,13 +264,6 @@
     <fullPath>D:\Downloads\[R.G. Mechanics] The Amazing Spider-Man 2\Redist\vcredist_x86_2012.exe</fullPath>
     <path>D:\Downloads\[R.G. Mechanics] The Amazing Spider-Man 2\Redist</path>
     <theFile>vcredist_x86_2012.exe</theFile>
-    <selectedFolder>D:\Downloads</selectedFolder>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>True</hasRun>
-    <fullPath>D:\Downloads\[R.G. Mechanics] The Amazing Spider-Man 2\Redist\DirectX\DXSETUP.exe</fullPath>
-    <path>D:\Downloads\[R.G. Mechanics] The Amazing Spider-Man 2\Redist\DirectX</path>
-    <theFile>DXSETUP.exe</theFile>
     <selectedFolder>D:\Downloads</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
