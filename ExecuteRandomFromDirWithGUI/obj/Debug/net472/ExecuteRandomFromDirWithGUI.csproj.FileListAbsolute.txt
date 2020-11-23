@@ -1,0 +1,14 @@
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\net472\ExecuteRandomFromDirWithGUI.csprojAssemblyReference.cache
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\net472\ExecuteRandomFromDirWithGUI.FormAbout.resources
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\net472\ExecuteRandomFromDirWithGUI.FormBlackList.resources
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\net472\ExecuteRandomFromDirWithGUI.FormFolders.resources
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\net472\ExecuteRandomFromDirWithGUI.FromMain.resources
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\net472\ExecuteRandomFromDirWithGUI.Properties.Resources.resources
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\net472\ExecuteRandomFromDirWithGUI.TextInputForm.resources
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\net472\ExecuteRandomFromDirWithGUI.csproj.GenerateResource.cache
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\net472\ExecuteRandomFromDirWithGUI.csproj.CoreCompileInputs.cache
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\net472\ExecuteRandomFromDirWithGUI.exe.config
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\net472\ExecuteRandomFromDirWithGUI.exe
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\net472\ExecuteRandomFromDirWithGUI.pdb
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\net472\ExecuteRandomFromDirWithGUI.exe
+C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\net472\ExecuteRandomFromDirWithGUI.pdb

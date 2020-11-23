@@ -13,12 +13,14 @@ namespace ExecuteRandomFromDirWithGUI
         public string theFile { get; set; }
         public string fullPath { get; set; }
         public bool hasRun { get; set; }
+        public string? selectedFolder { get; set; }
 
         public ExecutableFile() { }
-        public ExecutableFile(string FullPath) {
+        public ExecutableFile(string FullPath, string? theSelectedFolder) {
             path = Path.GetDirectoryName(FullPath);
             theFile = Path.GetFileName(FullPath);
             fullPath = FullPath;
+            selectedFolder = theSelectedFolder;
         }
 
         public void Execute() {

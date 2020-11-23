@@ -46,10 +46,10 @@ namespace ExecuteRandomFromDirWithGUI
                     if (add)
                         foreach (var exeFile in exefiles) 
                         {
-                            executableFiles.Add(new ExecutableFile(exeFile));
+                            executableFiles.Add(new ExecutableFile(exeFile, mainFolder.SelectedPath));
                         }
                     else
-                        executableFiles = exefiles.Select(x => new ExecutableFile(x)).ToList();
+                        executableFiles = exefiles.Select(x => new ExecutableFile(x, "")).ToList();
 
                     filterByBlackList();
                     saveList();
@@ -116,6 +116,7 @@ namespace ExecuteRandomFromDirWithGUI
                 itemElement.Add(new XElement("fullPath", x.fullPath));
                 itemElement.Add(new XElement("path", x.path));
                 itemElement.Add(new XElement("theFile", x.theFile));
+                itemElement.Add(new XElement("selectedFolder", x.selectedFolder));
                 doc.Element("ExecutableFiles").Add(itemElement);
             });         
             doc.Save(output);
@@ -139,7 +140,8 @@ namespace ExecuteRandomFromDirWithGUI
                         hasRun = x.Element("hasRun").Value == true.ToString(),
                         fullPath = x.Element("fullPath").Value,
                         path = x.Element("path").Value,
-                        theFile = x.Element("theFile").Value
+                        theFile = x.Element("theFile").Value,
+                        selectedFolder = x.Element("selectedFolder").Value
                     };
                 }).ToList();
             listBox1.DataSource = executableFiles;
@@ -265,6 +267,42 @@ namespace ExecuteRandomFromDirWithGUI
 
             var item = executableFiles[listBox1.SelectedIndex];
             setCurrentFile(item);
+        }
+
+        private void editToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var foldersListForm = new FormFolders();
+            foldersListForm.Show();
+        }      
+
+        private void renewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var foldersList = File.Exists("folders.txt") ? File.ReadAllLines("folders.txt").ToList() : new List<string>();
+
+            executableFiles = new List<ExecutableFile>();
+
+            foreach (var folder in foldersList) 
+            {
+                var exefiles = GetAllSafeFiles(folder, "*.exe").ToList();
+                executableFiles.AddRange(exefiles.Select(x => new ExecutableFile(x, folder)).ToList());
+            }
+
+            saveList();
+        }
+
+        private void updateToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var foldersList = File.Exists("folders.txt") ? File.ReadAllLines("folders.txt").ToList() : new List<string>();
+
+            foreach (var folder in foldersList)
+            {
+                if (executableFiles.Where(x => x.selectedFolder == folder).ToList().Count > 0) continue;
+
+                var exefiles = GetAllSafeFiles(folder, "*.exe").ToList();
+                executableFiles.AddRange(exefiles.Select(x => new ExecutableFile(x, folder)).ToList());
+            }
+
+            saveList();
         }
     }
 }

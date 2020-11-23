@@ -37,8 +37,10 @@
             this.button6 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.listToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.newListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addToListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.foldersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.renewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.updateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.addToBlacklistToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,9 +52,10 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(518, 33);
+            this.button3.Location = new System.Drawing.Point(604, 38);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(92, 23);
+            this.button3.Size = new System.Drawing.Size(107, 27);
             this.button3.TabIndex = 2;
             this.button3.Text = "Select Random";
             this.button3.UseVisualStyleBackColor = true;
@@ -65,20 +68,23 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.listBox1.FormattingEnabled = true;
             this.listBox1.HorizontalScrollbar = true;
-            this.listBox1.Location = new System.Drawing.Point(9, 33);
+            this.listBox1.ItemHeight = 15;
+            this.listBox1.Location = new System.Drawing.Point(10, 38);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(503, 355);
+            this.listBox1.Size = new System.Drawing.Size(586, 409);
             this.listBox1.TabIndex = 4;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(12, 391);
+            this.label1.Location = new System.Drawing.Point(14, 451);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(155, 16);
+            this.label1.Size = new System.Drawing.Size(154, 16);
             this.label1.TabIndex = 5;
             this.label1.Text = "Selected Executable:";
             // 
@@ -87,17 +93,19 @@
             this.selectedLabel.AutoSize = true;
             this.selectedLabel.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.selectedLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.selectedLabel.Location = new System.Drawing.Point(12, 419);
+            this.selectedLabel.Location = new System.Drawing.Point(14, 483);
+            this.selectedLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.selectedLabel.Name = "selectedLabel";
-            this.selectedLabel.Size = new System.Drawing.Size(0, 13);
+            this.selectedLabel.Size = new System.Drawing.Size(0, 15);
             this.selectedLabel.TabIndex = 6;
             // 
             // button5
             // 
             this.button5.Enabled = false;
-            this.button5.Location = new System.Drawing.Point(518, 336);
+            this.button5.Location = new System.Drawing.Point(604, 388);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(92, 23);
+            this.button5.Size = new System.Drawing.Size(107, 27);
             this.button5.TabIndex = 7;
             this.button5.Text = "Run Selected";
             this.button5.UseVisualStyleBackColor = true;
@@ -106,9 +114,10 @@
             // button6
             // 
             this.button6.Enabled = false;
-            this.button6.Location = new System.Drawing.Point(518, 365);
+            this.button6.Location = new System.Drawing.Point(604, 421);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(92, 23);
+            this.button6.Size = new System.Drawing.Size(107, 27);
             this.button6.TabIndex = 8;
             this.button6.Text = "Delete Selected";
             this.button6.UseVisualStyleBackColor = true;
@@ -122,44 +131,61 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(622, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(726, 24);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // listToolStripMenuItem
             // 
             this.listToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.newListToolStripMenuItem,
-            this.addToListToolStripMenuItem,
+            this.foldersToolStripMenuItem,
             this.toolStripSeparator1,
             this.addToBlacklistToolStripMenuItem});
             this.listToolStripMenuItem.Name = "listToolStripMenuItem";
             this.listToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.listToolStripMenuItem.Text = "List";
             // 
-            // newListToolStripMenuItem
+            // foldersToolStripMenuItem
             // 
-            this.newListToolStripMenuItem.Name = "newListToolStripMenuItem";
-            this.newListToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.newListToolStripMenuItem.Text = "New List";
-            this.newListToolStripMenuItem.Click += new System.EventHandler(this.newListToolStripMenuItem_Click);
+            this.foldersToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.editToolStripMenuItem,
+            this.renewToolStripMenuItem,
+            this.updateToolStripMenuItem});
+            this.foldersToolStripMenuItem.Name = "foldersToolStripMenuItem";
+            this.foldersToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
+            this.foldersToolStripMenuItem.Text = "Folders";
             // 
-            // addToListToolStripMenuItem
+            // editToolStripMenuItem
             // 
-            this.addToListToolStripMenuItem.Name = "addToListToolStripMenuItem";
-            this.addToListToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.addToListToolStripMenuItem.Text = "Add to List";
-            this.addToListToolStripMenuItem.Click += new System.EventHandler(this.addToListToolStripMenuItem_Click);
+            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.editToolStripMenuItem.Text = "Edit Folders";
+            this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
+            // 
+            // renewToolStripMenuItem
+            // 
+            this.renewToolStripMenuItem.Name = "renewToolStripMenuItem";
+            this.renewToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.renewToolStripMenuItem.Text = "Renew";
+            this.renewToolStripMenuItem.Click += new System.EventHandler(this.renewToolStripMenuItem_Click);
+            // 
+            // updateToolStripMenuItem
+            // 
+            this.updateToolStripMenuItem.Name = "updateToolStripMenuItem";
+            this.updateToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.updateToolStripMenuItem.Text = "Update";
+            this.updateToolStripMenuItem.Click += new System.EventHandler(this.updateToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(128, 6);
             // 
             // addToBlacklistToolStripMenuItem
             // 
             this.addToBlacklistToolStripMenuItem.Name = "addToBlacklistToolStripMenuItem";
-            this.addToBlacklistToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addToBlacklistToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.addToBlacklistToolStripMenuItem.Text = "Blacklist";
             this.addToBlacklistToolStripMenuItem.Click += new System.EventHandler(this.addToBlacklistToolStripMenuItem_Click);
             // 
@@ -174,11 +200,12 @@
             // 
             this.smth_new.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.smth_new.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.smth_new.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.smth_new.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.smth_new.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.smth_new.Location = new System.Drawing.Point(518, 62);
+            this.smth_new.Location = new System.Drawing.Point(604, 72);
+            this.smth_new.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.smth_new.Name = "smth_new";
-            this.smth_new.Size = new System.Drawing.Size(92, 53);
+            this.smth_new.Size = new System.Drawing.Size(107, 61);
             this.smth_new.TabIndex = 10;
             this.smth_new.Text = "SELECT SOMETHING NEW";
             this.smth_new.UseVisualStyleBackColor = false;
@@ -188,32 +215,31 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(523, 127);
+            this.label2.Location = new System.Drawing.Point(610, 147);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 13);
+            this.label2.Size = new System.Drawing.Size(96, 15);
             this.label2.TabIndex = 11;
             this.label2.Text = "List Items Count:";
             // 
             // listCountLabel
             // 
-            this.listCountLabel.AutoSize = true;
-            this.listCountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listCountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.listCountLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.listCountLabel.Location = new System.Drawing.Point(528, 144);
+            this.listCountLabel.Location = new System.Drawing.Point(593, 162);
+            this.listCountLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.listCountLabel.Name = "listCountLabel";
-            this.listCountLabel.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.listCountLabel.Size = new System.Drawing.Size(77, 39);
+            this.listCountLabel.Size = new System.Drawing.Size(136, 48);
             this.listCountLabel.TabIndex = 12;
-            this.listCountLabel.Text = "000";
+            this.listCountLabel.Text = "0";
             this.listCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.ClientSize = new System.Drawing.Size(622, 441);
-            this.Controls.Add(this.listCountLabel);
+            this.ClientSize = new System.Drawing.Size(726, 509);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.smth_new);
             this.Controls.Add(this.button6);
@@ -223,10 +249,12 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.listCountLabel);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.Text = "Execute Random From Dir";
@@ -247,14 +275,16 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem listToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem newListToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem addToListToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addToBlacklistToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.Button smth_new;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label listCountLabel;
+        private System.Windows.Forms.ToolStripMenuItem foldersToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem renewToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem updateToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
     }
 }
 
