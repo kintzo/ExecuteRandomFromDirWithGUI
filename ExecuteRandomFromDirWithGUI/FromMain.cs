@@ -255,6 +255,7 @@ namespace ExecuteRandomFromDirWithGUI
             progressBar1.Visible = true;
             foreach (var folder in foldersList) 
             {
+                ProgressLabel.Text = $"Scanning \"{folder}\"";
                 var progress = new Progress<int>(value =>
                 {
                     progressBar1.Value = value;
@@ -264,6 +265,7 @@ namespace ExecuteRandomFromDirWithGUI
                 executableFiles.AddRange(exefiles.Select(x => new ExecutableFile(x, folder)).ToList());
             }
             progressBar1.Visible = false;
+            ProgressLabel.Text = "";
 
             saveList();
         }
@@ -277,6 +279,7 @@ namespace ExecuteRandomFromDirWithGUI
             {
                 if (executableFiles.Where(x => x.selectedFolder == folder).ToList().Count > 0) continue;
 
+                ProgressLabel.Text = $"Scanning \"{folder}\"";
                 var progress = new Progress<int>(value =>
                 {
                     progressBar1.Value = value;
@@ -287,6 +290,7 @@ namespace ExecuteRandomFromDirWithGUI
                 executableFiles.AddRange(exefiles.Select(x => new ExecutableFile(x, folder)).ToList());
             }
             progressBar1.Visible = false;
+            ProgressLabel.Text = "";
 
             saveList();
         }

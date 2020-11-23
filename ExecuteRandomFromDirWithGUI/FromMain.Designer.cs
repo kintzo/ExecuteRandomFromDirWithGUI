@@ -49,6 +49,7 @@
             this.listCountLabel = new System.Windows.Forms.Label();
             this.Separator = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.ProgressLabel = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -284,12 +285,22 @@
             this.progressBar1.TabIndex = 14;
             this.progressBar1.Visible = false;
             // 
+            // ProgressLabel
+            // 
+            this.ProgressLabel.ForeColor = System.Drawing.Color.White;
+            this.ProgressLabel.Location = new System.Drawing.Point(13, 417);
+            this.ProgressLabel.Name = "ProgressLabel";
+            this.ProgressLabel.Size = new System.Drawing.Size(598, 16);
+            this.ProgressLabel.TabIndex = 15;
+            this.ProgressLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.ClientSize = new System.Drawing.Size(624, 441);
+            this.Controls.Add(this.ProgressLabel);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.Separator);
             this.Controls.Add(this.label2);
@@ -339,6 +350,7 @@
         private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
         private System.Windows.Forms.Label Separator;
         private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.Label ProgressLabel;
     }
 }
 

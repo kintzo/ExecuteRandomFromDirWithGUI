@@ -35,6 +35,7 @@ namespace ExecuteRandomFromDirWithGUI
             {
                 DialogResult result = mainFolder.ShowDialog();
 
+
                 if (FolderList.IndexOf(mainFolder.SelectedPath) > -1)
                 {
                     MessageBox.Show($"path \"{mainFolder.SelectedPath}\" already exists");
