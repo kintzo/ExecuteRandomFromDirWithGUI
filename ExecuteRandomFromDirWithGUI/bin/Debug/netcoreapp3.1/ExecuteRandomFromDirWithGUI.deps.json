@@ -8,17 +8,17 @@
     ".NETCoreApp,Version=v3.1": {
       "ExecuteRandomFromDirWithGUI/1.0.0": {
         "dependencies": {
-          "BetterFolderBrowser": "1.2.0"
+          "FolderBrowserEx": "1.0.0"
         },
         "runtime": {
           "ExecuteRandomFromDirWithGUI.dll": {}
         }
       },
-      "BetterFolderBrowser/1.2.0": {
+      "FolderBrowserEx/1.0.0": {
         "runtime": {
-          "lib/BetterFolderBrowser.dll": {
-            "assemblyVersion": "1.2.0.0",
-            "fileVersion": "1.2.0.0"
+          "lib/netcoreapp3.1/FolderBrowserEx.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       }
@@ -30,12 +30,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "BetterFolderBrowser/1.2.0": {
+    "FolderBrowserEx/1.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-shmLdoYnbswscye93vt/BhD2D6cgucx0Ya7y2gvqAc9j25EdcJAk7sKTpUKtqoyrBPMYdgF6YtsswomyKMCmgw==",
-      "path": "betterfolderbrowser/1.2.0",
-      "hashPath": "betterfolderbrowser.1.2.0.nupkg.sha512"
+      "sha512": "sha512-XUNPBnN9aUmjlbOnKSmGd8FzVoVyyrQbNeEoP6LXKJRded2tkV5Wx9YLVIiqBp12uySoQ9/GCtpmESjhe+v2Ww==",
+      "path": "folderbrowserex/1.0.0",
+      "hashPath": "folderbrowserex.1.0.0.nupkg.sha512"
     }
   }
 }

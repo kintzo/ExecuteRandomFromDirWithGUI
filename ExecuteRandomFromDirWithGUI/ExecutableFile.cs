@@ -1,9 +1,5 @@
-﻿using ExecuteRandomFromDirWithGUI;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.IO;
-using System.Xml.Serialization;
 
 namespace ExecuteRandomFromDirWithGUI
 {
@@ -13,17 +9,19 @@ namespace ExecuteRandomFromDirWithGUI
         public string theFile { get; set; }
         public string fullPath { get; set; }
         public bool hasRun { get; set; }
-        public string? selectedFolder { get; set; }
+        public string selectedFolder { get; set; }
 
         public ExecutableFile() { }
-        public ExecutableFile(string FullPath, string? theSelectedFolder) {
+        public ExecutableFile(string FullPath, string theSelectedFolder)
+        {
             path = Path.GetDirectoryName(FullPath);
             theFile = Path.GetFileName(FullPath);
             fullPath = FullPath;
             selectedFolder = theSelectedFolder;
         }
 
-        public void Execute() {
+        public void Execute()
+        {
             ProcessStartInfo processInfo = new ProcessStartInfo();
             processInfo.FileName = fullPath;
             processInfo.WorkingDirectory = Path.GetDirectoryName(fullPath);
@@ -34,7 +32,7 @@ namespace ExecuteRandomFromDirWithGUI
             System.Diagnostics.Process.Start(processInfo);
         }
 
-        public override string ToString() 
+        public override string ToString()
         {
             return theFile + (hasRun ? " [Has Executed]" : "");
         }

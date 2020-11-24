@@ -49,16 +49,15 @@
             this.listCountLabel = new System.Windows.Forms.Label();
             this.Separator = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.ProgressLabel = new System.Windows.Forms.Label();
+            this.ProgressStatusLabel = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(511, 107);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button3.Location = new System.Drawing.Point(438, 100);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(107, 27);
+            this.button3.Size = new System.Drawing.Size(90, 23);
             this.button3.TabIndex = 2;
             this.button3.Text = "Select Random";
             this.button3.UseVisualStyleBackColor = true;
@@ -73,45 +72,41 @@
             this.listBox1.ForeColor = System.Drawing.Color.White;
             this.listBox1.FormattingEnabled = true;
             this.listBox1.HorizontalScrollbar = true;
-            this.listBox1.ItemHeight = 15;
-            this.listBox1.Location = new System.Drawing.Point(13, 40);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.listBox1.Location = new System.Drawing.Point(11, 22);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(490, 319);
+            this.listBox1.Size = new System.Drawing.Size(421, 290);
             this.listBox1.TabIndex = 4;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(13, 375);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(11, 325);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(154, 16);
+            this.label1.Size = new System.Drawing.Size(155, 16);
             this.label1.TabIndex = 5;
             this.label1.Text = "Selected Executable:";
             // 
             // selectedLabel
             // 
-            this.selectedLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.selectedLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.selectedLabel.BackColor = System.Drawing.Color.Transparent;
+            this.selectedLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.selectedLabel.ForeColor = System.Drawing.Color.White;
-            this.selectedLabel.Location = new System.Drawing.Point(14, 392);
-            this.selectedLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.selectedLabel.Location = new System.Drawing.Point(15, 339);
             this.selectedLabel.Name = "selectedLabel";
-            this.selectedLabel.Size = new System.Drawing.Size(598, 17);
+            this.selectedLabel.Size = new System.Drawing.Size(513, 20);
             this.selectedLabel.TabIndex = 6;
+            this.selectedLabel.Text = "sdfgdsfgdsfg";
             // 
             // button5
             // 
             this.button5.Enabled = false;
             this.button5.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button5.Location = new System.Drawing.Point(511, 140);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button5.Location = new System.Drawing.Point(438, 128);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(107, 27);
+            this.button5.Size = new System.Drawing.Size(90, 23);
             this.button5.TabIndex = 7;
             this.button5.Text = "Run Selected";
             this.button5.UseVisualStyleBackColor = true;
@@ -120,10 +115,9 @@
             // button6
             // 
             this.button6.Enabled = false;
-            this.button6.Location = new System.Drawing.Point(511, 332);
-            this.button6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button6.Location = new System.Drawing.Point(438, 288);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(107, 27);
+            this.button6.Size = new System.Drawing.Size(92, 23);
             this.button6.TabIndex = 8;
             this.button6.Text = "Delete Selected";
             this.button6.UseVisualStyleBackColor = true;
@@ -137,9 +131,8 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip1.Size = new System.Drawing.Size(624, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(535, 24);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -231,12 +224,11 @@
             this.smth_new.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.smth_new.Cursor = System.Windows.Forms.Cursors.Default;
             this.smth_new.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.smth_new.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.smth_new.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.smth_new.ForeColor = System.Drawing.Color.Black;
-            this.smth_new.Location = new System.Drawing.Point(511, 211);
-            this.smth_new.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.smth_new.Location = new System.Drawing.Point(438, 176);
             this.smth_new.Name = "smth_new";
-            this.smth_new.Size = new System.Drawing.Size(107, 54);
+            this.smth_new.Size = new System.Drawing.Size(92, 53);
             this.smth_new.TabIndex = 10;
             this.smth_new.Text = "SELECT SOMETHING NEW";
             this.smth_new.UseVisualStyleBackColor = false;
@@ -244,24 +236,24 @@
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(505, 40);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(438, 22);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 16);
+            this.label2.Size = new System.Drawing.Size(90, 33);
             this.label2.TabIndex = 11;
             this.label2.Text = "List Items Count:";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // listCountLabel
             // 
-            this.listCountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.listCountLabel.BackColor = System.Drawing.Color.Transparent;
+            this.listCountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold);
             this.listCountLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.listCountLabel.Location = new System.Drawing.Point(511, 56);
-            this.listCountLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.listCountLabel.Location = new System.Drawing.Point(438, 55);
             this.listCountLabel.Name = "listCountLabel";
-            this.listCountLabel.Size = new System.Drawing.Size(107, 48);
+            this.listCountLabel.Size = new System.Drawing.Size(92, 42);
             this.listCountLabel.TabIndex = 12;
             this.listCountLabel.Text = "0";
             this.listCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -271,36 +263,36 @@
             this.Separator.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.Separator.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Separator.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.Separator.Location = new System.Drawing.Point(13, 368);
+            this.Separator.Location = new System.Drawing.Point(11, 319);
             this.Separator.Name = "Separator";
-            this.Separator.Size = new System.Drawing.Size(605, 2);
+            this.Separator.Size = new System.Drawing.Size(519, 2);
             this.Separator.TabIndex = 13;
             this.Separator.Text = "label3";
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(0, 436);
+            this.progressBar1.Location = new System.Drawing.Point(0, 378);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(624, 23);
+            this.progressBar1.Size = new System.Drawing.Size(535, 20);
             this.progressBar1.TabIndex = 14;
             this.progressBar1.Visible = false;
             // 
-            // ProgressLabel
+            // ProgressStatusLabel
             // 
-            this.ProgressLabel.ForeColor = System.Drawing.Color.White;
-            this.ProgressLabel.Location = new System.Drawing.Point(14, 414);
-            this.ProgressLabel.MaximumSize = new System.Drawing.Size(640, 0);
-            this.ProgressLabel.Name = "ProgressLabel";
-            this.ProgressLabel.Size = new System.Drawing.Size(598, 27);
-            this.ProgressLabel.TabIndex = 15;
-            this.ProgressLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ProgressStatusLabel.BackColor = System.Drawing.Color.Transparent;
+            this.ProgressStatusLabel.ForeColor = System.Drawing.Color.White;
+            this.ProgressStatusLabel.Location = new System.Drawing.Point(15, 358);
+            this.ProgressStatusLabel.Name = "ProgressStatusLabel";
+            this.ProgressStatusLabel.Size = new System.Drawing.Size(513, 23);
+            this.ProgressStatusLabel.TabIndex = 16;
+            this.ProgressStatusLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.ClientSize = new System.Drawing.Size(624, 441);
+            this.ClientSize = new System.Drawing.Size(535, 382);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.Separator);
             this.Controls.Add(this.label2);
@@ -313,12 +305,11 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.listCountLabel);
-            this.Controls.Add(this.ProgressLabel);
+            this.Controls.Add(this.ProgressStatusLabel);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.Text = "Execute Random From Directory";
@@ -351,7 +342,7 @@
         private System.Windows.Forms.ToolStripMenuItem editToolStripMenuItem;
         private System.Windows.Forms.Label Separator;
         private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.Label ProgressLabel;
+        private System.Windows.Forms.Label ProgressStatusLabel;
     }
 }
 

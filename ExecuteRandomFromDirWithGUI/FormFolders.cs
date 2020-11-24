@@ -1,13 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using WK.Libraries.BetterFolderBrowserNS;
 
 namespace ExecuteRandomFromDirWithGUI
 {
@@ -31,7 +28,7 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            using (FolderBrowserDialog mainFolder = new FolderBrowserDialog())
+            /*using (FolderBrowserDialog mainFolder = new FolderBrowserDialog())
             {
                 DialogResult result = mainFolder.ShowDialog();
 
@@ -49,6 +46,33 @@ namespace ExecuteRandomFromDirWithGUI
 
                     listBox1.DataSource = new List<string>();
                     listBox1.DataSource = FolderList;
+                }
+            }*/
+
+            /*FolderSelectDialog dialog = new FolderSelectDialog();
+            dialog.Multiselect = true; ;
+            dialog.ShowDialog();
+
+            string[] selected_folders = dialog.FileNames;
+
+            MessageBox.Show(string.Join(',', selected_folders));*/
+
+
+            using (BetterFolderBrowser betterFolderBrowser = new BetterFolderBrowser())
+            {
+                betterFolderBrowser.Multiselect = true;
+                betterFolderBrowser.Title = "Select Folders";
+                betterFolderBrowser.RootFolder = @"C:\";
+
+                if (betterFolderBrowser.ShowDialog() == DialogResult.OK)
+                {
+                    var selected_folders = betterFolderBrowser.SelectedFolders;
+                    FolderList.AddRange(selected_folders);
+
+                    listBox1.DataSource = new List<string>();
+                    listBox1.DataSource = FolderList;
+                    File.WriteAllLines("folders.txt", FolderList);
+                    //MessageBox.Show(string.Join(",", selected_folders));
                 }
             }
         }
