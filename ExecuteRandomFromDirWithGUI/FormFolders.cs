@@ -28,43 +28,13 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            /*using (FolderBrowserDialog mainFolder = new FolderBrowserDialog())
-            {
-                DialogResult result = mainFolder.ShowDialog();
-
-
-                if (FolderList.IndexOf(mainFolder.SelectedPath) > -1)
-                {
-                    MessageBox.Show($"path \"{mainFolder.SelectedPath}\" already exists");
-                    return;
-                }
-
-                if (result == DialogResult.OK)
-                {
-                    FolderList.Add(mainFolder.SelectedPath);
-                    File.WriteAllLines("folders.txt", FolderList);
-
-                    listBox1.DataSource = new List<string>();
-                    listBox1.DataSource = FolderList;
-                }
-            }*/
-
-            /*FolderSelectDialog dialog = new FolderSelectDialog();
-            dialog.Multiselect = true; ;
-            dialog.ShowDialog();
-
-            string[] selected_folders = dialog.FileNames;
-
-            MessageBox.Show(string.Join(',', selected_folders));*/
-
-
             using (BetterFolderBrowser betterFolderBrowser = new BetterFolderBrowser())
             {
                 betterFolderBrowser.Multiselect = true;
                 betterFolderBrowser.Title = "Select Folders";
                 betterFolderBrowser.RootFolder = @"C:\";
 
-                if (betterFolderBrowser.ShowDialog() == DialogResult.OK)
+                if (betterFolderBrowser.ShowDialog(this) == DialogResult.OK)
                 {
                     var selected_folders = betterFolderBrowser.SelectedFolders;
                     FolderList.AddRange(selected_folders);
@@ -72,7 +42,6 @@ namespace ExecuteRandomFromDirWithGUI
                     listBox1.DataSource = new List<string>();
                     listBox1.DataSource = FolderList;
                     File.WriteAllLines("folders.txt", FolderList);
-                    //MessageBox.Show(string.Join(",", selected_folders));
                 }
             }
         }

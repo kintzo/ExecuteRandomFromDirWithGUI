@@ -42,7 +42,7 @@
             this.renewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.updateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.addToBlacklistToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.BlacklistToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.smth_new = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -138,12 +138,12 @@
             // 
             // listToolStripMenuItem
             // 
-            this.listToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
+            this.listToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.listToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.listToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.foldersToolStripMenuItem,
             this.toolStripSeparator1,
-            this.addToBlacklistToolStripMenuItem});
+            this.BlacklistToolStripMenuItem});
             this.listToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.listToolStripMenuItem.Name = "listToolStripMenuItem";
             this.listToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
@@ -158,7 +158,7 @@
             this.updateToolStripMenuItem});
             this.foldersToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.foldersToolStripMenuItem.Name = "foldersToolStripMenuItem";
-            this.foldersToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.foldersToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.foldersToolStripMenuItem.Text = "Folders";
             // 
             // editToolStripMenuItem
@@ -167,7 +167,7 @@
             this.editToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.editToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.editToolStripMenuItem.Text = "Edit Folders";
             this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
             // 
@@ -177,7 +177,7 @@
             this.renewToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.renewToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.renewToolStripMenuItem.Name = "renewToolStripMenuItem";
-            this.renewToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.renewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.renewToolStripMenuItem.Text = "Renew";
             this.renewToolStripMenuItem.Click += new System.EventHandler(this.renewToolStripMenuItem_Click);
             // 
@@ -187,29 +187,29 @@
             this.updateToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.updateToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.updateToolStripMenuItem.Name = "updateToolStripMenuItem";
-            this.updateToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.updateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.updateToolStripMenuItem.Text = "Update";
             this.updateToolStripMenuItem.Click += new System.EventHandler(this.updateToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
-            this.toolStripSeparator1.BackColor = System.Drawing.Color.Transparent;
+            this.toolStripSeparator1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.toolStripSeparator1.ForeColor = System.Drawing.Color.Transparent;
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(114, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // addToBlacklistToolStripMenuItem
             // 
-            this.addToBlacklistToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.addToBlacklistToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.addToBlacklistToolStripMenuItem.Name = "addToBlacklistToolStripMenuItem";
-            this.addToBlacklistToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
-            this.addToBlacklistToolStripMenuItem.Text = "Blacklist";
-            this.addToBlacklistToolStripMenuItem.Click += new System.EventHandler(this.addToBlacklistToolStripMenuItem_Click);
+            this.BlacklistToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.BlacklistToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.BlacklistToolStripMenuItem.Name = "addToBlacklistToolStripMenuItem";
+            this.BlacklistToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.BlacklistToolStripMenuItem.Text = "Blacklist";
+            this.BlacklistToolStripMenuItem.Click += new System.EventHandler(this.addToBlacklistToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
-            this.aboutToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
+            this.aboutToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.aboutToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.aboutToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
@@ -330,7 +330,7 @@
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem listToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem addToBlacklistToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem BlacklistToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.Button smth_new;
