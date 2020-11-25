@@ -59,6 +59,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomToolStripRenderer.cs" />
     <Compile Include="ExecutableFile.cs" />
     <Compile Include="FormBlackList.cs">
       <SubType>Form</SubType>

@@ -23,13 +23,6 @@
   </ExecutableFile>
   <ExecutableFile>
     <hasRun>False</hasRun>
-    <fullPath>D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\helpme.exe</fullPath>
-    <path>D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)</path>
-    <theFile>helpme.exe</theFile>
-    <selectedFolder>D:\games</selectedFolder>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
     <fullPath>D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\jazz.exe</fullPath>
     <path>D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)</path>
     <theFile>jazz.exe</theFile>
@@ -58,13 +51,6 @@
   </ExecutableFile>
   <ExecutableFile>
     <hasRun>False</hasRun>
-    <fullPath>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\MMXRUN.EXE</fullPath>
-    <path>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX</path>
-    <theFile>MMXRUN.EXE</theFile>
-    <selectedFolder>D:\games</selectedFolder>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
     <fullPath>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\README.EXE</fullPath>
     <path>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX</path>
     <theFile>README.EXE</theFile>
@@ -79,13 +65,6 @@
   </ExecutableFile>
   <ExecutableFile>
     <hasRun>False</hasRun>
-    <fullPath>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\DRV\SETSOUND.EXE</fullPath>
-    <path>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\DRV</path>
-    <theFile>SETSOUND.EXE</theFile>
-    <selectedFolder>D:\games</selectedFolder>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
     <fullPath>D:\games\Dos Games\Prince Of Persia (1991)\4D_PRIN.EXE</fullPath>
     <path>D:\games\Dos Games\Prince Of Persia (1991)</path>
     <theFile>4D_PRIN.EXE</theFile>
@@ -93,23 +72,9 @@
   </ExecutableFile>
   <ExecutableFile>
     <hasRun>False</hasRun>
-    <fullPath>D:\games\Dos Games\X-Men (1989)\DRIVER.EXE</fullPath>
-    <path>D:\games\Dos Games\X-Men (1989)</path>
-    <theFile>DRIVER.EXE</theFile>
-    <selectedFolder>D:\games</selectedFolder>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
     <fullPath>D:\games\mame\mame32p.exe</fullPath>
     <path>D:\games\mame</path>
     <theFile>mame32p.exe</theFile>
-    <selectedFolder>D:\games</selectedFolder>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
-    <fullPath>D:\games\mame\mamep.exe</fullPath>
-    <path>D:\games\mame</path>
-    <theFile>mamep.exe</theFile>
     <selectedFolder>D:\games</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
@@ -190,7 +155,7 @@
     <selectedFolder>D:\games installers</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>D:\games installers\Age of Mythology - Titans\dw15.exe</fullPath>
     <path>D:\games installers\Age of Mythology - Titans</path>
     <theFile>dw15.exe</theFile>
@@ -225,7 +190,7 @@
     <selectedFolder>D:\games installers</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>D:\games installers\Age of Mythology - Titans\mythxpak.exe</fullPath>
     <path>D:\games installers\Age of Mythology - Titans</path>
     <theFile>mythxpak.exe</theFile>
@@ -239,7 +204,7 @@
     <selectedFolder>D:\games installers</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>D:\games installers\Besiege_v0.09\Besiege\Besiege.exe</fullPath>
     <path>D:\games installers\Besiege_v0.09\Besiege</path>
     <theFile>Besiege.exe</theFile>

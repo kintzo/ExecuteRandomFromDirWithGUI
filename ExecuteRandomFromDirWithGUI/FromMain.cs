@@ -70,6 +70,8 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            menuStrip1.RenderMode = ToolStripRenderMode.Professional;
+            menuStrip1.Renderer = new CustomToolStripRenderer();
             menuStrip1.ForeColor = System.Drawing.Color.White;
 
             readSettings();
@@ -331,6 +333,8 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void saveList()
         {
+            var current = getCurrentObject();
+
             filterByBlackList();
 
             XDocument doc = new XDocument();
@@ -352,6 +356,12 @@ namespace ExecuteRandomFromDirWithGUI
             dataList.DataSource = new List<ExecutableFile>();
             dataList.DataSource = executableFiles;
             listCountLabel.Text = executableFiles.Count.ToString();
+
+            try
+            {
+                setCurrentObject(current);
+            }
+            catch { }
         }
 
         private void readList()

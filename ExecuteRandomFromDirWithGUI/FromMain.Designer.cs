@@ -72,8 +72,6 @@
             // 
             this.dataList.AutoGenerateColumns = false;
             this.dataList.BackColor = System.Drawing.SystemColors.WindowFrame;
-            //this.dataList.CheckBoxes = true;
-            //this.dataList.CheckedAspectName = "hasRun";
             this.dataList.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.olvColumn1,
             this.olvColumn2});
@@ -172,7 +170,7 @@
             // 
             // listToolStripMenuItem
             // 
-            this.listToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.listToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.listToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.listToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.foldersToolStripMenuItem,
@@ -180,60 +178,60 @@
             this.toolStripSeparator1,
             this.newListToolStripMenuItem,
             this.toolStripSeparator2});
-            this.listToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.listToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText;
             this.listToolStripMenuItem.Name = "listToolStripMenuItem";
             this.listToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.listToolStripMenuItem.Text = "List";
             // 
             // foldersToolStripMenuItem
             // 
-            this.foldersToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.foldersToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.foldersToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.editToolStripMenuItem,
             this.renewToolStripMenuItem,
             this.updateToolStripMenuItem});
-            this.foldersToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.foldersToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText;
             this.foldersToolStripMenuItem.Name = "foldersToolStripMenuItem";
-            this.foldersToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.foldersToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.foldersToolStripMenuItem.Tag = "MTBI";
             this.foldersToolStripMenuItem.Text = "Folders";
             // 
             // editToolStripMenuItem
             // 
-            this.editToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.editToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.editToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.editToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.editToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText;
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.editToolStripMenuItem.Text = "Edit Folders";
             this.editToolStripMenuItem.Click += new System.EventHandler(this.onOpenFolders_Click);
             // 
             // renewToolStripMenuItem
             // 
-            this.renewToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.renewToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.renewToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.renewToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.renewToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText;
             this.renewToolStripMenuItem.Name = "renewToolStripMenuItem";
-            this.renewToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.renewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.renewToolStripMenuItem.Text = "Renew";
             this.renewToolStripMenuItem.Click += new System.EventHandler(this.onRenewList_Click);
             // 
             // updateToolStripMenuItem
             // 
-            this.updateToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.updateToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.updateToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.updateToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.updateToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText;
             this.updateToolStripMenuItem.Name = "updateToolStripMenuItem";
-            this.updateToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.updateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.updateToolStripMenuItem.Text = "Update";
             this.updateToolStripMenuItem.Click += new System.EventHandler(this.onUpdateList_Click);
             // 
             // BlacklistToolStripMenuItem
             // 
-            this.BlacklistToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.BlacklistToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.BlacklistToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
+            this.BlacklistToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText;
             this.BlacklistToolStripMenuItem.Name = "BlacklistToolStripMenuItem";
-            this.BlacklistToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.BlacklistToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.BlacklistToolStripMenuItem.Tag = "MTBI";
             this.BlacklistToolStripMenuItem.Text = "Blacklist";
             this.BlacklistToolStripMenuItem.Click += new System.EventHandler(this.onOpenBlackList_Click);
@@ -243,13 +241,13 @@
             this.toolStripSeparator1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.toolStripSeparator1.ForeColor = System.Drawing.Color.Transparent;
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(114, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             this.toolStripSeparator1.Tag = "MTBI";
             // 
             // newListToolStripMenuItem
             // 
             this.newListToolStripMenuItem.Name = "newListToolStripMenuItem";
-            this.newListToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.newListToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.newListToolStripMenuItem.Tag = "MTBI";
             this.newListToolStripMenuItem.Text = "new List";
             this.newListToolStripMenuItem.Click += new System.EventHandler(this.onNewFileList_Click);
@@ -257,13 +255,13 @@
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(114, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
             // 
             // aboutToolStripMenuItem
             // 
-            this.aboutToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.aboutToolStripMenuItem.BackColor = System.Drawing.SystemColors.Control;
             this.aboutToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.aboutToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.aboutToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText;
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.aboutToolStripMenuItem.Text = "About";
@@ -365,6 +363,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Execute Random From Directory";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataList)).EndInit();
