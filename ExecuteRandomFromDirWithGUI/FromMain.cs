@@ -17,55 +17,31 @@ namespace ExecuteRandomFromDirWithGUI
             InitializeComponent();
         }
 
-        private List<ExecutableFile> executableFiles = new List<ExecutableFile>();
-        //private ExecutableFile executableFileCursor;
         private ProgramSettings programSettings;
 
-        private ExecutableFile getCurrentObject() 
+        private ExecutableFile CurrentObject() 
         {
             return (ExecutableFile)dataList.SelectedObject;
         }
-
-        private void setCurrentObject(ExecutableFile item) 
+        private void CurrentObject(ExecutableFile item) 
         {
             dataList.SelectedObject = item;
 
             dataList.LowLevelScroll(0, dataList.Items.Count * -17);
-            dataList.LowLevelScroll(0, dataList.IndexOf(dataList.SelectedObject) * 17);
+            dataList.LowLevelScroll(0, dataList.IndexOf(item) * 17);
 
             setCurrentFile(item);
         }
 
-        public static string[] GetAllSafeFiles(string path, IProgress<int> progress, string searchPattern = "*.*")
+        private List<ExecutableFile> MyExecutableFiles() 
         {
-            List<string> allFiles = new List<string>();
-            string[] root = Directory.GetFiles(path, searchPattern);
-            allFiles.AddRange(root);
-
-            string[] folders = Directory.GetDirectories(path);
-            for (var i = 0; i < folders.Length; i++)
-            {
-                var perComplete = (i * 100) / folders.Length;
-                progress.Report(perComplete);
-
-                try
-                {
-                    if (!IsIgnorable(folders[i]))
-                    {
-                        allFiles.AddRange(Directory.GetFiles(folders[i], searchPattern, SearchOption.AllDirectories));
-                    }
-                }
-                catch { }
-            }
-
-            return allFiles.ToArray();
+            return (List<ExecutableFile>)dataList.DataSource;
         }
-
-        private static bool IsIgnorable(string dir)
+        private void MyExecutableFiles(List<ExecutableFile> list)
         {
-            if (dir.EndsWith("System Volume Information")) return true;
-            if (dir.Contains("$RECYCLE.BIN")) return true;
-            return false;
+            dataList.DataSource = list;
+            listCountLabel.Text = list.Count.ToString();
+            saveList();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -81,10 +57,11 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void onRandom_Click(object sender, EventArgs e)
         {
-            if (executableFiles.Count > 0)
+            if (dataList.Items.Count > 0)
             {
-                int index = new Random().Next(executableFiles.Count);
-                setCurrentObject(executableFiles[index]);
+                int index = new Random().Next(dataList.Items.Count);
+
+                CurrentObject(MyExecutableFiles()[index]);
             }
             else
             {
@@ -94,9 +71,9 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void onNewRandom_Click(object sender, EventArgs e)
         {
-            if (executableFiles.Count > 0)
+            if (MyExecutableFiles().Count > 0)
             {
-                var tmpList = executableFiles.Where(x => !x.hasRun).ToList();
+                var tmpList = MyExecutableFiles().Where(x => !x.hasRun).ToList();
 
                 if (tmpList.Count == 0)
                 {
@@ -105,9 +82,9 @@ namespace ExecuteRandomFromDirWithGUI
                 }
 
                 int tmpIndex = new Random().Next(tmpList.Count);
-                var lbIndex = executableFiles.IndexOf(tmpList[tmpIndex]);
+                var lbIndex = MyExecutableFiles().IndexOf(tmpList[tmpIndex]);
 
-                setCurrentObject(executableFiles[lbIndex]);
+                CurrentObject(tmpList[tmpIndex]);
             }
             else
             {
@@ -117,17 +94,18 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void onRunSelected_Click(object sender, EventArgs e)
         {
-            if (getCurrentObject() == null) return;
+            if (CurrentObject() == null) return;
 
-            var item = getCurrentObject();
+            var item = CurrentObject();
             try
-            {
+            {             
+                var list = MyExecutableFiles();
+                var idx = list.IndexOf(item);        
+                list[idx].hasRun = true;
+
+                MyExecutableFiles(list);
+
                 item.Execute();
-
-                var idx = executableFiles.IndexOf(item);
-                executableFiles[idx].hasRun = true;
-
-                saveList();
             }
             catch (Exception ex)
             {
@@ -142,7 +120,7 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void onDeleteSelected_Click(object sender, EventArgs e)
         {
-            var item = getCurrentObject();
+            var item = CurrentObject();
 
             var b = MessageBox.Show($"Remove Path: \"{item.fullPath}\" ?", $"Delete {item.theFile}", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (b == DialogResult.Yes) DeleteExeFromList();
@@ -153,7 +131,7 @@ namespace ExecuteRandomFromDirWithGUI
             var blackListForm = new FormBlackList();
             if (blackListForm.ShowDialog(this) == DialogResult.OK)
             {
-                saveList();
+                filterByBlackList();
             }
         }
 
@@ -204,7 +182,6 @@ namespace ExecuteRandomFromDirWithGUI
                 programSettings.CurrentXMLFile = input;
                 programSettings.Save();
                 readList();
-                saveList();
                 readOutputFiles();
             }
         }
@@ -235,19 +212,23 @@ namespace ExecuteRandomFromDirWithGUI
 
             if (e.ColumnIndex == 0)
             {
-                e.SubItem.Text = $"[{item.selectedFolder}]::{item.theFile}";
+                e.SubItem.Text = (programSettings.SelectedRootVisible ? $"[{item.selectedFolder}]::" : "") + item.theFile;
             }
             else if (e.ColumnIndex == 1)
             {
-                e.SubItem.BackColor = item.hasRun ? Color.LightGreen : Color.LightPink;
-                e.SubItem.Text = "";
+                if (programSettings.HasRunVisible)
+                {
+                    e.SubItem.BackColor = item.hasRun ? Color.LightGreen : Color.LightPink;
+                    e.SubItem.Text = "";
+                }
+                else e.SubItem.Text = "";
             }
         }
 
         //functions
         private async void ScanFolders(bool update)
         {
-            if (executableFiles.Count > 0 && !update)
+            if (MyExecutableFiles().Count > 0 && !update)
             {
                 var b = MessageBox.Show(
                     "Do you want to renew the files list? " + Environment.NewLine + Environment.NewLine + "Warning: This action will clear the existing list and replace it with a new one!",
@@ -260,7 +241,7 @@ namespace ExecuteRandomFromDirWithGUI
             var foldersList = File.Exists("folders.txt") ? File.ReadAllLines("folders.txt").ToList() : new List<string>();
 
             if (!update)
-                executableFiles = new List<ExecutableFile>();
+                MyExecutableFiles(new List<ExecutableFile>());
 
             EnableControls(false);
             progressBar1.Visible = true;
@@ -268,7 +249,7 @@ namespace ExecuteRandomFromDirWithGUI
 
             foreach (var folder in foldersList)
             {
-                if (update && executableFiles.Where(x => x.selectedFolder == folder).ToList().Count > 0)
+                if (update && MyExecutableFiles().Where(x => x.selectedFolder == folder).ToList().Count > 0)
                     continue;
 
                 ProgressStatusLabel.Text = $"Scanning \"{folder}\"";
@@ -277,15 +258,15 @@ namespace ExecuteRandomFromDirWithGUI
                     progressBar1.Value = value;
                 });
 
-                var exefiles = await Task.Run(() => GetAllSafeFiles(folder, progress, "*.exe"));
-                executableFiles.AddRange(exefiles.Select(x => new ExecutableFile(x, folder)).ToList());
+                var exefiles = await Task.Run(() => Helper.GetAllSafeFiles(folder, progress, "*.exe"));
+                var list = MyExecutableFiles();
+                list.AddRange(exefiles.Select(x => new ExecutableFile(x, folder)).ToList());
+                MyExecutableFiles(list);
             }
 
             EnableControls(true);
             progressBar1.Visible = false;
             ProgressStatusLabel.Visible = false;
-
-            saveList();
         }
 
         private void EnableControls(bool enabled)
@@ -299,7 +280,7 @@ namespace ExecuteRandomFromDirWithGUI
         private void filterByBlackList()
         {
             var blacklist = File.Exists("BlackList.txt") ? File.ReadAllLines("BlackList.txt").ToList() : new List<string>();
-            executableFiles = executableFiles.Where((x) =>
+            var list = MyExecutableFiles().Where((x) =>
             {
                 for (int i = 0; i < blacklist.Count; i++)
                 {
@@ -308,16 +289,18 @@ namespace ExecuteRandomFromDirWithGUI
                 }
                 return true;
             }).ToList();
+
+            MyExecutableFiles(list);
         }
 
         private void DeleteExeFromList()
         {
-            var item = getCurrentObject();
+            var item = CurrentObject();
 
             setCurrentFile(null);
 
-            executableFiles = executableFiles.Where(x => x.fullPath != item.fullPath).ToList();
-            saveList();
+            var list = MyExecutableFiles().Where(x => x.fullPath != item.fullPath).ToList();
+            MyExecutableFiles(list);
         }
 
         private void setCurrentFile(ExecutableFile item)
@@ -333,14 +316,12 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void saveList()
         {
-            var current = getCurrentObject();
-
-            filterByBlackList();
+            var current = CurrentObject();
 
             XDocument doc = new XDocument();
             doc.Add(new XElement("ExecutableFiles"));
 
-            executableFiles.ForEach(x =>
+            MyExecutableFiles().ForEach(x =>
             {
                 XElement itemElement = new XElement("ExecutableFile");
                 itemElement.Add(new XElement("hasRun", x.hasRun.ToString()));
@@ -353,13 +334,12 @@ namespace ExecuteRandomFromDirWithGUI
             if (!Directory.Exists(@"output")) Directory.CreateDirectory(@"output\");
 
             doc.Save(@"output\" + programSettings.CurrentXMLFile + ".xml");
-            dataList.DataSource = new List<ExecutableFile>();
-            dataList.DataSource = executableFiles;
-            listCountLabel.Text = executableFiles.Count.ToString();
+            /*dataList.DataSource = new List<ExecutableFile>();
+            dataList.DataSource = executableFiles;*/
 
             try
             {
-                setCurrentObject(current);
+                CurrentObject(current);
             }
             catch { }
         }
@@ -374,7 +354,7 @@ namespace ExecuteRandomFromDirWithGUI
             if (File.Exists(@"output\" + programSettings.CurrentXMLFile + ".xml"))
                 doc = XDocument.Load(@"output\" + programSettings.CurrentXMLFile + ".xml");
 
-            executableFiles = doc.Elements("ExecutableFiles").Elements("ExecutableFile")
+            var list = doc.Elements("ExecutableFiles").Elements("ExecutableFile")
                 .Select(x =>
                 {
                     return new ExecutableFile
@@ -386,8 +366,7 @@ namespace ExecuteRandomFromDirWithGUI
                         selectedFolder = x.Element("selectedFolder").Value
                     };
                 }).ToList();
-            dataList.DataSource = executableFiles;
-            listCountLabel.Text = executableFiles.Count.ToString();
+            MyExecutableFiles(list);         
 
             Text = $"Execute Random From Directory [{programSettings.CurrentXMLFile + ".xml"}]";
         }
@@ -395,6 +374,9 @@ namespace ExecuteRandomFromDirWithGUI
         private void readSettings()
         {
             programSettings = ProgramSettings.Read();
+
+            selectedRootToolStripMenuItem.Checked = programSettings.SelectedRootVisible;
+            hasRunToolStripMenuItem.Checked = programSettings.HasRunVisible;
         }
 
         private void readOutputFiles()
@@ -439,6 +421,26 @@ namespace ExecuteRandomFromDirWithGUI
             programSettings.CurrentXMLFile = item.Text.Replace(".xml", "");
             programSettings.Save();
             readList();
+        }
+
+        private void selectedRootToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var item = (ToolStripMenuItem)sender;
+            item.Checked = !item.Checked;
+            programSettings.SelectedRootVisible = item.Checked;
+            programSettings.Save();
+
+            MyExecutableFiles(MyExecutableFiles());
+        }
+
+        private void hasRunToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var item = (ToolStripMenuItem)sender;
+            item.Checked = !item.Checked;
+            programSettings.HasRunVisible = item.Checked;
+            programSettings.Save();
+
+            MyExecutableFiles(MyExecutableFiles());
         }
     }
 }

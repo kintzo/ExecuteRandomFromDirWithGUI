@@ -12,12 +12,17 @@ namespace ExecuteRandomFromDirWithGUI
     class ProgramSettings
     {
         public string CurrentXMLFile { get; set; }
+        public bool SelectedRootVisible { get; set; }
+        public bool HasRunVisible { get; set; }
+
         public void Save() 
         {
             var parser = new FileIniDataParser();
             IniData data = new IniData();
 
             data["DATA"]["CurrentXMLFile"] = CurrentXMLFile;
+            data["DATA"]["SelectedRootVisible"] = SelectedRootVisible.ToString();
+            data["DATA"]["HasRunVisible"] = HasRunVisible.ToString();
             parser.WriteFile("Configuration.ini", data);
         }
 
@@ -30,12 +35,15 @@ namespace ExecuteRandomFromDirWithGUI
 
                 var Settings = new ProgramSettings();
                 Settings.CurrentXMLFile = data["DATA"]["CurrentXMLFile"];
+                Settings.SelectedRootVisible = data["DATA"]["SelectedRootVisible"] != null ? bool.Parse(data["DATA"]["SelectedRootVisible"]) : false;
+                Settings.HasRunVisible = data["DATA"]["HasRunVisible"] != null ? bool.Parse(data["DATA"]["HasRunVisible"]) : false;
 
                 return Settings;
             }
             else
             {
                 var Settings = new ProgramSettings();
+                Settings.SelectedRootVisible = false;
                 Settings.Save();
                 return Settings;
             } 

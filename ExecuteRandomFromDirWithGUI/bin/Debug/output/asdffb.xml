@@ -16,9 +16,9 @@
   </ExecutableFile>
   <ExecutableFile>
     <hasRun>False</hasRun>
-    <fullPath>D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\file0001.exe</fullPath>
+    <fullPath>D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)\helpme.exe</fullPath>
     <path>D:\games\Dos Games\Jazz Jackrabbit (1994)(Epic Megagames Inc)</path>
-    <theFile>file0001.exe</theFile>
+    <theFile>helpme.exe</theFile>
     <selectedFolder>D:\games</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
@@ -51,30 +51,23 @@
   </ExecutableFile>
   <ExecutableFile>
     <hasRun>False</hasRun>
-    <fullPath>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\README.EXE</fullPath>
-    <path>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX</path>
-    <theFile>README.EXE</theFile>
+    <fullPath>D:\games\Dos Games\X-Men (1989)\DRIVER.EXE</fullPath>
+    <path>D:\games\Dos Games\X-Men (1989)</path>
+    <theFile>DRIVER.EXE</theFile>
     <selectedFolder>D:\games</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
-    <fullPath>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX\TDUJAM.EXE</fullPath>
-    <path>D:\games\Dos Games\Megaman X (1995)(Capcom)\MMX</path>
-    <theFile>TDUJAM.EXE</theFile>
-    <selectedFolder>D:\games</selectedFolder>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
-    <fullPath>D:\games\Dos Games\Prince Of Persia (1991)\4D_PRIN.EXE</fullPath>
-    <path>D:\games\Dos Games\Prince Of Persia (1991)</path>
-    <theFile>4D_PRIN.EXE</theFile>
-    <selectedFolder>D:\games</selectedFolder>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>D:\games\mame\mame32p.exe</fullPath>
     <path>D:\games\mame</path>
     <theFile>mame32p.exe</theFile>
+    <selectedFolder>D:\games</selectedFolder>
+  </ExecutableFile>
+  <ExecutableFile>
+    <hasRun>False</hasRun>
+    <fullPath>D:\games\mame\mamep.exe</fullPath>
+    <path>D:\games\mame</path>
+    <theFile>mamep.exe</theFile>
     <selectedFolder>D:\games</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
@@ -114,6 +107,20 @@
   </ExecutableFile>
   <ExecutableFile>
     <hasRun>False</hasRun>
+    <fullPath>D:\games installers\Age of Mythology - Titans\AoM.eXe</fullPath>
+    <path>D:\games installers\Age of Mythology - Titans</path>
+    <theFile>AoM.eXe</theFile>
+    <selectedFolder>D:\games installers</selectedFolder>
+  </ExecutableFile>
+  <ExecutableFile>
+    <hasRun>False</hasRun>
+    <fullPath>D:\games installers\Age of Mythology - Titans\aomx.exe</fullPath>
+    <path>D:\games installers\Age of Mythology - Titans</path>
+    <theFile>aomx.exe</theFile>
+    <selectedFolder>D:\games installers</selectedFolder>
+  </ExecutableFile>
+  <ExecutableFile>
+    <hasRun>False</hasRun>
     <fullPath>D:\games installers\Age of Mythology - Titans\aomxnocd.exe</fullPath>
     <path>D:\games installers\Age of Mythology - Titans</path>
     <theFile>aomxnocd.exe</theFile>
@@ -141,7 +148,7 @@
     <selectedFolder>D:\games installers</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>True</hasRun>
+    <hasRun>False</hasRun>
     <fullPath>D:\games installers\Age of Mythology - Titans\dw15.exe</fullPath>
     <path>D:\games installers\Age of Mythology - Titans</path>
     <theFile>dw15.exe</theFile>
@@ -176,7 +183,7 @@
     <selectedFolder>D:\games installers</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>True</hasRun>
+    <hasRun>False</hasRun>
     <fullPath>D:\games installers\Age of Mythology - Titans\mythxpak.exe</fullPath>
     <path>D:\games installers\Age of Mythology - Titans</path>
     <theFile>mythxpak.exe</theFile>
@@ -190,7 +197,7 @@
     <selectedFolder>D:\games installers</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>True</hasRun>
+    <hasRun>False</hasRun>
     <fullPath>D:\games installers\Besiege_v0.09\Besiege\Besiege.exe</fullPath>
     <path>D:\games installers\Besiege_v0.09\Besiege</path>
     <theFile>Besiege.exe</theFile>
@@ -198,44 +205,9 @@
   </ExecutableFile>
   <ExecutableFile>
     <hasRun>False</hasRun>
-    <fullPath>D:\games installers\Disney Infinity - Gold Collection [FitGirl Repack]\MD5\QuickSFV.EXE</fullPath>
-    <path>D:\games installers\Disney Infinity - Gold Collection [FitGirl Repack]\MD5</path>
-    <theFile>QuickSFV.EXE</theFile>
-    <selectedFolder>D:\games installers</selectedFolder>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
-    <fullPath>D:\games installers\Far Cry 5 [FitGirl Repack]\MD5\QuickSFV.EXE</fullPath>
-    <path>D:\games installers\Far Cry 5 [FitGirl Repack]\MD5</path>
-    <theFile>QuickSFV.EXE</theFile>
-    <selectedFolder>D:\games installers</selectedFolder>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
     <fullPath>D:\games installers\Marvel - Ultimate Alliance\AUTORUN.EXE</fullPath>
     <path>D:\games installers\Marvel - Ultimate Alliance</path>
     <theFile>AUTORUN.EXE</theFile>
-    <selectedFolder>D:\games installers</selectedFolder>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
-    <fullPath>D:\games installers\Monster Hunter - World [FitGirl Repack]\MD5\QuickSFV.EXE</fullPath>
-    <path>D:\games installers\Monster Hunter - World [FitGirl Repack]\MD5</path>
-    <theFile>QuickSFV.EXE</theFile>
-    <selectedFolder>D:\games installers</selectedFolder>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
-    <fullPath>D:\games installers\Pro Evolution Soccer 2019 [FitGirl Repack]\MD5\QuickSFV.EXE</fullPath>
-    <path>D:\games installers\Pro Evolution Soccer 2019 [FitGirl Repack]\MD5</path>
-    <theFile>QuickSFV.EXE</theFile>
-    <selectedFolder>D:\games installers</selectedFolder>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
-    <fullPath>D:\games installers\Shadow of the Tomb Raider [FitGirl Repack]\MD5\QuickSFV.EXE</fullPath>
-    <path>D:\games installers\Shadow of the Tomb Raider [FitGirl Repack]\MD5</path>
-    <theFile>QuickSFV.EXE</theFile>
     <selectedFolder>D:\games installers</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>

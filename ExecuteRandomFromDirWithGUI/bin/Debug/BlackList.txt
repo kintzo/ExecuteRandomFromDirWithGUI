@@ -2,3 +2,5 @@ unins
 dxs
 vcre
 setup
+Quick
+mmx
