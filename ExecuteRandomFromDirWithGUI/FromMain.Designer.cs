@@ -72,8 +72,8 @@
             // 
             this.dataList.AutoGenerateColumns = false;
             this.dataList.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.dataList.CheckBoxes = true;
-            this.dataList.CheckedAspectName = "hasRun";
+            //this.dataList.CheckBoxes = true;
+            //this.dataList.CheckedAspectName = "hasRun";
             this.dataList.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.olvColumn1,
             this.olvColumn2});
@@ -81,6 +81,7 @@
             this.dataList.DataSource = null;
             this.dataList.ForeColor = System.Drawing.Color.White;
             this.dataList.FullRowSelect = true;
+            this.dataList.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
             this.dataList.HideSelection = false;
             this.dataList.Location = new System.Drawing.Point(11, 22);
             this.dataList.Name = "dataList";
