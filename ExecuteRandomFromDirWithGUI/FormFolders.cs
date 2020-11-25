@@ -37,7 +37,17 @@ namespace ExecuteRandomFromDirWithGUI
                 if (betterFolderBrowser.ShowDialog(this) == DialogResult.OK)
                 {
                     var selected_folders = betterFolderBrowser.SelectedFolders;
-                    FolderList.AddRange(selected_folders);
+
+                    foreach (var folder in selected_folders)
+                    {
+                        if (FolderList.IndexOf(folder) > -1)
+                        {
+                            MessageBox.Show("The folder \"${folder}\" is already in the list.", "Folders Selection", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                        else FolderList.Add(folder);
+                    }
+
+                    
 
                     listBox1.DataSource = new List<string>();
                     listBox1.DataSource = FolderList;

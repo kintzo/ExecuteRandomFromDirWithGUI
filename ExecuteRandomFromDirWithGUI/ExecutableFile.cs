@@ -34,7 +34,7 @@ namespace ExecuteRandomFromDirWithGUI
 
         public override string ToString()
         {
-            return theFile + (hasRun ? " [Has Executed]" : "");
+            return $"[{selectedFolder}]:: {theFile} {(hasRun ? "[Has Executed]" : "")}";
         }
     }
 }

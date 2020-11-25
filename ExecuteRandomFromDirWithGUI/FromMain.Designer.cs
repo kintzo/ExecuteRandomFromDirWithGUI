@@ -30,7 +30,9 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.button3 = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.dataList = new BrightIdeasSoftware.DataListView();
+            this.olvColumn1 = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvColumn2 = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
             this.label1 = new System.Windows.Forms.Label();
             this.selectedLabel = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
@@ -41,8 +43,10 @@
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.renewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.updateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.BlacklistToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.newListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.smth_new = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -50,33 +54,62 @@
             this.Separator = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.ProgressStatusLabel = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dataList)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(438, 100);
+            this.button3.Location = new System.Drawing.Point(438, 86);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(90, 23);
             this.button3.TabIndex = 2;
             this.button3.Text = "Select Random";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.onRandom_Click);
             // 
-            // listBox1
+            // dataList
             // 
-            this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox1.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.listBox1.ForeColor = System.Drawing.Color.White;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.HorizontalScrollbar = true;
-            this.listBox1.Location = new System.Drawing.Point(11, 22);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(421, 290);
-            this.listBox1.TabIndex = 4;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.dataList.AutoGenerateColumns = false;
+            this.dataList.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.dataList.CheckBoxes = true;
+            this.dataList.CheckedAspectName = "hasRun";
+            this.dataList.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.olvColumn1,
+            this.olvColumn2});
+            this.dataList.Cursor = System.Windows.Forms.Cursors.Default;
+            this.dataList.DataSource = null;
+            this.dataList.ForeColor = System.Drawing.Color.White;
+            this.dataList.FullRowSelect = true;
+            this.dataList.HideSelection = false;
+            this.dataList.Location = new System.Drawing.Point(11, 22);
+            this.dataList.Name = "dataList";
+            this.dataList.ShowGroups = false;
+            this.dataList.Size = new System.Drawing.Size(421, 290);
+            this.dataList.TabIndex = 4;
+            this.dataList.UseCellFormatEvents = true;
+            this.dataList.UseCompatibleStateImageBehavior = false;
+            this.dataList.View = System.Windows.Forms.View.Details;
+            this.dataList.FormatCell += new System.EventHandler<BrightIdeasSoftware.FormatCellEventArgs>(this.olv1_FormatCell);
+            this.dataList.FormatRow += new System.EventHandler<BrightIdeasSoftware.FormatRowEventArgs>(this.olv1_FormatRow);
+            this.dataList.SelectionChanged += new System.EventHandler(this.onListSelection_Changed);
+            // 
+            // olvColumn1
+            // 
+            this.olvColumn1.AspectName = "theFile";
+            this.olvColumn1.MaximumWidth = 380;
+            this.olvColumn1.MinimumWidth = 380;
+            this.olvColumn1.Text = "Name";
+            this.olvColumn1.Width = 380;
+            // 
+            // olvColumn2
+            // 
+            this.olvColumn2.AspectName = "hasRun";
+            this.olvColumn2.MaximumWidth = 20;
+            this.olvColumn2.MinimumWidth = 20;
+            this.olvColumn2.Text = "";
+            this.olvColumn2.ToolTipText = "Has Run";
+            this.olvColumn2.Width = 20;
             // 
             // label1
             // 
@@ -92,25 +125,25 @@
             // selectedLabel
             // 
             this.selectedLabel.BackColor = System.Drawing.Color.Transparent;
-            this.selectedLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F);
+            this.selectedLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.selectedLabel.ForeColor = System.Drawing.Color.White;
             this.selectedLabel.Location = new System.Drawing.Point(15, 339);
             this.selectedLabel.Name = "selectedLabel";
-            this.selectedLabel.Size = new System.Drawing.Size(513, 20);
+            this.selectedLabel.Size = new System.Drawing.Size(513, 42);
             this.selectedLabel.TabIndex = 6;
-            this.selectedLabel.Text = "sdfgdsfgdsfg";
+            this.selectedLabel.Text = "---";
             // 
             // button5
             // 
             this.button5.Enabled = false;
             this.button5.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.button5.Location = new System.Drawing.Point(438, 128);
+            this.button5.Location = new System.Drawing.Point(438, 114);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(90, 23);
             this.button5.TabIndex = 7;
             this.button5.Text = "Run Selected";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.Click += new System.EventHandler(this.onRunSelected_Click);
             // 
             // button6
             // 
@@ -121,7 +154,7 @@
             this.button6.TabIndex = 8;
             this.button6.Text = "Delete Selected";
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.button6.Click += new System.EventHandler(this.onDeleteSelected_Click);
             // 
             // menuStrip1
             // 
@@ -142,8 +175,10 @@
             this.listToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.listToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.foldersToolStripMenuItem,
+            this.BlacklistToolStripMenuItem,
             this.toolStripSeparator1,
-            this.BlacklistToolStripMenuItem});
+            this.newListToolStripMenuItem,
+            this.toolStripSeparator2});
             this.listToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.listToolStripMenuItem.Name = "listToolStripMenuItem";
             this.listToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
@@ -158,7 +193,8 @@
             this.updateToolStripMenuItem});
             this.foldersToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.foldersToolStripMenuItem.Name = "foldersToolStripMenuItem";
-            this.foldersToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.foldersToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.foldersToolStripMenuItem.Tag = "MTBI";
             this.foldersToolStripMenuItem.Text = "Folders";
             // 
             // editToolStripMenuItem
@@ -167,9 +203,9 @@
             this.editToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.editToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.editToolStripMenuItem.Text = "Edit Folders";
-            this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
+            this.editToolStripMenuItem.Click += new System.EventHandler(this.onOpenFolders_Click);
             // 
             // renewToolStripMenuItem
             // 
@@ -177,9 +213,9 @@
             this.renewToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.renewToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.renewToolStripMenuItem.Name = "renewToolStripMenuItem";
-            this.renewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.renewToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.renewToolStripMenuItem.Text = "Renew";
-            this.renewToolStripMenuItem.Click += new System.EventHandler(this.renewToolStripMenuItem_Click);
+            this.renewToolStripMenuItem.Click += new System.EventHandler(this.onRenewList_Click);
             // 
             // updateToolStripMenuItem
             // 
@@ -187,25 +223,40 @@
             this.updateToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.updateToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.updateToolStripMenuItem.Name = "updateToolStripMenuItem";
-            this.updateToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.updateToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.updateToolStripMenuItem.Text = "Update";
-            this.updateToolStripMenuItem.Click += new System.EventHandler(this.updateToolStripMenuItem_Click);
+            this.updateToolStripMenuItem.Click += new System.EventHandler(this.onUpdateList_Click);
+            // 
+            // BlacklistToolStripMenuItem
+            // 
+            this.BlacklistToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.BlacklistToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.BlacklistToolStripMenuItem.Name = "BlacklistToolStripMenuItem";
+            this.BlacklistToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.BlacklistToolStripMenuItem.Tag = "MTBI";
+            this.BlacklistToolStripMenuItem.Text = "Blacklist";
+            this.BlacklistToolStripMenuItem.Click += new System.EventHandler(this.onOpenBlackList_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.toolStripSeparator1.ForeColor = System.Drawing.Color.Transparent;
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(114, 6);
+            this.toolStripSeparator1.Tag = "MTBI";
             // 
-            // addToBlacklistToolStripMenuItem
+            // newListToolStripMenuItem
             // 
-            this.BlacklistToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
-            this.BlacklistToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.BlacklistToolStripMenuItem.Name = "addToBlacklistToolStripMenuItem";
-            this.BlacklistToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.BlacklistToolStripMenuItem.Text = "Blacklist";
-            this.BlacklistToolStripMenuItem.Click += new System.EventHandler(this.addToBlacklistToolStripMenuItem_Click);
+            this.newListToolStripMenuItem.Name = "newListToolStripMenuItem";
+            this.newListToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.newListToolStripMenuItem.Tag = "MTBI";
+            this.newListToolStripMenuItem.Text = "new List";
+            this.newListToolStripMenuItem.Click += new System.EventHandler(this.onNewFileList_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(114, 6);
             // 
             // aboutToolStripMenuItem
             // 
@@ -215,7 +266,7 @@
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
             this.aboutToolStripMenuItem.Text = "About";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.onAbout_Click);
             // 
             // smth_new
             // 
@@ -232,7 +283,7 @@
             this.smth_new.TabIndex = 10;
             this.smth_new.Text = "SELECT SOMETHING NEW";
             this.smth_new.UseVisualStyleBackColor = false;
-            this.smth_new.Click += new System.EventHandler(this.button1_Click);
+            this.smth_new.Click += new System.EventHandler(this.onNewRandom_Click);
             // 
             // label2
             // 
@@ -249,11 +300,11 @@
             // listCountLabel
             // 
             this.listCountLabel.BackColor = System.Drawing.Color.Transparent;
-            this.listCountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold);
+            this.listCountLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listCountLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.listCountLabel.Location = new System.Drawing.Point(438, 55);
             this.listCountLabel.Name = "listCountLabel";
-            this.listCountLabel.Size = new System.Drawing.Size(92, 42);
+            this.listCountLabel.Size = new System.Drawing.Size(92, 28);
             this.listCountLabel.TabIndex = 12;
             this.listCountLabel.Text = "0";
             this.listCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -286,6 +337,7 @@
             this.ProgressStatusLabel.Size = new System.Drawing.Size(513, 23);
             this.ProgressStatusLabel.TabIndex = 16;
             this.ProgressStatusLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ProgressStatusLabel.Visible = false;
             // 
             // MainForm
             // 
@@ -294,18 +346,18 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.ClientSize = new System.Drawing.Size(535, 382);
             this.Controls.Add(this.progressBar1);
+            this.Controls.Add(this.ProgressStatusLabel);
             this.Controls.Add(this.Separator);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.smth_new);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
-            this.Controls.Add(this.selectedLabel);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.dataList);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.listCountLabel);
-            this.Controls.Add(this.ProgressStatusLabel);
+            this.Controls.Add(this.selectedLabel);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -314,6 +366,7 @@
             this.Name = "MainForm";
             this.Text = "Execute Random From Directory";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataList)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -323,7 +376,7 @@
 
         #endregion
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.ListBox listBox1;
+        private BrightIdeasSoftware.DataListView dataList;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label selectedLabel;
         private System.Windows.Forms.Button button5;
@@ -343,6 +396,10 @@
         private System.Windows.Forms.Label Separator;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Label ProgressStatusLabel;
+        private System.Windows.Forms.ToolStripMenuItem newListToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private BrightIdeasSoftware.OLVColumn olvColumn1;
+        private BrightIdeasSoftware.OLVColumn olvColumn2;
     }
 }
 
