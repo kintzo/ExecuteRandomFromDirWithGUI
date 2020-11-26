@@ -203,7 +203,14 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void olv1_FormatRow(Object sender, BrightIdeasSoftware.FormatRowEventArgs e)
         {
-            e.ListView.RowHeight = 10;
+            try
+            {
+                e.ListView.RowHeight = 10;
+            }
+            catch (Exception ex) 
+            { 
+            
+            }
         }
         
         private void olv1_FormatCell(Object sender, BrightIdeasSoftware.FormatCellEventArgs e)

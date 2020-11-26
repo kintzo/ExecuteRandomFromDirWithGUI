@@ -31,3 +31,12 @@ C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFrom
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\Execute Random From Directory.exe
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\Execute Random From Directory.pdb
 C:\Users\gkint\Source\Repos\kintzo\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.csprojAssemblyReference.cache
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\BetterFolderBrowser.dll
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\INIFileParser.dll
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\ObjectListView.dll
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\BetterFolderBrowser.xml
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\INIFileParser.xml
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\bin\Debug\ObjectListView.xml
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.FormBlackList.resources
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.FormFolders.resources
+C:\Users\Sadmin\Source\Repos\ExecuteRandomFromDirWithGUI\ExecuteRandomFromDirWithGUI\obj\Debug\ExecuteRandomFromDirWithGUI.csproj.CopyComplete
