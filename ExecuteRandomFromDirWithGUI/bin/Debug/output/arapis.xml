@@ -2,20 +2,6 @@
 <ExecutableFiles>
   <ExecutableFile>
     <hasRun>False</hasRun>
-    <fullPath>X:\BattleNetGames\Call of Duty Black Ops 4\Black Ops 4 Launcher.exe</fullPath>
-    <path>X:\BattleNetGames\Call of Duty Black Ops 4</path>
-    <theFile>Black Ops 4 Launcher.exe</theFile>
-    <selectedFolder>X:\BattleNetGames</selectedFolder>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
-    <fullPath>X:\BattleNetGames\Call of Duty Black Ops 4\BlackOps4.exe</fullPath>
-    <path>X:\BattleNetGames\Call of Duty Black Ops 4</path>
-    <theFile>BlackOps4.exe</theFile>
-    <selectedFolder>X:\BattleNetGames</selectedFolder>
-  </ExecutableFile>
-  <ExecutableFile>
-    <hasRun>False</hasRun>
     <fullPath>X:\BattleNetGames\Call of Duty Black Ops 4\BlackOps4_boot.exe</fullPath>
     <path>X:\BattleNetGames\Call of Duty Black Ops 4</path>
     <theFile>BlackOps4_boot.exe</theFile>
@@ -36,14 +22,14 @@
     <selectedFolder>X:\BattleNetGames</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\BattleNetGames\Call of Duty Modern Warfare\ModernWarfare.exe</fullPath>
     <path>X:\BattleNetGames\Call of Duty Modern Warfare</path>
     <theFile>ModernWarfare.exe</theFile>
     <selectedFolder>X:\BattleNetGames</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\BattleNetGames\Call of Duty Modern Warfare\BlizzardBrowser\BlizzardBrowser.exe</fullPath>
     <path>X:\BattleNetGames\Call of Duty Modern Warfare\BlizzardBrowser</path>
     <theFile>BlizzardBrowser.exe</theFile>
@@ -57,7 +43,7 @@
     <selectedFolder>X:\BattleNetGames</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\BattleNetGames\Hearthstone\Hearthstone.exe</fullPath>
     <path>X:\BattleNetGames\Hearthstone</path>
     <theFile>Hearthstone.exe</theFile>
@@ -71,7 +57,7 @@
     <selectedFolder>X:\BattleNetGames</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\BattleNetGames\Heroes of the Storm\Heroes of the Storm.exe</fullPath>
     <path>X:\BattleNetGames\Heroes of the Storm</path>
     <theFile>Heroes of the Storm.exe</theFile>
@@ -1513,7 +1499,7 @@
     <selectedFolder>X:\Cracked</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\Cracked\Crazy Machines 3\cm3.exe</fullPath>
     <path>X:\Cracked\Crazy Machines 3</path>
     <theFile>cm3.exe</theFile>
@@ -2885,7 +2871,7 @@
     <selectedFolder>X:\Cracked</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\Cracked\No Man's Sky\LanguageSetup.exe</fullPath>
     <path>X:\Cracked\No Man's Sky</path>
     <theFile>LanguageSetup.exe</theFile>
@@ -3655,7 +3641,7 @@
     <selectedFolder>X:\Cracked</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\Cracked\Star Wars Jedi - Fallen Order\tools\x.exe</fullPath>
     <path>X:\Cracked\Star Wars Jedi - Fallen Order\tools</path>
     <theFile>x.exe</theFile>
@@ -4103,7 +4089,7 @@
     <selectedFolder>X:\Cracked</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\Cracked\Tom Clancy's Ghost Recon - Wildlands\GRW.exe</fullPath>
     <path>X:\Cracked\Tom Clancy's Ghost Recon - Wildlands</path>
     <theFile>GRW.exe</theFile>
@@ -4656,7 +4642,7 @@
     <selectedFolder>X:\EpicGames</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\EpicGames\BlairWitch\Blairwitch\Binaries\Win64\Blairwitch-Win64-Shipping-Win7.exe</fullPath>
     <path>X:\EpicGames\BlairWitch\Blairwitch\Binaries\Win64</path>
     <theFile>Blairwitch-Win64-Shipping-Win7.exe</theFile>
@@ -4964,7 +4950,7 @@
     <selectedFolder>X:\EpicGames</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\EpicGames\RS2V\Binaries\Win64\EasyAntiCheat\EasyAntiCheat_Setup.exe</fullPath>
     <path>X:\EpicGames\RS2V\Binaries\Win64\EasyAntiCheat</path>
     <theFile>EasyAntiCheat_Setup.exe</theFile>
@@ -5335,7 +5321,7 @@
     <selectedFolder>X:\OriginGames</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\OriginGames\Battlefield 3\Core\EAProxyInstaller.exe</fullPath>
     <path>X:\OriginGames\Battlefield 3\Core</path>
     <theFile>EAProxyInstaller.exe</theFile>
@@ -5496,7 +5482,7 @@
     <selectedFolder>X:\OriginGames</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\OriginGames\Battlefield 4\__Installer\DLC\Xpack3\__Installer\Touchup.exe</fullPath>
     <path>X:\OriginGames\Battlefield 4\__Installer\DLC\Xpack3\__Installer</path>
     <theFile>Touchup.exe</theFile>
@@ -5664,7 +5650,7 @@
     <selectedFolder>X:\OriginGames</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\OriginGames\Need for Speed\NFS16_trial.exe</fullPath>
     <path>X:\OriginGames\Need for Speed</path>
     <theFile>NFS16_trial.exe</theFile>
@@ -7764,7 +7750,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\Civil Warfare Another Bullet In The War\CivilWarfare.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\Civil Warfare Another Bullet In The War</path>
     <theFile>CivilWarfare.exe</theFile>
@@ -8058,7 +8044,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\Counter-Strike Source\bin\vtex.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\Counter-Strike Source\bin</path>
     <theFile>vtex.exe</theFile>
@@ -8436,7 +8422,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\dayofinfamy\bin\bspzip.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\dayofinfamy\bin</path>
     <theFile>bspzip.exe</theFile>
@@ -8982,7 +8968,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\Enclave\Enclave.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\Enclave</path>
     <theFile>Enclave.exe</theFile>
@@ -9311,7 +9297,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\FlowThe Sliding\Windows\FlowTheSliding.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\FlowThe Sliding\Windows</path>
     <theFile>FlowTheSliding.exe</theFile>
@@ -9444,7 +9430,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\AI Objects and Waypoints\AI Objects and Waypoints.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\FSX\SDK\Core Utilities Kit\SimConnect SDK\Samples\AI Objects and Waypoints</path>
     <theFile>AI Objects and Waypoints.exe</theFile>
@@ -9822,7 +9808,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\GarrysMod\bin\vtf2tga.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\GarrysMod\bin</path>
     <theFile>vtf2tga.exe</theFile>
@@ -10662,7 +10648,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin\vtex.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\Half-Life 2 Deathmatch\bin</path>
     <theFile>vtex.exe</theFile>
@@ -11005,7 +10991,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\Iron Storm\ISLauncher.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\Iron Storm</path>
     <theFile>ISLauncher.exe</theFile>
@@ -11985,7 +11971,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\Outlast\Binaries\Redist\MCPP\bin\mcpp.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\Outlast\Binaries\Redist\MCPP\bin</path>
     <theFile>mcpp.exe</theFile>
@@ -12006,7 +11992,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\Outlast\Binaries\Redist\Perforce\Client2012.2\p4vinst.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\Outlast\Binaries\Redist\Perforce\Client2012.2</path>
     <theFile>p4vinst.exe</theFile>
@@ -12398,7 +12384,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\Prison Architect\crashpad_handler64.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\Prison Architect</path>
     <theFile>crashpad_handler64.exe</theFile>
@@ -13714,7 +13700,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\Stellar Interface\StellarInterface.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\Stellar Interface</path>
     <theFile>StellarInterface.exe</theFile>
@@ -14211,7 +14197,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\Tom Clancy's Rainbow Six Siege\Support\InstallerResources\UplayInstaller.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\Tom Clancy's Rainbow Six Siege\Support\InstallerResources</path>
     <theFile>UplayInstaller.exe</theFile>
@@ -14883,7 +14869,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\Worms\DriveC\WORMS\EXTRAS\CONVERT\CONVERT.EXE</fullPath>
     <path>X:\SteamLib\steamapps\common\Worms\DriveC\WORMS\EXTRAS\CONVERT</path>
     <theFile>CONVERT.EXE</theFile>

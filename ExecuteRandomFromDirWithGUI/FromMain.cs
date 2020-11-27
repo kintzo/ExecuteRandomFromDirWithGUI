@@ -23,7 +23,7 @@ namespace ExecuteRandomFromDirWithGUI
         {
             return (ExecutableFile)dataList.SelectedObject;
         }
-        private void CurrentObject(ExecutableFile item) 
+        private void CurrentObject(ExecutableFile item, bool execute = false) 
         {
             dataList.SelectedObject = item;
 
@@ -31,6 +31,9 @@ namespace ExecuteRandomFromDirWithGUI
             dataList.LowLevelScroll(0, dataList.IndexOf(item) * 17);
 
             setCurrentFile(item);
+
+            if (execute)
+                TryExecuteItem(item);
         }
 
         private List<ExecutableFile> MyExecutableFiles() 
@@ -39,8 +42,12 @@ namespace ExecuteRandomFromDirWithGUI
         }
         private void MyExecutableFiles(List<ExecutableFile> list)
         {
+            var currentIndex = CurrentObject();
+
             dataList.DataSource = list;
             listCountLabel.Text = list.Count.ToString();
+
+            CurrentObject(currentIndex);
             saveList();
         }
 
@@ -48,7 +55,6 @@ namespace ExecuteRandomFromDirWithGUI
         {
             menuStrip1.RenderMode = ToolStripRenderMode.Professional;
             menuStrip1.Renderer = new CustomToolStripRenderer();
-            menuStrip1.ForeColor = System.Drawing.Color.White;
 
             readSettings();
             readList();
@@ -61,10 +67,7 @@ namespace ExecuteRandomFromDirWithGUI
             {
                 int index = new Random().Next(dataList.Items.Count);
 
-                CurrentObject(MyExecutableFiles()[index]);
-
-                if (programSettings.RunAfterSelect)
-                    onRunSelected_Click(null, null);
+                CurrentObject(MyExecutableFiles()[index], programSettings.RunAfterSelect);         
             }
             else
             {
@@ -87,10 +90,7 @@ namespace ExecuteRandomFromDirWithGUI
                 int tmpIndex = new Random().Next(tmpList.Count);
                 var lbIndex = MyExecutableFiles().IndexOf(tmpList[tmpIndex]);
 
-                CurrentObject(tmpList[tmpIndex]);
-
-                if (programSettings.RunAfterSelect)
-                    onRunSelected_Click(null, null);
+                CurrentObject(tmpList[tmpIndex], programSettings.RunAfterSelect);
             }
             else
             {
@@ -100,13 +100,17 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void onRunSelected_Click(object sender, EventArgs e)
         {
-            if (CurrentObject() == null) return;
+            TryExecuteItem(CurrentObject());          
+        }
 
-            var item = CurrentObject();
+        private void TryExecuteItem(ExecutableFile item)
+        {
+            if (item == null) return;
+
             try
-            {             
+            {
                 var list = MyExecutableFiles();
-                var idx = list.IndexOf(item);        
+                var idx = list.IndexOf(item);
                 list[idx].hasRun = true;
 
                 MyExecutableFiles(list);
@@ -197,9 +201,8 @@ namespace ExecuteRandomFromDirWithGUI
         {
             try
             {
-                var item = (ExecutableFile)((BrightIdeasSoftware.DataListView)sender).SelectedObject;
-
-                setCurrentFile(item);
+                //var item = (ExecutableFile)((BrightIdeasSoftware.DataListView)sender).SelectedObject;
+                setCurrentFile(CurrentObject());
             }
             catch
             {
@@ -329,8 +332,6 @@ namespace ExecuteRandomFromDirWithGUI
 
         private void saveList()
         {
-            var current = CurrentObject();
-
             XDocument doc = new XDocument();
             doc.Add(new XElement("ExecutableFiles"));
 
@@ -349,12 +350,6 @@ namespace ExecuteRandomFromDirWithGUI
             doc.Save(@"output\" + programSettings.CurrentXMLFile + ".xml");
             /*dataList.DataSource = new List<ExecutableFile>();
             dataList.DataSource = executableFiles;*/
-
-            try
-            {
-                CurrentObject(current);
-            }
-            catch { }
         }
 
         private void readList()
