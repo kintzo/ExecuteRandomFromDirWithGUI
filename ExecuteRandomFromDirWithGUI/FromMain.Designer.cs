@@ -57,7 +57,7 @@
             this.Separator = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.ProgressStatusLabel = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.runAfterSelectCheckbox = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataList)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -366,16 +366,17 @@
             this.ProgressStatusLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.ProgressStatusLabel.Visible = false;
             // 
-            // checkBox1
+            // runAfterSelectCheckbox
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.ForeColor = System.Drawing.Color.White;
-            this.checkBox1.Location = new System.Drawing.Point(438, 154);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(101, 17);
-            this.checkBox1.TabIndex = 17;
-            this.checkBox1.Text = "Select And Run";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.runAfterSelectCheckbox.AutoSize = true;
+            this.runAfterSelectCheckbox.ForeColor = System.Drawing.Color.White;
+            this.runAfterSelectCheckbox.Location = new System.Drawing.Point(438, 154);
+            this.runAfterSelectCheckbox.Name = "runAfterSelectCheckbox";
+            this.runAfterSelectCheckbox.Size = new System.Drawing.Size(101, 17);
+            this.runAfterSelectCheckbox.TabIndex = 17;
+            this.runAfterSelectCheckbox.Text = "Select And Run";
+            this.runAfterSelectCheckbox.UseVisualStyleBackColor = true;
+            this.runAfterSelectCheckbox.CheckedChanged += new System.EventHandler(this.runAfterSelectCheckbox_CheckedChanged);
             // 
             // MainForm
             // 
@@ -383,7 +384,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
             this.ClientSize = new System.Drawing.Size(535, 382);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.runAfterSelectCheckbox);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.ProgressStatusLabel);
             this.Controls.Add(this.Separator);
@@ -443,7 +444,7 @@
         private System.Windows.Forms.ToolStripMenuItem gridToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem selectedRootToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem hasRunToolStripMenuItem;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox runAfterSelectCheckbox;
     }
 }
 

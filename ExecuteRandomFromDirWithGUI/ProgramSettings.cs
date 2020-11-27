@@ -14,6 +14,7 @@ namespace ExecuteRandomFromDirWithGUI
         public string CurrentXMLFile { get; set; }
         public bool SelectedRootVisible { get; set; }
         public bool HasRunVisible { get; set; }
+        public bool RunAfterSelect { get; set; }
 
         public void Save() 
         {
@@ -23,6 +24,7 @@ namespace ExecuteRandomFromDirWithGUI
             data["DATA"]["CurrentXMLFile"] = CurrentXMLFile;
             data["DATA"]["SelectedRootVisible"] = SelectedRootVisible.ToString();
             data["DATA"]["HasRunVisible"] = HasRunVisible.ToString();
+            data["DATA"]["RunAfterSelect"] = RunAfterSelect.ToString();
             parser.WriteFile("Configuration.ini", data);
         }
 
@@ -37,6 +39,7 @@ namespace ExecuteRandomFromDirWithGUI
                 Settings.CurrentXMLFile = data["DATA"]["CurrentXMLFile"];
                 Settings.SelectedRootVisible = data["DATA"]["SelectedRootVisible"] != null ? bool.Parse(data["DATA"]["SelectedRootVisible"]) : false;
                 Settings.HasRunVisible = data["DATA"]["HasRunVisible"] != null ? bool.Parse(data["DATA"]["HasRunVisible"]) : false;
+                Settings.RunAfterSelect = data["DATA"]["RunAfterSelect"] != null ? bool.Parse(data["DATA"]["RunAfterSelect"]) : false;
 
                 return Settings;
             }

@@ -85,7 +85,7 @@
     <selectedFolder>X:\BattleNetGames</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\BattleNetGames\Heroes of the Storm\Support\HeroesWeb.exe</fullPath>
     <path>X:\BattleNetGames\Heroes of the Storm\Support</path>
     <theFile>HeroesWeb.exe</theFile>
@@ -309,7 +309,7 @@
     <selectedFolder>X:\Cracked</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\Cracked\Age of Mythology The Titans\instapux.exe</fullPath>
     <path>X:\Cracked\Age of Mythology The Titans</path>
     <theFile>instapux.exe</theFile>
@@ -582,7 +582,7 @@
     <selectedFolder>X:\Cracked</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\Cracked\Black Mesa\bin\height2normal.exe</fullPath>
     <path>X:\Cracked\Black Mesa\bin</path>
     <theFile>height2normal.exe</theFile>
@@ -1555,7 +1555,7 @@
     <selectedFolder>X:\Cracked</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\Cracked\Dark Souls 3\Game\Language Selector.exe</fullPath>
     <path>X:\Cracked\Dark Souls 3\Game</path>
     <theFile>Language Selector.exe</theFile>
@@ -2647,7 +2647,7 @@
     <selectedFolder>X:\Cracked</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\Cracked\Microsoft Flight Simulator\InstallUtils\CustomInstaller.exe</fullPath>
     <path>X:\Cracked\Microsoft Flight Simulator\InstallUtils</path>
     <theFile>CustomInstaller.exe</theFile>
@@ -5503,7 +5503,7 @@
     <selectedFolder>X:\OriginGames</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\OriginGames\Battlefield 4\__Installer\DLC\Xpack4\__Installer\Cleanup.exe</fullPath>
     <path>X:\OriginGames\Battlefield 4\__Installer\DLC\Xpack4\__Installer</path>
     <theFile>Cleanup.exe</theFile>
@@ -6420,7 +6420,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\AoW3\AoW3Launcher.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\AoW3</path>
     <theFile>AoW3Launcher.exe</theFile>
@@ -9122,7 +9122,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\FACE\__MACOSX\._FACE.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\FACE\__MACOSX</path>
     <theFile>._FACE.exe</theFile>
@@ -12034,7 +12034,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\Outlast\Binaries\Redist\Perforce\Server2012.2\perforce.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\Outlast\Binaries\Redist\Perforce\Server2012.2</path>
     <theFile>perforce.exe</theFile>

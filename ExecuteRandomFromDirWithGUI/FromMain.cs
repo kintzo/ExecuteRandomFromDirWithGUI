@@ -62,6 +62,9 @@ namespace ExecuteRandomFromDirWithGUI
                 int index = new Random().Next(dataList.Items.Count);
 
                 CurrentObject(MyExecutableFiles()[index]);
+
+                if (programSettings.RunAfterSelect)
+                    onRunSelected_Click(null, null);
             }
             else
             {
@@ -85,6 +88,9 @@ namespace ExecuteRandomFromDirWithGUI
                 var lbIndex = MyExecutableFiles().IndexOf(tmpList[tmpIndex]);
 
                 CurrentObject(tmpList[tmpIndex]);
+
+                if (programSettings.RunAfterSelect)
+                    onRunSelected_Click(null, null);
             }
             else
             {
@@ -384,6 +390,7 @@ namespace ExecuteRandomFromDirWithGUI
 
             selectedRootToolStripMenuItem.Checked = programSettings.SelectedRootVisible;
             hasRunToolStripMenuItem.Checked = programSettings.HasRunVisible;
+            runAfterSelectCheckbox.Checked = programSettings.RunAfterSelect;
         }
 
         private void readOutputFiles()
@@ -448,6 +455,12 @@ namespace ExecuteRandomFromDirWithGUI
             programSettings.Save();
 
             MyExecutableFiles(MyExecutableFiles());
+        }
+
+        private void runAfterSelectCheckbox_CheckedChanged(object sender, EventArgs e)
+        {
+            programSettings.RunAfterSelect = runAfterSelectCheckbox.Checked;
+            programSettings.Save();
         }
     }
 }
