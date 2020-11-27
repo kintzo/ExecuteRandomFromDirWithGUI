@@ -8800,7 +8800,7 @@
     <selectedFolder>X:\SteamLib</selectedFolder>
   </ExecutableFile>
   <ExecutableFile>
-    <hasRun>False</hasRun>
+    <hasRun>True</hasRun>
     <fullPath>X:\SteamLib\steamapps\common\divinity2_dev_cut\bin\Divinity2.exe</fullPath>
     <path>X:\SteamLib\steamapps\common\divinity2_dev_cut\bin</path>
     <theFile>Divinity2.exe</theFile>

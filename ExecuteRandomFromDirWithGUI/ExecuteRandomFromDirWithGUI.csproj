@@ -34,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\favicon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BetterFolderBrowser, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -59,52 +59,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomToolStripRenderer.cs" />
-    <Compile Include="ExecutableFile.cs" />
-    <Compile Include="FormBlackList.cs">
+    <Compile Include="src\CustomToolStripRenderer.cs" />
+    <Compile Include="src\ExecutableFile.cs" />
+    <Compile Include="Forms\FormBlackList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormBlackList.Designer.cs">
+    <Compile Include="Forms\FormBlackList.Designer.cs">
       <DependentUpon>FormBlackList.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormFolders.cs">
+    <Compile Include="Forms\FormFolders.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormFolders.Designer.cs">
+    <Compile Include="Forms\FormFolders.Designer.cs">
       <DependentUpon>FormFolders.cs</DependentUpon>
     </Compile>
-    <Compile Include="FromMain.cs">
+    <Compile Include="Forms\FromMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FromMain.Designer.cs">
+    <Compile Include="Forms\FromMain.Designer.cs">
       <DependentUpon>FromMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAbout.cs">
+    <Compile Include="Forms\FormAbout.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAbout.Designer.cs">
+    <Compile Include="Forms\FormAbout.Designer.cs">
       <DependentUpon>FormAbout.cs</DependentUpon>
     </Compile>
-    <Compile Include="Helper.cs" />
+    <Compile Include="src\Helper.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="ProgramSettings.cs" />
+    <Compile Include="src\ProgramSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TextInputForm.cs">
+    <Compile Include="Forms\FormTextInput.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="TextInputForm.Designer.cs">
-      <DependentUpon>TextInputForm.cs</DependentUpon>
+    <Compile Include="Forms\FormTextInput.Designer.cs">
+      <DependentUpon>FormTextInput.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FormBlackList.resx">
+    <EmbeddedResource Include="Forms\FormBlackList.resx">
       <DependentUpon>FormBlackList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormFolders.resx">
+    <EmbeddedResource Include="Forms\FormFolders.resx">
       <DependentUpon>FormFolders.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FromMain.resx">
+    <EmbeddedResource Include="Forms\FromMain.resx">
       <DependentUpon>FromMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAbout.resx">
+    <EmbeddedResource Include="Forms\FormAbout.resx">
       <DependentUpon>FormAbout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -117,8 +117,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="TextInputForm.resx">
-      <DependentUpon>TextInputForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FormTextInput.resx">
+      <DependentUpon>FormTextInput.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -138,7 +138,7 @@
     <None Include="Resources\1551972687889.gif" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="favicon.ico" />
+    <Content Include="Resources\favicon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
